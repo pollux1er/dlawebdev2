@@ -71,7 +71,7 @@
 						<div id="save_global">
 							<span id="notification" style="float: left; line-height: 26px; font-size:12px"> Veuillez remplir les détails de la nouvelle entrée! </span>
 							
-							<input name="annuler_demande" type="button" id="annuler_demande" value="Annuler" class="tpl_button_cancel" />
+							<input name="annuler_demande" type="button" id="annuler_demande" value="Annuler" class="tpl_button_cancel" onclick="history.go(-1);" />
 														
 							<input name="envoyer_demande" type="submit" onClick="checkInput();" id="envoyer_demande" style='background-color: #d6d6d6 !important;' value="Attribuer Numéro" class="tpl_button_save" /> 			
 						</div>  
