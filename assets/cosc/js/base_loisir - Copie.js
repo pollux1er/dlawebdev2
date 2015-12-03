@@ -1,0 +1,238 @@
+// Date limite.
+
+window.addEvent( 'domready', function()
+{	
+	/*
+	var message = new Fx.Slide('fqdn_notification');
+	$('id_case').addEvents({
+		'change' : function() {
+			//event.stop();
+			$('envoyer_demande').value = 'Modifier votre réservation';
+			$('attente').value = 'non';
+			//$('feedback').tween('opacity', 1);
+			// Get the span's ID
+			//spanID = $(this).get('id');
+			// Set the text inside feedback div, reference
+			// array index using spanID
+			$('notification').set('html', 'Veuillez remplir les détails de votre réservation!');
+			message.slideOut();
+			// $('fqdn_notification').set('html', '');
+			// $('fqdn_notification').setStyles({  display : "none" });
+		}
+	});*/
+	initializeTicketFormEvent( 'body' );
+	$('envoyer_demande').addEvent('click', function(event){
+		event.stop();
+		var url_book = 'ajax/envoyer_demande/';
+		var url_pending = 'ajax/liste_attente/';
+		var url_case_libre = 'ajax/check_case_libre/';
+		var url_get_id_resa = 'ajax/url_get_id_resa/';
+		var url = '';
+		if(frmCriteria.attente.value == "non")
+			url = url_book;
+		else
+			url = url_pending;
+		//alert(url);
+		//return false;
+		//alert(frmCriteria.bl_heure_arr.value);
+		if (frmCriteria.bl_heure_arr.value == ""  || frmCriteria.bl_heure_dep.value == "" || frmCriteria.bl_heure_arr.value == "hh:mm" || frmCriteria.bl_heure_dep.value == "hh:mm") {
+			alert("Vous devez preciser une heure d'arrivee et de depart!");
+			return false;
+		}
+		var mesRequetes = {
+			EnregistrerDemande : new Request({
+				url: url,
+				onRequest: function(){
+					$('notification').set('html', '<img style="float: left;height: 20px;" src="assets/images/spinner.gif" /><span style="font-size: 12px;margin-left: 5px;float: left;">Verification de la disponibilite de la case...</span>');
+				},
+				onComplete: function(response){
+					if(response == '1') {
+						$('notification').set('html', '<span style="font-size: 12px;margin-left: 2px;float: left;color:red">Case indisponible. Regarder le <a href="attendance/" style="font-size:12px">planning</a> ou allez en liste d\'attente.</span>');
+						$('envoyer_demande').value = 'Passer en liste d\'attente';
+						$('attente').value = 'oui';	
+						mesRequetes.checkCaseLibre.send();	
+					} else if(response == '0') {
+						$('notification').set('html', '<span style="font-size: 12px;margin-left: 2px;float: left;color:blue">Votre réservation a été effectuée.</span>');
+						$('envoyer_demande').value = 'Modifier votre réservation';
+						$('attente').value = 'non';
+						mesRequetes.getIdResa.send();
+						//$('notification').empty().adopt(response);
+					} else if(response == '2') {
+						$('notification').set('html', '<span style="font-size: 12px;margin-left: 2px;float: left;color:green">Votre réservation a été modifiée.</span>');
+						$('envoyer_demande').value = 'Modifier votre réservation';
+						$('attente').value = 'non';
+					} else if(response == '4') {
+						$('notification').set('html', '<span style="font-size: 12px;margin-left: 2px;float: left;color:green">Vous avez été inséré en liste d\'attente.</span>');
+						$('envoyer_demande').value = 'Modifier votre réservation';
+						$('attente').value = 'oui';
+					}
+				},
+				data: $('frmCriteria').toQueryString(),
+				onFailure: function(){
+					$('notification').set('html', '<span style="font-size: 12px;margin-left: 2px;float: left;color:red">La requete a echouée. Veuillez reessayer.</span>');
+				}
+			}),
+			checkCaseLibre : new Request({
+				url: url_case_libre, 
+				data: $('frmCriteria').toQueryString(),
+				onRequest: function(){
+					//$('notification').set('html', '<img style="float: left;height: 20px;" src="assets/images/spinner.gif" /><span style="font-size: 12px;margin-left: 5px;float: left;">Verification de la disponibilite de la case...</span>');
+					//alert('La requete commence');
+				},
+				onComplete: function(text, xml){
+					//console.log('myRequests.r2: ', text, xml);
+					//alert('La requete termine');
+					//$('notification').set('html', text);
+					//alert(text);
+					//var cases  = new Element('div', {id: 'info'});
+					//frmCriteria.inject(cases, 'after');
+					$('broadcast').set('html', text);
+					var notif = new Fx.Slide('broadcast');
+					notif.slideIn();
+				}
+			}),
+			getIdResa : new Request({
+				url: url_get_id_resa, 
+				data: $('frmCriteria').toQueryString(),
+				onRequest: function(){
+					
+				},
+				onComplete: function(text, xml){
+					$('demande_id').value = text;
+				}
+			})
+			
+		};
+		//EnregistrerDemande.send();
+		
+		var maFileAjax = new Request.Queue({
+			requests: mesRequetes,
+			onComplete: function(name, instance, text, xml){
+				console.log('queue: ' + name + ' response: ', text, xml);
+			}
+		});
+		
+		mesRequetes.EnregistrerDemande.send();
+	});
+	
+	
+	/* $$('.toggleSenderFields:checked').each( function( el )
+	{
+		el.parentNode.parentNode.getChildren('.auto_sending').hide();
+	});
+	
+	// Cache les lignes de log techniques.
+	hide_show( 'log', 'true' ); */
+} );
+
+function initializeTicketFormEvent( section )
+{
+	$( 'chk_invites' ).addEvent( 'click', function()
+		{
+			if( this.checked )
+			{
+				$('invite_cmt').setStyle('display', 'block');
+				$('nb_famille').setStyle('display', 'block')
+				$j('#montant').val(5000+10000*$j('#nb_famille').val());
+				//alert('a des invités');
+				// $('nb_famille').addEvent('change',function(event) {
+					// alert($j('#nb_famille').val());
+				// });
+				$j('#nb_famille').bind('change', function() {
+					//alert( this.value ); // or $(this).val()
+					$j('#montant').val(5000+10000*this.value);
+				});
+			}
+			else 
+			{
+				$('invite_cmt').setStyle('display', 'none');
+				$('nb_famille').setStyle('display', 'none');
+				$j('#montant').val(5000);
+			}
+		}
+	);
+	
+	$('chk_invites').fireEvent('click');
+}
+
+var $j = jQuery.noConflict();
+	// $j is now an alias to the jQuery function; creating the new alias is optional.
+	 
+$j(document).ready(function() {
+	var url = "ajax/envoyer_demande";/*
+	$j('#envoyer_demande').click(function(){
+		if($j("#bl_heure_arr").val()=='' || $j("#bl_heure_dep").val()=='') {
+			alert("Vous devez preciser une heure d'arrivee et de depart!");
+			return false;
+		}
+		var data = $j("#frmCriteria").serialize();
+		//alert(data); 
+		$j("#notification").show();
+		
+		$j.ajax({
+			type : "POST",
+			cache: false,
+			url : url,
+			data : data,
+			success : function(response){
+				//console.log(response);
+				//alert(response);
+				//var newXML = parseXml(response);
+				//alert(newXML);
+				if(response == 'rejette') {
+					alert("Pour le moment, les demandes pour la saison prochaine ne sont plus acceptées! Veuillez patienter en début de saison prochaine.");
+					$j("#notification").hide('slow');
+				} else {
+				//if(response=='1') {
+					$j('#envoyer_demande').attr('disabled', 'disabled');
+					$j("#notification").html('Votre demande a &eacute;t&eacute; enregistr&eacute;e!');
+					$j("#fqdn_notification").show('slow');
+					$j("#fqdn_notification").html('<p>Votre demande a &eacute;t&eacute; enregistr&eacute;e! <a style="color:black" target="_self" href="demande/">Cliquez ici pour la modifier</a></p>');
+					$j("#frmCriteria :input").attr("disabled", true);
+					setTimeout(function() {
+						$j("#notification").hide('slow');
+						//$j("#envoyer_demande").val('Modifier votre demande');
+						//window.location.reload();
+					}, 5000);
+				//}
+				}
+			},
+			error: function(a, b, c) {
+				  alert('Une erreur est survenue pendant la requete.'); // this is where the errors happen, 'b' and 'c' are typically the only ones with values
+				} // end error
+			}); // end .ajax
+		
+		return false;
+	});*/
+});
+		 
+// The $ variable now has the prototype meaning, which is a shortcut for
+// document.getElementById(). mainDiv below is a DOM element, not a jQuery object.
+	
+
+function parseXml(xml) {
+//  if (jQuery.browser.msie) {
+    var xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+	alert();
+    xmlDoc.loadXML(xml);
+    xml = xmlDoc;
+//  }
+  return xml;
+}
+
+function formatHeure(time, moment) {
+    var result = false, m;
+    var re = /^\s*([01]?\d|2[0-3]):?([0-5]\d)\s*$/;
+    if ((m = time.match(re))) {
+        result = (m[1].length == 2 ? "" : "0") + m[1] + ":" + m[2];
+    }
+	if (result == false) {
+		alert('Vous devez renseigner une heure!');
+		if(moment == 'd')
+			result = '12:30';
+		else	result = '14:30';
+	}
+    return result;
+}
+
+

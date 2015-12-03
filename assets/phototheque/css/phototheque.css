@@ -1,0 +1,174 @@
+#drop_down_menu_home li {
+    color: #ffffff;
+    cursor: pointer;
+    float: left;
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 9px;
+    font-weight: bold;
+    margin: 0;
+    padding: 3px 10px;
+    position: relative;
+}
+#drop_down_menu_home > li {
+    background-color: #dae0ed;
+    border-left: 1px solid silver;
+}
+#drop_down_menu_home > li.last {
+    border-right: 1px solid silver;
+}
+#drop_down_menu_home a {
+    /* color: #016355; */ 
+	color: #464646;
+    display: block;
+    text-decoration: none;
+}
+#drop_down_menu_home li.menu {
+    height: 17px;
+    padding-left: 20px;
+    text-align: right;
+}
+.link_top_menu_Reports {
+    background: url("../../assets/images/gtk_edit_gray.png") no-repeat scroll 5px 2px transparent;
+    width: 50px;
+}
+.link_top_menu_Operations {
+    background: url("../../assets/images/well_16_gray.png") no-repeat scroll 5px 2px transparent;
+    width: 65px;
+}
+.link_top_menu_Project {
+    background: url("../../assets/images/utilities_gray.png") no-repeat scroll 6px 2px transparent;
+    width: 46px;
+}
+.link_top_menu_QSHE {
+    background: url("../../assets/images/support_gray.png") no-repeat scroll 6px 2px transparent;
+    width: 35px;
+}
+.link_top_menu_HR {
+    background: url("../../assets/images/b_usrlist_gray.png") no-repeat scroll 7px 2px transparent;
+    width: 22px;
+}
+.link_top_menu_Finance {
+    background: url("../../assets/images/dollar_gray.png") no-repeat scroll 5px 2px transparent;
+    width: 46px;
+}
+.link_top_menu_SCM {
+    background: url("../../assets/images/delivery_gray.png") no-repeat scroll 8px 2px transparent;
+    width: 35px;
+}
+.link_top_menu_BL {
+    background: url("../../../../assets/base_loisirs/images/gray_tito_beach.png") no-repeat scroll 7px 2px transparent;
+    width: 78px;
+	background-size : 16px 16px;
+}
+.link_top_menu_BL:hover {
+    background: url("../../../../assets/base_loisirs/images/tito_beach.png") no-repeat scroll 7px 2px transparent;
+    width: 78px;
+	background-size : 16px 16px;
+}
+.link_top_menu_PA {
+    background: url("../../../../assets/parc_auto/images/gray_car.png") no-repeat scroll 7px 2px transparent;
+    width: 68px;
+	background-size : 20px 20px;
+}
+.link_top_menu_PA:hover {
+    background: url("../../../../assets/parc_auto/images/color_car.png") no-repeat scroll 7px 2px transparent;
+    width: 68px;
+	background-size : 20px 20px;
+}
+.link_top_menu_ITA {
+    background: url("../../../../assets/it_assets/images/it_assets/pc_gray.png") no-repeat scroll 4px 2px transparent;
+    width: 58px;
+	background-size : 18px 18px;
+}
+.link_top_menu_ITA:hover {
+    background: url("../../../../assets/it_assets/images/it_assets/pc.png") no-repeat scroll 4px 2px transparent;
+	width: 58px;
+	background-size : 18px 18px;
+}
+.link_top_menu_Photo {
+    background: url("../../../../assets/phototheque/images/gnome_emblem_photos.png") no-repeat scroll 7px 2px transparent;
+    width: 78px;
+	background-size : 16px 16px;
+}
+.link_top_menu_Photo:hover {
+    background: url("../../../../assets/phototheque/images/gnome_emblem_photos.png") no-repeat scroll 7px 2px transparent;
+    width: 78px;
+	background-size : 16px 16px;
+}
+.link_top_menu_COSC {
+    /* background: url("../../../../assets/base_loisirs/images/gray_tito_beach.png") no-repeat scroll 7px 2px transparent; */
+    width: 45px;
+	background-size : 16px 16px;
+}
+.link_top_menu_COSC:hover {
+    /* background: url("../../../../assets/base_loisirs/images/tito_beach.png") no-repeat scroll 7px 2px transparent; */
+    width: 45px;
+	background-size : 16px 16px;
+}
+.link_top_menu_Reports:hover {
+    background: url("../../assets/images/gtk_edit.png") no-repeat scroll 5px 2px transparent;
+}
+.link_top_menu_Operations:hover {
+    background: url("../../assets/images/well_16.png") no-repeat scroll 5px 2px transparent;
+}
+.link_top_menu_Project:hover {
+    background: url("../../assets/images/utilities.png") no-repeat scroll 6px 2px transparent;
+}
+.link_top_menu_QSHE:hover {
+    background: url("../../assets/images/support.png") no-repeat scroll 6px 2px transparent;
+}
+.link_top_menu_HR:hover {
+    background: url("../../assets/images/b_usrlist.png") no-repeat scroll 7px 2px transparent;
+}
+.link_top_menu_Finance:hover {
+    background: url("../../assets/images/dollar.png") no-repeat scroll 5px 2px transparent;
+}
+.link_top_menu_SCM:hover {
+    background: url("../../assets/images/delivery.png") no-repeat scroll 8px 2px transparent;
+}
+#drop_down_menu_home li ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0 0;
+}
+#drop_down_menu_home li ul li {
+    background: none repeat scroll 0 0 white !important;
+    clear: both;
+    display: block;
+    float: none;
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 9px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: left;
+}
+#drop_down_menu_home li ul li a {
+    color: #016355;
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+}
+#drop_down_menu_home ul {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0);
+    left: -9999px;
+    list-style: outside none none;
+    position: absolute;
+}
+#drop_down_menu_home ul a {
+    white-space: nowrap;
+}
+#drop_down_menu_home li:hover ul, #drop_down_menu_home li.sfhover ul {
+    left: -1px;
+    top: 22px;
+}
+#drop_down_menu_home li ul {
+    border: 1px solid silver;
+    padding-top: 0;
+}
+#drop_down_menu_home li ul a {
+    padding: 2px 5px;
+    text-decoration: none;
+}
+#drop_down_menu_home li ul li:hover {
+    background-color: #dae0ed !important;
+}

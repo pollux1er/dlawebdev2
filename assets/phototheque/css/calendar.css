@@ -1,0 +1,163 @@
+.calendar {
+	font-family: Arial, Verdana, Sans-serif;
+	width: 75%;
+	/* min-width: 960px; */
+	border-collapse: collapse;
+	border-radius: 3px;
+	background : none repeat scroll 0 0 #fff;
+	-webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3), 0px 0px 6px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3), 0px 0px 6px rgba(0, 0, 0, 0.3);
+}
+
+.calendar tbody tr:first-child th {
+	color: #666;
+	margin: 0 0 10px 0;
+	padding: 0 0 25px;
+	font-size : 18px;
+	
+}
+
+.day_header {
+	font-weight: normal;
+	text-align: center;
+	color: #fff;
+	font-size: 10px;
+}
+
+.calendar td {
+	width: 14%; /* Force all cells to be about the same width regardless of content */
+	border:1px solid #CCC;
+	height: 100px;
+	vertical-align: top;
+	font-size: 10px;
+	padding: 0;
+	background-color : #fff;
+}
+
+.calendar td:hover {
+	background: #F3F3F3;
+}
+
+.day_listing {
+	display: block;
+	text-align: right;
+	font-size: 12px;
+	color: #2C2C2C;
+	padding: 5px 5px 0 0;
+}
+
+div.today {
+	background: #E9EFF7;
+	height: 100%;
+}
+
+.calendar tr {	
+	
+}
+
+.calendar tr.head_row, .calendar th.head_row {
+	color: #666;
+    font-size: 11px;
+    padding: 0 0 3px;
+}
+
+
+
+span.debut_sejour {
+	background-color: green;
+    border-radius: 10px 0 0 10px;
+    color: white;
+    float: right;
+    margin-top: 4px;
+    padding: 2px 6px;
+}
+
+span.fin_sejour {
+	background-color: green;
+    border-radius: 0 10px 10px 0;
+    color: green;
+    float: left;
+    margin-left: -1px;
+    margin-top: 4px;
+    padding: 2px 6px;
+}
+
+.liste_dattente {
+	border-color: transparent rgb(47, 75, 127) rgb(47, 75, 127) transparent;
+    border-style: solid;
+    border-width: 10px;
+    bottom: 0;
+    height: 0;
+    position: absolute;
+    right: 0;
+    width: 0;
+    z-index: 90;
+}
+
+span.vert {
+	background-color: #009900; color: #009900; 
+}
+
+span.bleue {
+	background-color: #3185c5; color: #3185c5; 
+}
+
+span.jaune {
+	background-color: #ff9c00; color: #ff9c00; 
+}
+
+span.grande {
+	background-color: #e207c1; color: #e207c1; 
+}
+
+span.sejour {
+	background-color: green;
+    color: green;
+    float: right;
+    margin-left: -6px;
+    margin-top: 4px;
+    padding: 2px 6px;
+    width: 91%;
+}
+
+span.debut {
+	padding: 2px 6px; 
+	margin-top: 4px; 
+	border-radius: 10px 0px 0px 10px; 
+	float: right; 
+	color: white;
+	white-space : nowrap;
+}
+
+span.debut.jaune {
+	padding: 2px 6px; 
+	margin-top: 4px; 
+	border-radius: 10px 0px 0px 10px; 
+	float: right; 
+	color: black;
+	white-space : nowrap;
+}
+
+span.fin {
+	padding: 2px 6px; 
+	margin-top: 4px; 
+	
+	float: left; 
+	border-radius: 0px 10px 10px 0px; 
+	margin-left: -1px;
+	white-space : nowrap;
+}
+
+span.milieu {
+	margin-top: 4px; 
+	float: right; 
+	
+	padding: 2px 6px; 
+	margin-left: -6px; 
+	width: 91%;
+	white-space : nowrap;
+}
+
+a.prochain_mois {
+	color : #009900;
+}

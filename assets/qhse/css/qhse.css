@@ -1,0 +1,49 @@
+.tpl_box_init_container_qhse {
+	float : left;
+    margin-left : 173px;
+    width: 84% !important;
+    margin-top: 1% !important;
+}
+
+.hse_bkg {
+	background-image: url('../../../assets/qhse/images/background.jpg');
+	min-height: 440px;
+}
+
+.news_details p, .news_details u {
+	color: white;
+    font-size: 14px;
+    line-height: 25px;
+    padding: 10px;
+    text-align: left;
+}
+
+.news_details ul {
+	color: white;
+    font-size: 14px;
+    line-height: 25px;
+    padding: 10px;
+    text-align: left;
+}
+
+.news_details ol {
+	color: white;
+    font-size: 15px;
+    line-height: 25px;
+    padding: 10px;
+}
+
+.news_details ul li {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.news_details ol li {
+    font-size: 16px;
+    line-height: 15px;
+}
+
+.news_details p a {
+	color: #00fd00 !important;
+    font-size: 14px;
+}

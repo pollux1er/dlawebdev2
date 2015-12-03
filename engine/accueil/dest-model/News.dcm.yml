@@ -1,0 +1,32 @@
+News:
+  type: entity
+  table: news
+  fields:
+    id:
+      id: true
+      type: smallint
+      nullable: false
+      generator:
+        strategy: IDENTITY
+    auteur:
+      type: string
+      length: 30
+      fixed: false
+      nullable: false
+    titre:
+      type: string
+      length: 100
+      fixed: false
+      nullable: false
+    contenu:
+      type: text
+      nullable: false
+    dateAjout:
+      type: datetime
+      nullable: false
+      column: date_ajout
+    dateModif:
+      type: datetime
+      nullable: false
+      column: date_modif
+  lifecycleCallbacks: {  }

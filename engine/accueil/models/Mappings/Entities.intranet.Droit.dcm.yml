@@ -1,0 +1,38 @@
+Entities\intranet\Droit:
+  type: entity
+  table: droit
+  fields:
+    iddroit:
+      id: true
+      type: integer
+      unsigned: false
+      nullable: false
+      column: idDroit
+      generator:
+        strategy: IDENTITY
+    modification:
+      type: boolean
+      nullable: true
+    lecture:
+      type: boolean
+      nullable: true
+  oneToOne:
+    idmodule:
+      targetEntity: Entities\intranet\Module
+      cascade: {  }
+      mappedBy: null
+      inversedBy: null
+      joinColumns:
+        idModule:
+          referencedColumnName: idModule
+      orphanRemoval: false
+    idutilisateur:
+      targetEntity: Entities\intranet\Utilisateur
+      cascade: {  }
+      mappedBy: null
+      inversedBy: null
+      joinColumns:
+        idUtilisateur:
+          referencedColumnName: idUtilisateur
+      orphanRemoval: false
+  lifecycleCallbacks: {  }

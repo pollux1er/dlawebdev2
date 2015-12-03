@@ -1,0 +1,82 @@
+Entities\intranet\Utilisateur:
+  type: entity
+  table: utilisateur
+  fields:
+    idutilisateur:
+      id: true
+      type: integer
+      unsigned: false
+      nullable: false
+      column: idUtilisateur
+      generator:
+        strategy: IDENTITY
+    idUserStaff:
+      type: integer
+      unsigned: false
+      nullable: false
+      column: id_user_staff
+    loginutilisateur:
+      type: string
+      length: 45
+      fixed: false
+      nullable: true
+      column: loginUtilisateur
+    passwordutilisateur:
+      type: string
+      length: 45
+      fixed: false
+      nullable: true
+      column: passwordUtilisateur
+    nomutilisateur:
+      type: string
+      length: 45
+      fixed: false
+      nullable: true
+      column: nomUtilisateur
+    prenom:
+      type: string
+      length: 45
+      fixed: false
+      nullable: true
+    fonction:
+      type: string
+      length: 45
+      fixed: false
+      nullable: true
+      column: Fonction
+    email:
+      type: string
+      length: 100
+      fixed: false
+      nullable: true
+    valideur:
+      type: boolean
+      nullable: true
+    lineIdentifier:
+      type: integer
+      unsigned: false
+      nullable: true
+      column: line_identifier
+    line:
+      type: string
+      length: 45
+      fixed: false
+      nullable: true
+    gestion:
+      type: boolean
+      nullable: true
+    profil:
+      type: integer
+      unsigned: false
+      nullable: true
+  oneToOne:
+    codeDepartement:
+      targetEntity: Entities\intranet\Departement
+      cascade: {  }
+      mappedBy: null
+      inversedBy: null
+      joinColumns:
+        code_departement:
+          referencedColumnName: code_departement
+      orphanRemoval: false
+  lifecycleCallbacks: {  }

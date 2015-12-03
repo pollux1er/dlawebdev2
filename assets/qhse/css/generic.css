@@ -1,0 +1,8 @@
+.link_top_menu_QSHE {
+	background: url("../../../assets/qhse/images/support_gray.png") no-repeat 6px 2px transparent;
+    width: 81px;
+}
+
+.link_top_menu_QSHE:hover {
+	background: url("../../../assets/qhse/images/support.png") no-repeat 6px 2px transparent;	
+}

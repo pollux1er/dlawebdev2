@@ -1,0 +1,29 @@
+Entities\intranet\Departement:
+  type: entity
+  table: departement
+  fields:
+    codeDepartement:
+      id: true
+      type: integer
+      unsigned: false
+      nullable: false
+      column: code_departement
+      generator:
+        strategy: IDENTITY
+    nomDepartement:
+      type: string
+      length: 45
+      fixed: false
+      nullable: false
+      column: nom_departement
+  oneToOne:
+    codeDirection:
+      targetEntity: Entities\intranet\Direction
+      cascade: {  }
+      mappedBy: null
+      inversedBy: null
+      joinColumns:
+        code_direction:
+          referencedColumnName: code_direction
+      orphanRemoval: false
+  lifecycleCallbacks: {  }

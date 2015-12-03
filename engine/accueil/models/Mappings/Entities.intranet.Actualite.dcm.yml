@@ -1,0 +1,31 @@
+Entities\intranet\Actualite:
+  type: entity
+  table: actualite
+  fields:
+    idactualite:
+      id: true
+      type: integer
+      unsigned: false
+      nullable: false
+      generator:
+        strategy: IDENTITY
+    titre:
+      type: string
+      length: 100
+      fixed: false
+      nullable: false
+    contenu:
+      type: string
+      length: 5000
+      fixed: false
+      nullable: false
+    lienPhoto:
+      type: string
+      length: 45
+      fixed: false
+      nullable: false
+      column: lien_photo
+    select:
+      type: boolean
+      nullable: false
+  lifecycleCallbacks: {  }

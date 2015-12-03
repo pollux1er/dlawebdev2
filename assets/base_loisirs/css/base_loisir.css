@@ -1,0 +1,120 @@
+/**
+ * Common.
+ */
+ .resa {
+	width : 75%;
+}
+
+.msg_to_cos {
+    /*background-color: #CCCCCC;*/
+    font-weight: bold;
+    margin: 1em 0;
+    padding: 0.5em 0.5em 0.5em 1em;
+}
+
+.cl {
+	clear : left;
+}
+
+.fl {
+	float : left;
+}
+
+.fr {
+	float : right;
+}
+
+#fqdn_notification {
+	background: url("../../../assets/base_loisirs/images/warning_32.png") no-repeat scroll 25px center #ffffbb;
+	color: #333;
+	border: 2px solid #ffcc00;
+	border-left: 0;
+	border-right: 0;
+	width: 100%;
+	padding: .3em 0;
+	text-align: center;
+}
+#fqdn_notification p {
+	padding: .25em;
+}
+#fqdn_notification ul {
+	padding: .5em;
+}
+#fqdn_notification p, #fqdn_notification ul {
+	width: 85%;
+	margin: 0 auto;
+	text-align: left;
+}
+#fqdn_notification p, #fqdn_notification li {
+	font-size: 12px;
+	font-weight: normal;
+}
+#fqdn_notification strong {
+	font-size: 12px;
+}
+.gris {
+	color : gray;
+}
+
+.invisible {
+	display : none;
+}
+
+.left_menus  a.level2_off:hover  {
+	text-decoration: none;
+	background: #fff;
+}
+
+div.title
+	{
+		padding: .6em 0;
+		background: #e4ecf4 url(../../../assets/base_loisirs/images/top-bottom-50px.png ) repeat-x scroll left bottom;
+		border: 0;
+		border-top: 2px solid #8CaCD8;
+		border-bottom: 2px solid #8CaCD8;
+		color: black;
+		font-weight: bold;
+		font-variant: small-caps;
+		font-size: 1.7em;
+		text-align: center;
+	}
+
+table.calendar {
+	margin-top : 10px;
+}
+
+.broadcast a {
+  color: #669 !important;
+  font-weight: bold;
+}
+
+#boite_priorite {
+	background-color: white;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 23%;
+}
+
+.list_user {
+	background-color: #dae0ed;
+    padding: 5px;
+}
+
+/* Logs ajustement CSS */
+.detail table {
+	width : 100%;
+}
+
+.detail table thead tr td {
+	font-weight : bold;
+	width : 25%;
+}
+
+tr.detail {
+	/* display : none; */
+}
+
+.tpl_box_white select {
+	padding : 1px 4px;
+}

@@ -1,0 +1,36 @@
+Entities\intranet\Log:
+  type: entity
+  table: log
+  fields:
+    idlog:
+      id: true
+      type: integer
+      unsigned: false
+      nullable: false
+      generator:
+        strategy: IDENTITY
+    idTarg:
+      type: string
+      length: 100
+      fixed: false
+      nullable: true
+      column: id_targ
+    acteur:
+      type: string
+      length: 45
+      fixed: false
+      nullable: false
+    datelog:
+      type: datetime
+      nullable: false
+    type:
+      type: string
+      length: 45
+      fixed: false
+      nullable: false
+    libelle:
+      type: string
+      length: 250
+      fixed: false
+      nullable: false
+  lifecycleCallbacks: {  }

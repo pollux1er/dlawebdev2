@@ -1,0 +1,23 @@
+LivreorCommentaires:
+  type: entity
+  table: livreor_commentaires
+  fields:
+    id:
+      id: true
+      type: integer
+      unsigned: false
+      nullable: false
+      generator:
+        strategy: IDENTITY
+    pseudo:
+      type: string
+      length: 52
+      fixed: false
+      nullable: false
+    message:
+      type: text
+      nullable: false
+    date:
+      type: datetime
+      nullable: false
+  lifecycleCallbacks: {  }

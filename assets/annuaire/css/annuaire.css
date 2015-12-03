@@ -1,0 +1,164 @@
+@font-face {
+	font-family:'ProximaNova';src:url('https://www.travel.ucla.edu/++theme++uclathemeITV2/webfonts/ProximaNova-Light.eot');src:url('https://www.travel.ucla.edu/++theme++uclathemeITV2/webfonts/ProximaNova-Light.eot?#iefix') format('embedded-opentype'),url('https://www.travel.ucla.edu/++theme++uclathemeITV2/webfonts/ProximaNova-Light.woff') format('woff'),url('https://www.travel.ucla.edu/++theme++uclathemeITV2/webfonts/ProximaNova-Light.ttf') format('truetype');
+	font-weight:300;
+	font-style:normal;
+}
+
+@font-face {
+	font-family:'ProximaNova';src:url('https://www.travel.ucla.edu/++theme++uclathemeITV2/webfonts/ProximaNova-Regular.eot');src:url('https://www.travel.ucla.edu/++theme++uclathemeITV2/webfonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),url('https://www.travel.ucla.edu/++theme++uclathemeITV2/webfonts/ProximaNova-Regular.woff') format('woff'),url('https://www.travel.ucla.edu/++theme++uclathemeITV2/webfonts/ProximaNova-Regular.ttf') format('truetype');
+	font-weight:400;
+	font-style:normal;
+}
+
+@font-face {
+font-family:'ProximaNova';src:url('https://www.travel.ucla.edu/++theme++uclathemeITV2/webfonts/ProximaNova-Semibold.eot');src:url('https://www.travel.ucla.edu/++theme++uclathemeITV2/webfonts/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),url('https://www.travel.ucla.edu/++theme++uclathemeITV2/webfonts/ProximaNova-Semibold.woff') format('woff'),url('https://www.travel.ucla.edu/++theme++uclathemeITV2/webfonts/ProximaNova-Semibold.ttf') format('truetype');
+	font-weight:600;
+	font-style:normal;
+}
+
+#drop_down_menu_home li.menu {
+  box-sizing: content-box;
+}
+
+table thead {
+	background-color: #A0BBDF;
+}
+
+table thead tr td a {
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 14px;
+}
+
+table thead tr td {
+	text-decoration: underline;
+	font-size: 14px;
+}
+
+.left_menus h2 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+table tbody tr.ng-scope:hover > td {
+	background-color: #00CC00 !important;
+}
+
+table tbody tr.ng-scope td:hover {
+	background-color: #F78524 !important;
+}
+
+table tbody tr.ng-scope td, table tbody tr.ng-scope td a {
+	font-size: 12px !important;
+	padding: 4px;
+    /* text-align: center; */
+    vertical-align: middle;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: #color !important;
+}
+
+td img{
+	width: 22px;
+	height: 22px;
+	text-align: left;
+}
+
+td span.editable {
+	font-size: 12px;
+}
+
+td.mouchard:first-letter {
+	text-transform: uppercase;
+}
+
+.editable-hide {
+	display: none !important;
+}
+
+.btn {
+	padding: 0 4px;
+}
+
+.editable-select .form-group select { 
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20fill%3D%22%23555555%22%20%0A%09%20width%3D%2224px%22%20height%3D%2224px%22%20viewBox%3D%22-261%20145.2%2024%2024%22%20style%3D%22enable-background%3Anew%20-261%20145.2%2024%2024%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0A%3Cpath%20d%3D%22M-245.3%2C156.1l-3.6-6.5l-3.7%2C6.5%20M-252.7%2C159l3.7%2C6.5l3.6-6.5%22%2F%3E%0A%3C%2Fsvg%3E");
+	padding-right: 25px;
+	background-repeat: no-repeat;
+	background-position: right center;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	height: unset;
+}
+
+div.editable-controls {
+	margin-bottom: 0;
+}
+
+button.btn  {
+	background-color: unset;
+}
+
+button.btn:hover  {
+	background-color: unset !important;
+}
+
+button:hover {
+	background-color: unset;
+}
+
+input.editable-input {
+	font-size: 14px;
+    height: 21px;
+    padding: 0;
+    text-align: center;
+}
+
+.new_gsm label {
+	line-height: 25px;
+}
+
+input.text_ {
+	height: 25px;
+    padding: 4px;
+    width: 75%;
+}
+
+input.gsm_num {
+	font-weight : bold;
+}
+
+img.phone {
+	height : 32px;
+	width : 32px;
+}
+
+.-p-heading-title {
+    border-bottom: 1px solid #4e8db6;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.-p-heading-title h1, .-p-heading-title h2, .-p-heading-title h3, .-p-heading-title h4, .-p-heading-title h5, .-p-heading-title h6 {
+    margin-bottom: -2px;
+}
+
+h1.documentFirstHeading {
+    color: #4e8db6;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+h1.documentFirstHeading {
+    font-size: 2.923em;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+h1.documentFirstHeading {
+   font-family : "ProximaNova",Verdana,sans-serif;
+   font-size : 38px;
+}
+

@@ -1,0 +1,25 @@
+Entities\intranet\Module:
+  type: entity
+  table: module
+  fields:
+    idmodule:
+      id: true
+      type: integer
+      unsigned: false
+      nullable: false
+      column: idModule
+      generator:
+        strategy: IDENTITY
+    designationmenu:
+      type: string
+      length: 45
+      fixed: false
+      nullable: false
+      column: designationMenu
+    lienmenu:
+      type: string
+      length: 45
+      fixed: false
+      nullable: false
+      column: lienMenu
+  lifecycleCallbacks: {  }

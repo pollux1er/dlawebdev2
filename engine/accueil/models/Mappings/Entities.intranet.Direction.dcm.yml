@@ -1,0 +1,19 @@
+Entities\intranet\Direction:
+  type: entity
+  table: direction
+  fields:
+    codeDirection:
+      id: true
+      type: integer
+      unsigned: false
+      nullable: false
+      column: code_direction
+      generator:
+        strategy: IDENTITY
+    nomDirection:
+      type: string
+      length: 45
+      fixed: false
+      nullable: false
+      column: nom_direction
+  lifecycleCallbacks: {  }
