@@ -45,3 +45,20 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# DLAWEB
+engine/accueil/config/config.php
+engine/accueil/config/database.php 
+engine/annuaire/config/config.php
+engine/annuaire/config/database.php 
+engine/base_loisirs/config/config.php
+engine/base_loisirs/config/database.php 
+engine/cosc/config/config.php
+engine/cosc/config/database.php 
+engine/home/config/config.php
+engine/home/config/database.php 
+engine/phototheque/config/config.php
+engine/phototheque/config/database.php 
+engine/qhse/config/config.php
+engine/qhse/config/database.php 
+
