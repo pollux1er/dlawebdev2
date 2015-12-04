@@ -1,0 +1,51 @@
+input.DatePicker {
+	background: url("/module/image/shadowless/calendar-blue.png") no-repeat right top rgb(255, 255, 255); padding: 2px 2px 2px 4px; width: 80px; font-size: 11px; cursor: pointer;
+}
+input.DatePicker:focus {
+	background: url("/module/image/shadowless/calendar-blue.png") no-repeat right top rgb(255, 252, 233);
+}
+.dp_container {
+	padding: 0px; position: relative; z-index: 500;
+}
+.dp_cal {
+	margin: 0px 0px 3px; border: 1px solid rgb(0, 112, 191); left: 0px; top: 24px; width: 177px; position: absolute; background-color: rgb(255, 255, 255);
+}
+.dp_cal table {
+	width: 100%; border-collapse: collapse; border-spacing: 0;
+}
+.dp_cal select {
+	margin: 2px 3px; font-size: 11px;
+}
+.dp_cal select option {
+	padding: 1px 3px;
+}
+.dp_cal th {
+	padding: 2px 0px; width: 14.28%; text-align: center; font-size: 11px;
+}
+.dp_cal td {
+	padding: 2px 0px; width: 14.28%; text-align: center; font-size: 11px;
+}
+.dp_cal th {
+	background: rgb(218, 242, 230); border-width: 1px 0px; border-style: solid; border-color: rgb(170, 212, 242); color: rgb(121, 119, 116); font-weight: bold;
+}
+.dp_cal td {
+	cursor: pointer;
+}
+.dp_cal thead th {
+	background: url("/module/image/legacy/bg_table_th.png");
+}
+.dp_cal td.dp_roll {
+	background: rgb(255, 246, 191);
+}
+.dp_hide {
+	visibility: hidden;
+}
+.dp_empty {
+	background: rgb(238, 238, 238);
+}
+.dp_today {
+	background: rgb(204, 204, 204);
+}
+.dp_selected {
+	background: rgb(255, 153, 0); color: rgb(255, 255, 255);
+}

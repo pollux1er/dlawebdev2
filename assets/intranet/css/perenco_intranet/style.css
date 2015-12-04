@@ -1,0 +1,63 @@
+DIV.parent {
+	BORDER-BOTTOM: #a5eefd 2px solid; BORDER-LEFT: #a5eefd 2px solid; PADDING-BOTTOM: 16px; BACKGROUND-COLOR: #ffffff; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #000000; CLEAR: both; BORDER-TOP: #a5eefd 2px solid; BORDER-RIGHT: #a5eefd 2px solid; PADDING-TOP: 0px
+}
+DIV.folder_wrapper {
+	MARGIN: 0.5em 0.8em
+}
+DIV.parent TABLE.folder {
+	BORDER-BOTTOM: black 1px solid; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; BORDER-COLLAPSE: collapse; COLOR: #000000; BORDER-TOP: black 1px solid; PADDING-TOP: 0px
+}
+DIV.parent TABLE.folder TR {
+	HEIGHT: 30px
+}
+TABLE TR.header_row {
+	BORDER-BOTTOM: 0px; BORDER-TOP: 0px
+}
+TR.alternate_folder_0 {
+	BACKGROUND-COLOR: #e8e8ff
+}
+TR.alternate_folder_0 TD {
+	BACKGROUND-COLOR: #e8e8ff
+}
+TR.alternate_folder_1 {
+	BACKGROUND-COLOR: #dadaff
+}
+TR.alternate_folder_1 TD {
+	BACKGROUND-COLOR: #dadaff
+}
+TABLE TR.header_row TH {
+	TEXT-ALIGN: center; BACKGROUND-COLOR: #ffffbb; FONT-WEIGHT: bold
+}
+TABLE .last_header_row TH {
+	BORDER-BOTTOM: black 1px solid
+}
+TABLE TR TH.last_header_row {
+	BORDER-BOTTOM: black 1px solid
+}
+.header_row A {
+	COLOR: #000 !important
+}
+.header_row A {
+	COLOR: #000 !important
+}
+.action_desc A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 14px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.action_asc A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 14px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.action_desc A {
+	BACKGROUND: url(/img/asc_order.gif) no-repeat left center
+}
+.action_asc A {
+	BACKGROUND: url(/img/desc_order.gif) no-repeat left center
+}
+TD.formu_news_1 {
+	BACKGROUND-COLOR: #dadaff; PADDING-LEFT: 5px
+}
+TD.formu_news_2 {
+	BACKGROUND-COLOR: #e8e8ff; PADDING-LEFT: 5px
+}
+.dp_calendar TABLE TR TD.dp_empty {
+	COLOR: black
+}

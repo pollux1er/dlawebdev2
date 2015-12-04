@@ -1,0 +1,71 @@
+			#prop_user
+			{
+				position:absolute;
+				min-height:20px;				
+				max-height:100px; 
+				background-color:white; 
+				border:1px solid black; 
+				overflow-y:scroll;
+				overflow-x:hidden;
+			}
+			
+			#cont_li
+			{
+				padding: 5px 0px;
+				background-color: #FFF;
+			}
+			
+			#cont_li li
+			{
+				height:25px;
+				list-style: none outside none;
+					list-style-type: none;
+					list-style-image: none;
+					list-style-position: outside;
+				margin-left: 0px !important;
+					margin-left-value: 0px;
+					margin-left-ltr-source: physical;
+					margin-left-rtl-source: physical;
+				cursor: pointer;
+			}
+			
+			#cont_li a
+			{
+				color:black;
+				font-weight:bold;
+				height:25px;
+				text-decoration: none;
+					-moz-text-decoration-color: -moz-use-text-color;
+					-moz-text-decoration-line: none;
+					-moz-text-decoration-style: solid;
+				display: block;
+			}
+			
+			#cont_li a span
+			{
+				padding: 2px 6px;
+					padding-top: 2px;
+					padding-right-value: 6px;
+					padding-bottom: 2px;
+					padding-left-value: 6px;
+					padding-left-ltr-source: physical;
+					padding-left-rtl-source: physical;
+					padding-right-ltr-source: physical;
+					padding-right-rtl-source: physical;
+				display: block;
+			}
+			
+			#cont_li a:hover, #cont_li .level1selected, #cont_li .level2selected  
+			{
+				text-decoration: underline;
+				background: #5C8BE8;
+				color: white !important;	
+				display: block;
+			}
+			
+			#tab_chrg_info
+			{
+				border:1px double gray;
+				padding:10px;
+				margin:10px;
+			}

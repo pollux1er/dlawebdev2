@@ -1,0 +1,1017 @@
+* {
+	Z-INDEX: 0; PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: trebuchet, helvetica, arial, sans-serif; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; FONT-SIZE: 11px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px
+}
+DIV.clearer {
+	CLEAR: both
+}
+.left {
+	FLOAT: left
+}
+.right {
+	FLOAT: right
+}
+BODY {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: #036; PADDING-TOP: 0px
+}
+FORM {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+FONT {
+	FONT-FAMILY: trebuchet, helvetica, arial, sans-serif
+}
+OL {
+	MARGIN-LEFT: 10px
+}
+LI {
+	MARGIN-LEFT: 15px
+}
+INPUT {
+	BORDER-BOTTOM: #c2d3fc 1px solid; BORDER-LEFT: #c2d3fc 1px solid; PADDING-BOTTOM: 1px; MARGIN: 0px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; BORDER-TOP: #c2d3fc 1px solid; BORDER-RIGHT: #c2d3fc 1px solid; PADDING-TOP: 1px
+}
+SELECT {
+	Z-INDEX: 0; BORDER-BOTTOM: #c2d3fc 1px solid; BORDER-LEFT: #c2d3fc 1px solid; FONT-FAMILY: trebuchet, helvetica, arial, sans-serif; FONT-SIZE: 11px; BORDER-TOP: #c2d3fc 1px solid; BORDER-RIGHT: #c2d3fc 1px solid
+}
+SPAN {
+	Z-INDEX: 0; FONT-FAMILY: trebuchet, helvetica, arial, sans-serif
+}
+TEXTAREA {
+	BORDER-BOTTOM: #c2d3fc 1px solid; BORDER-LEFT: #c2d3fc 1px solid; PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; BORDER-TOP: #c2d3fc 1px solid; BORDER-RIGHT: #c2d3fc 1px solid; PADDING-TOP: 1px
+}
+A {
+	COLOR: #fff
+}
+A:hover {
+	COLOR: #f90
+}
+#error {
+	FONT-FAMILY: trebuchet, helvetica, arial, sans-serif; COLOR: #f00; FONT-SIZE: 20px
+}
+#connection {
+	PADDING-BOTTOM: 10px; BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BORDER-COLLAPSE: collapse; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #fff; FONT-SIZE: 30px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 10px
+}
+#connection TD {
+	PADDING-BOTTOM: 2px; BORDER-RIGHT-WIDTH: 1px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BORDER-TOP-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; COLOR: #fff; BORDER-LEFT-WIDTH: 1px; PADDING-TOP: 2px
+}
+#connection .label {
+	PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; COLOR: #fff; FONT-WEIGHT: bold; PADDING-TOP: 1px
+}
+DIV#popup_contact H1 {
+	TEXT-ALIGN: center; MARGIN: 0.3em; COLOR: white; FONT-SIZE: 1.5em
+}
+DIV#popup_contact P.contact_info {
+	TEXT-ALIGN: left; FONT-STYLE: italic; MARGIN: 1em 0.3em 0.5em; COLOR: white
+}
+DIV#popup_contact TABLE.contact_form {
+	BORDER-COLLAPSE: collapse; COLOR: white; FONT-WEIGHT: bold
+}
+DIV#popup_contact TABLE.contact_form TD {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0.1em; PADDING-LEFT: 0.1em; PADDING-RIGHT: 0.1em; PADDING-TOP: 0.1em
+}
+DIV#popup_contact TABLE.contact_form TD.label {
+	TEXT-ALIGN: right; PADDING-RIGHT: 0.3em; VERTICAL-ALIGN: top
+}
+DIV#popup_contact TABLE.contact_form .readwrite {
+	BORDER-BOTTOM: #69c 1px solid; BORDER-LEFT: #69c 1px solid; BACKGROUND-COLOR: #ffa; BORDER-TOP: #69c 1px solid; BORDER-RIGHT: #69c 1px solid
+}
+DIV#popup_contact TABLE.contact_form .readwrite:focus {
+	BACKGROUND-COLOR: #ff6
+}
+DIV#popup_contact STRONG {
+	COLOR: #f32
+}
+#logout {
+	COLOR: #9cf; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+#logout A:hover {
+	COLOR: #9cf; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+#module {
+	TEXT-ALIGN: center; TEXT-TRANSFORM: uppercase; FONT-VARIANT: normal; FONT-STYLE: normal; FONT-FAMILY: trebuchet, helvetica, arial, sans-serif; HEIGHT: 45px; COLOR: #f90; FONT-SIZE: 24px; VERTICAL-ALIGN: top; FONT-WEIGHT: bolder; TEXT-DECORATION: none
+}
+#body {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px
+}
+TABLE#tabMain {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; BORDER-COLLAPSE: collapse; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px
+}
+#contact {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-COLLAPSE: collapse; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #fff; FONT-SIZE: 11px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px
+}
+#profile {
+	BORDER-BOTTOM: #999 1px solid; BORDER-LEFT: #999 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; MARGIN: 0px 0px 12px 10px; PADDING-LEFT: 0px; WIDTH: 150px; PADDING-RIGHT: 0px; DISPLAY: block; VISIBILITY: visible; COLOR: #fff; OVERFLOW: visible; BORDER-TOP: #999 1px solid; BORDER-RIGHT: #999 1px solid; PADDING-TOP: 0px
+}
+#out_of_hours_it_service {
+	BORDER-BOTTOM: #999 1px solid; BORDER-LEFT: #999 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; MARGIN: 0px 0px 12px 10px; PADDING-LEFT: 0px; WIDTH: 150px; PADDING-RIGHT: 0px; DISPLAY: block; VISIBILITY: visible; COLOR: #fff; OVERFLOW: visible; BORDER-TOP: #999 1px solid; BORDER-RIGHT: #999 1px solid; PADDING-TOP: 0px
+}
+FIELDSET#profile LEGEND {
+	BACKGROUND-IMAGE: none; PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; BACKGROUND-COLOR: transparent; MARGIN: 0px; PADDING-LEFT: 0.2em; PADDING-RIGHT: 0.2em; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #f90; BORDER-LEFT-WIDTH: 0px; FONT-WEIGHT: bold; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+FIELDSET#profile LEGEND A {
+	BACKGROUND-IMAGE: none; PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; BACKGROUND-COLOR: transparent; MARGIN: 0px; PADDING-LEFT: 0.2em; PADDING-RIGHT: 0.2em; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #f90; BORDER-LEFT-WIDTH: 0px; FONT-WEIGHT: bold; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+FIELDSET#out_of_hours_it_service LEGEND {
+	BACKGROUND-IMAGE: none; PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; BACKGROUND-COLOR: transparent; MARGIN: 0px; PADDING-LEFT: 0.2em; PADDING-RIGHT: 0.2em; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #f90; BORDER-LEFT-WIDTH: 0px; FONT-WEIGHT: bold; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+FIELDSET#profile LEGEND A {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#profile A.list_ticket {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #036; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; DISPLAY: block; COLOR: #f90; FONT-WEIGHT: bold; PADDING-TOP: 1px
+}
+#out_of_hours_it_service A.list_ticket {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #036; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; DISPLAY: block; COLOR: #f90; FONT-WEIGHT: bold; PADDING-TOP: 1px
+}
+A.myprofile {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #036; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; DISPLAY: block; COLOR: white; FONT-SIZE: 10px; PADDING-TOP: 1px
+}
+A.myprofile:hover {
+	BACKGROUND-COLOR: white; COLOR: black
+}
+A.link_contact {
+	COLOR: #f90
+}
+A#contact_it_toggle {
+	BACKGROUND-COLOR: transparent; COLOR: white
+}
+A#contact_it_toggle:hover {
+	BACKGROUND-COLOR: transparent; COLOR: white
+}
+A#contact_site_toggle {
+	BACKGROUND-COLOR: transparent; COLOR: white
+}
+A#contact_site_toggle:hover {
+	BACKGROUND-COLOR: transparent; COLOR: white
+}
+SPAN.contact_phone {
+	FONT-WEIGHT: normal
+}
+SPAN#contact_it_info {
+	WIDTH: 100%; DISPLAY: none; FLOAT: left
+}
+SPAN#contact_site_info {
+	WIDTH: 100%; DISPLAY: none; FLOAT: left
+}
+SPAN.it_location {
+	COLOR: #f90
+}
+#profile A.list_ticket:hover {
+	BACKGROUND-COLOR: white; DISPLAY: block; COLOR: black; TEXT-DECORATION: none
+}
+#out_of_hours_it_service A.list_ticket:hover {
+	BACKGROUND-COLOR: white; DISPLAY: block; COLOR: black; TEXT-DECORATION: none
+}
+#out_of_hours_it_service A.contact_email {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 12px; PADDING-RIGHT: 0px; BACKGROUND: url(/module/image/legacy/l_resume.gif) no-repeat -3px center; COLOR: white; PADDING-TOP: 0px
+}
+#out_of_hours_it_service A.contact_email:hover {
+	COLOR: #f90
+}
+DIV.profile_content {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 1.1em; PADDING-RIGHT: 0px; FONT-SIZE: 11px; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+DIV.profile_content2 {
+	PADDING-BOTTOM: 0px; MARGIN: 4px 0px 8px; PADDING-LEFT: 1.1em; PADDING-RIGHT: 0px; FONT-SIZE: 10px; PADDING-TOP: 0px
+}
+#welcome {
+	PADDING-BOTTOM: 10px; BORDER-RIGHT-WIDTH: 0px; MARGIN: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BORDER-COLLAPSE: collapse; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #fff; FONT-SIZE: 30px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 10px
+}
+UL#tabnav {
+	BORDER-BOTTOM: #ccc 1px solid; PADDING-BOTTOM: 24px; LIST-STYLE-TYPE: none; MARGIN: 0px; FONT-FAMILY: trebuchet, helvetica, arial, sans-serif
+}
+UL#tabnav LI {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; BACKGROUND-COLOR: #aaa; MARGIN: 1px 1px 0px; FLOAT: left; HEIGHT: 20px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+UL#tabnav LI.active {
+	BORDER-BOTTOM: #fff 1px solid; BACKGROUND-COLOR: #fff
+}
+#tabnav A {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; DISPLAY: block; FLOAT: left; COLOR: #fff; FONT-SIZE: 11px; TEXT-DECORATION: none; PADDING-TOP: 4px
+}
+#tabnav A.selected {
+	BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px; DISPLAY: block; BACKGROUND: #f90; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 12px; BORDER-LEFT-WIDTH: 0px
+}
+#tabnav A:hover {
+	BACKGROUND: #fff; COLOR: #000
+}
+.action_insert {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 10px; WIDTH: auto; PADDING-RIGHT: 5px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 20px; COLOR: #000; BORDER-LEFT-WIDTH: 0px; FONT-WEIGHT: bold; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+A.action_insert:hover {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 10px; WIDTH: auto; PADDING-RIGHT: 5px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 20px; COLOR: #000; BORDER-LEFT-WIDTH: 0px; FONT-WEIGHT: bold; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+.action_update {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 10px; WIDTH: auto; PADDING-RIGHT: 5px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 20px; COLOR: #000; BORDER-LEFT-WIDTH: 0px; FONT-WEIGHT: bold; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+A.action_update:hover {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 10px; WIDTH: auto; PADDING-RIGHT: 5px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 20px; COLOR: #000; BORDER-LEFT-WIDTH: 0px; FONT-WEIGHT: bold; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+.action_rights {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 10px; WIDTH: auto; PADDING-RIGHT: 5px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 20px; COLOR: #000; BORDER-LEFT-WIDTH: 0px; FONT-WEIGHT: bold; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+A.action_rights:hover {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 10px; WIDTH: auto; PADDING-RIGHT: 5px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 20px; COLOR: #000; BORDER-LEFT-WIDTH: 0px; FONT-WEIGHT: bold; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+.action_flag {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 10px; WIDTH: auto; PADDING-RIGHT: 5px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 20px; COLOR: #000; BORDER-LEFT-WIDTH: 0px; FONT-WEIGHT: bold; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+A.action_flag:hover {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 10px; WIDTH: auto; PADDING-RIGHT: 5px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 20px; COLOR: #000; BORDER-LEFT-WIDTH: 0px; FONT-WEIGHT: bold; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+.action_delete {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 10px; WIDTH: auto; PADDING-RIGHT: 5px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 20px; COLOR: #000; BORDER-LEFT-WIDTH: 0px; FONT-WEIGHT: bold; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+A.action_delete:hover {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 10px; WIDTH: auto; PADDING-RIGHT: 5px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 20px; COLOR: #000; BORDER-LEFT-WIDTH: 0px; FONT-WEIGHT: bold; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+.action_plus {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 10px; WIDTH: auto; PADDING-RIGHT: 5px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 20px; COLOR: #000; BORDER-LEFT-WIDTH: 0px; FONT-WEIGHT: bold; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+A.action_plus:hover {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 10px; WIDTH: auto; PADDING-RIGHT: 5px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 20px; COLOR: #000; BORDER-LEFT-WIDTH: 0px; FONT-WEIGHT: bold; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+.action_download {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 10px; WIDTH: auto; PADDING-RIGHT: 5px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 20px; COLOR: #000; BORDER-LEFT-WIDTH: 0px; FONT-WEIGHT: bold; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+A.action_download:hover {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 10px; WIDTH: auto; PADDING-RIGHT: 5px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 20px; COLOR: #000; BORDER-LEFT-WIDTH: 0px; FONT-WEIGHT: bold; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+.action_upload {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 10px; WIDTH: auto; PADDING-RIGHT: 5px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 20px; COLOR: #000; BORDER-LEFT-WIDTH: 0px; FONT-WEIGHT: bold; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+A.action_upload:hover {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 10px; WIDTH: auto; PADDING-RIGHT: 5px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 20px; COLOR: #000; BORDER-LEFT-WIDTH: 0px; FONT-WEIGHT: bold; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+.action_insert {
+	BACKGROUND-IMAGE: url(/module/image/legacy/fleche-noire-droite.gif)
+}
+.action_plus {
+	BACKGROUND-IMAGE: url(/module/image/legacy/icon_plus.png)
+}
+.action_update {
+	BACKGROUND-IMAGE: url(/module/image/legacy/b_edit.png)
+}
+.action_delete {
+	BACKGROUND-IMAGE: url(/module/image/legacy/b_drop.png)
+}
+.action_rights {
+	BACKGROUND-IMAGE: url(/module/image/legacy/s_rights.png)
+}
+.action_flag {
+	BACKGROUND-IMAGE: url(/module/image/legacy/flag.png)
+}
+.action_download {
+	BACKGROUND-IMAGE: url(/module/image/legacy/download.gif); PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 8px; PADDING-TOP: 0px
+}
+A.action_download:hover {
+	BACKGROUND-IMAGE: url(/module/image/legacy/download.gif); PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 8px; PADDING-TOP: 0px
+}
+.action_upload {
+	BACKGROUND-IMAGE: url(/module/image/legacy/upload.gif); PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 8px; PADDING-TOP: 0px
+}
+A.action_upload:hover {
+	BACKGROUND-IMAGE: url(/module/image/legacy/upload.gif); PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 8px; PADDING-TOP: 0px
+}
+.button_default {
+	BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #fff 1px solid; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fc9; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; HEIGHT: 20px; COLOR: #000; BORDER-TOP: #fff 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #000 1px solid; TEXT-DECORATION: none
+}
+A.button_default {
+	BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #fff 1px solid; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fc9; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; HEIGHT: 20px; COLOR: #000; BORDER-TOP: #fff 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #000 1px solid; TEXT-DECORATION: none
+}
+A.button_default:hover {
+	BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #fff 1px solid; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fc9; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; HEIGHT: 20px; COLOR: #000; BORDER-TOP: #fff 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #000 1px solid; TEXT-DECORATION: none
+}
+.button_submit {
+	BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #fff 1px solid; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fc9; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; HEIGHT: 20px; COLOR: #000; BORDER-TOP: #fff 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #000 1px solid; TEXT-DECORATION: none
+}
+A.button_submit {
+	BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #fff 1px solid; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fc9; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; HEIGHT: 20px; COLOR: #000; BORDER-TOP: #fff 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #000 1px solid; TEXT-DECORATION: none
+}
+A.button_submit:hover {
+	BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #fff 1px solid; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fc9; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; HEIGHT: 20px; COLOR: #000; BORDER-TOP: #fff 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #000 1px solid; TEXT-DECORATION: none
+}
+.button_insert {
+	BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #fff 1px solid; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fc9; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; HEIGHT: 20px; COLOR: #000; BORDER-TOP: #fff 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #000 1px solid; TEXT-DECORATION: none
+}
+A.button_insert {
+	BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #fff 1px solid; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fc9; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; HEIGHT: 20px; COLOR: #000; BORDER-TOP: #fff 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #000 1px solid; TEXT-DECORATION: none
+}
+A.button_insert:hover {
+	BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #fff 1px solid; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fc9; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; HEIGHT: 20px; COLOR: #000; BORDER-TOP: #fff 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #000 1px solid; TEXT-DECORATION: none
+}
+.button_cancel {
+	BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #fff 1px solid; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fc9; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; HEIGHT: 20px; COLOR: #000; BORDER-TOP: #fff 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #000 1px solid; TEXT-DECORATION: none
+}
+A.button_cancel {
+	BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #fff 1px solid; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fc9; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; HEIGHT: 20px; COLOR: #000; BORDER-TOP: #fff 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #000 1px solid; TEXT-DECORATION: none
+}
+A.button_cancel:hover {
+	BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #fff 1px solid; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fc9; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; HEIGHT: 20px; COLOR: #000; BORDER-TOP: #fff 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #000 1px solid; TEXT-DECORATION: none
+}
+.button_delete {
+	BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #fff 1px solid; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fc9; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; HEIGHT: 20px; COLOR: #000; BORDER-TOP: #fff 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #000 1px solid; TEXT-DECORATION: none
+}
+A.button_delete {
+	BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #fff 1px solid; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fc9; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; HEIGHT: 20px; COLOR: #000; BORDER-TOP: #fff 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #000 1px solid; TEXT-DECORATION: none
+}
+A.button_delete:hover {
+	BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #fff 1px solid; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fc9; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; HEIGHT: 20px; COLOR: #000; BORDER-TOP: #fff 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #000 1px solid; TEXT-DECORATION: none
+}
+.button_plus {
+	BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #fff 1px solid; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fc9; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; HEIGHT: 20px; COLOR: #000; BORDER-TOP: #fff 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #000 1px solid; TEXT-DECORATION: none
+}
+A.button_plus {
+	BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #fff 1px solid; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fc9; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; HEIGHT: 20px; COLOR: #000; BORDER-TOP: #fff 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #000 1px solid; TEXT-DECORATION: none
+}
+A.button_plus:hover {
+	BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #fff 1px solid; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fc9; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; HEIGHT: 20px; COLOR: #000; BORDER-TOP: #fff 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #000 1px solid; TEXT-DECORATION: none
+}
+.button_save {
+	BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #fff 1px solid; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fc9; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; HEIGHT: 20px; COLOR: #000; BORDER-TOP: #fff 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #000 1px solid; TEXT-DECORATION: none
+}
+A.button_save {
+	BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #fff 1px solid; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fc9; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; HEIGHT: 20px; COLOR: #000; BORDER-TOP: #fff 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #000 1px solid; TEXT-DECORATION: none
+}
+A.button_save:hover {
+	BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #fff 1px solid; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fc9; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; HEIGHT: 20px; COLOR: #000; BORDER-TOP: #fff 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #000 1px solid; TEXT-DECORATION: none
+}
+.button_valid {
+	BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #fff 1px solid; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fc9; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; HEIGHT: 20px; COLOR: #000; BORDER-TOP: #fff 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #000 1px solid; TEXT-DECORATION: none
+}
+A.button_valid {
+	BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #fff 1px solid; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fc9; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; HEIGHT: 20px; COLOR: #000; BORDER-TOP: #fff 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #000 1px solid; TEXT-DECORATION: none
+}
+A.button_valid:hover {
+	BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #fff 1px solid; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fc9; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; HEIGHT: 20px; COLOR: #000; BORDER-TOP: #fff 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #000 1px solid; TEXT-DECORATION: none
+}
+.button_reject {
+	BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #fff 1px solid; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fc9; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; HEIGHT: 20px; COLOR: #000; BORDER-TOP: #fff 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #000 1px solid; TEXT-DECORATION: none
+}
+A.button_reject {
+	BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #fff 1px solid; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fc9; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; HEIGHT: 20px; COLOR: #000; BORDER-TOP: #fff 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #000 1px solid; TEXT-DECORATION: none
+}
+A.button_reject:hover {
+	BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #fff 1px solid; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fc9; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; HEIGHT: 20px; COLOR: #000; BORDER-TOP: #fff 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #000 1px solid; TEXT-DECORATION: none
+}
+.button_update {
+	BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #fff 1px solid; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fc9; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; HEIGHT: 20px; COLOR: #000; BORDER-TOP: #fff 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #000 1px solid; TEXT-DECORATION: none
+}
+A.button_update:hover {
+	BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #fff 1px solid; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fc9; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; HEIGHT: 20px; COLOR: #000; BORDER-TOP: #fff 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #000 1px solid; TEXT-DECORATION: none
+}
+A.button_update {
+	BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #fff 1px solid; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fc9; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; HEIGHT: 20px; COLOR: #000; BORDER-TOP: #fff 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #000 1px solid; TEXT-DECORATION: none
+}
+.button_print {
+	BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #fff 1px solid; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fc9; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; HEIGHT: 20px; COLOR: #000; BORDER-TOP: #fff 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #000 1px solid; TEXT-DECORATION: none
+}
+A.button_print:hover {
+	BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #fff 1px solid; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fc9; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; HEIGHT: 20px; COLOR: #000; BORDER-TOP: #fff 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #000 1px solid; TEXT-DECORATION: none
+}
+A.button_print {
+	BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #fff 1px solid; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fc9; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; HEIGHT: 20px; COLOR: #000; BORDER-TOP: #fff 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #000 1px solid; TEXT-DECORATION: none
+}
+.button_search {
+	BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #fff 1px solid; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fc9; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left center; HEIGHT: 20px; COLOR: #000; BORDER-TOP: #fff 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #000 1px solid; TEXT-DECORATION: none
+}
+.button_insert {
+	BACKGROUND-IMAGE: url(/module/image/legacy/fleche-noire-droite.gif); PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #fc0; PADDING-LEFT: 19px; PADDING-RIGHT: 5px; PADDING-TOP: 1px
+}
+A.button_insert {
+	BACKGROUND-IMAGE: url(/module/image/legacy/fleche-noire-droite.gif); PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #fc0; PADDING-LEFT: 19px; PADDING-RIGHT: 5px; PADDING-TOP: 1px
+}
+A.button_insert:hover {
+	BACKGROUND-IMAGE: url(/module/image/legacy/fleche-noire-droite.gif); PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #fc0; PADDING-LEFT: 19px; PADDING-RIGHT: 5px; PADDING-TOP: 1px
+}
+.button_default {
+	BACKGROUND-IMAGE: url(/module/image/legacy/fleche-noire-droite.gif); PADDING-BOTTOM: 0px; PADDING-LEFT: 18px; PADDING-RIGHT: 5px; PADDING-TOP: 2px
+}
+A.button_default {
+	BACKGROUND-IMAGE: url(/module/image/legacy/fleche-noire-droite.gif); PADDING-BOTTOM: 0px; PADDING-LEFT: 18px; PADDING-RIGHT: 5px; PADDING-TOP: 2px
+}
+A.button_default:hover {
+	BACKGROUND-IMAGE: url(/module/image/legacy/fleche-noire-droite.gif); PADDING-BOTTOM: 0px; PADDING-LEFT: 18px; PADDING-RIGHT: 5px; PADDING-TOP: 2px
+}
+.button_save {
+	BACKGROUND-IMAGE: url(/module/image/legacy/b_save.png); PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #fc9; PADDING-LEFT: 17px; PADDING-RIGHT: 2px; PADDING-TOP: 1px
+}
+A.button_save {
+	BACKGROUND-IMAGE: url(/module/image/legacy/b_save.png); PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #fc9; PADDING-LEFT: 17px; PADDING-RIGHT: 2px; PADDING-TOP: 1px
+}
+A.button_save:hover {
+	BACKGROUND-IMAGE: url(/module/image/legacy/b_save.png); PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #fc9; PADDING-LEFT: 17px; PADDING-RIGHT: 2px; PADDING-TOP: 1px
+}
+.button_reject {
+	BACKGROUND-IMAGE: url(/module/image/legacy/check_off.png); PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #fc9; PADDING-LEFT: 15px; PADDING-RIGHT: 4px; PADDING-TOP: 1px
+}
+A.button_reject {
+	BACKGROUND-IMAGE: url(/module/image/legacy/check_off.png); PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #fc9; PADDING-LEFT: 15px; PADDING-RIGHT: 4px; PADDING-TOP: 1px
+}
+A.button_reject:hover {
+	BACKGROUND-IMAGE: url(/module/image/legacy/check_off.png); PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #fc9; PADDING-LEFT: 15px; PADDING-RIGHT: 4px; PADDING-TOP: 1px
+}
+.button_valid {
+	BACKGROUND-IMAGE: url(/module/image/legacy/check_on.png); PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #fc9; PADDING-LEFT: 15px; PADDING-RIGHT: 4px; PADDING-TOP: 1px
+}
+A.button_valid {
+	BACKGROUND-IMAGE: url(/module/image/legacy/check_on.png); PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #fc9; PADDING-LEFT: 15px; PADDING-RIGHT: 4px; PADDING-TOP: 1px
+}
+A.button_valid:hover {
+	BACKGROUND-IMAGE: url(/module/image/legacy/check_on.png); PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #fc9; PADDING-LEFT: 15px; PADDING-RIGHT: 4px; PADDING-TOP: 1px
+}
+.button_submit {
+	PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #fc0; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 1px
+}
+A.button_submit {
+	PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #fc0; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 1px
+}
+A.button_submit:hover {
+	PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #fc0; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 1px
+}
+.button_update {
+	BACKGROUND-IMAGE: url(/module/image/legacy/b_edit.png); PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #fc9; PADDING-LEFT: 17px; PADDING-RIGHT: 2px; PADDING-TOP: 2px
+}
+A.button_update {
+	BACKGROUND-IMAGE: url(/module/image/legacy/b_edit.png); PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #fc9; PADDING-LEFT: 17px; PADDING-RIGHT: 2px; PADDING-TOP: 2px
+}
+A.button_update:hover {
+	BACKGROUND-IMAGE: url(/module/image/legacy/b_edit.png); PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #fc9; PADDING-LEFT: 17px; PADDING-RIGHT: 2px; PADDING-TOP: 2px
+}
+.button_delete {
+	BACKGROUND-IMAGE: url(/module/image/legacy/check_off.png); PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #f99; PADDING-LEFT: 15px; PADDING-RIGHT: 0px; PADDING-TOP: 2px
+}
+A.button_delete {
+	BACKGROUND-IMAGE: url(/module/image/legacy/check_off.png); PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #f99; PADDING-LEFT: 15px; PADDING-RIGHT: 0px; PADDING-TOP: 2px
+}
+A.button_delete:hover {
+	BACKGROUND-IMAGE: url(/module/image/legacy/check_off.png); PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #f99; PADDING-LEFT: 15px; PADDING-RIGHT: 0px; PADDING-TOP: 2px
+}
+.button_cancel {
+	BACKGROUND-IMAGE: url(/module/image/legacy/check_off.png); PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #f99; PADDING-LEFT: 15px; PADDING-RIGHT: 0px; PADDING-TOP: 2px
+}
+A.button_cancel {
+	BACKGROUND-IMAGE: url(/module/image/legacy/check_off.png); PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #f99; PADDING-LEFT: 15px; PADDING-RIGHT: 0px; PADDING-TOP: 2px
+}
+A.button_cancel:hover {
+	BACKGROUND-IMAGE: url(/module/image/legacy/check_off.png); PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #f99; PADDING-LEFT: 15px; PADDING-RIGHT: 0px; PADDING-TOP: 2px
+}
+.button_download {
+	BACKGROUND-IMAGE: url(/module/image/legacy/download.gif); PADDING-BOTTOM: 0px; PADDING-LEFT: 19px; PADDING-RIGHT: 5px; PADDING-TOP: 1px
+}
+.button_print {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 16px; PADDING-RIGHT: 5px; BACKGROUND: url(/module/image/legacy/b_print.png) #fc0 no-repeat 2px 50%; PADDING-TOP: 1px
+}
+A.button_print {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 16px; PADDING-RIGHT: 5px; BACKGROUND: url(/module/image/legacy/b_print.png) #fc0 no-repeat 2px 50%; PADDING-TOP: 1px
+}
+A.button_print:hover {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 16px; PADDING-RIGHT: 5px; BACKGROUND: url(/module/image/legacy/b_print.png) #fc0 no-repeat 2px 50%; PADDING-TOP: 1px
+}
+.button_search {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 16px; PADDING-RIGHT: 5px; BACKGROUND: url(/module/image/legacy/b_search.png) #fc0 no-repeat 2px 50%; PADDING-TOP: 1px
+}
+.tpl_button_neutral {
+	BORDER-BOTTOM: gray 1px solid; BORDER-LEFT: silver 1px solid; PADDING-BOTTOM: 4px; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fd6; PADDING-LEFT: 24px; PADDING-RIGHT: 4px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Arial, Sans-serif; BACKGROUND-POSITION: 4px center; COLOR: #444 !important; VERTICAL-ALIGN: middle; BORDER-TOP: silver 1px solid; CURSOR: default; FONT-WEIGHT: bold; BORDER-RIGHT: gray 1px solid; TEXT-DECORATION: none; PADDING-TOP: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px
+}
+.tpl_button_default {
+	BORDER-BOTTOM: gray 1px solid; BORDER-LEFT: silver 1px solid; PADDING-BOTTOM: 4px; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fd6; PADDING-LEFT: 24px; PADDING-RIGHT: 4px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Arial, Sans-serif; BACKGROUND-POSITION: 4px center; COLOR: #444 !important; VERTICAL-ALIGN: middle; BORDER-TOP: silver 1px solid; CURSOR: default; FONT-WEIGHT: bold; BORDER-RIGHT: gray 1px solid; TEXT-DECORATION: none; PADDING-TOP: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px
+}
+.tpl_button_add {
+	BORDER-BOTTOM: gray 1px solid; BORDER-LEFT: silver 1px solid; PADDING-BOTTOM: 4px; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fd6; PADDING-LEFT: 24px; PADDING-RIGHT: 4px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Arial, Sans-serif; BACKGROUND-POSITION: 4px center; COLOR: #444 !important; VERTICAL-ALIGN: middle; BORDER-TOP: silver 1px solid; CURSOR: default; FONT-WEIGHT: bold; BORDER-RIGHT: gray 1px solid; TEXT-DECORATION: none; PADDING-TOP: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px
+}
+.tpl_button_insert {
+	BORDER-BOTTOM: gray 1px solid; BORDER-LEFT: silver 1px solid; PADDING-BOTTOM: 4px; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fd6; PADDING-LEFT: 24px; PADDING-RIGHT: 4px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Arial, Sans-serif; BACKGROUND-POSITION: 4px center; COLOR: #444 !important; VERTICAL-ALIGN: middle; BORDER-TOP: silver 1px solid; CURSOR: default; FONT-WEIGHT: bold; BORDER-RIGHT: gray 1px solid; TEXT-DECORATION: none; PADDING-TOP: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px
+}
+.tpl_button_cancel {
+	BORDER-BOTTOM: gray 1px solid; BORDER-LEFT: silver 1px solid; PADDING-BOTTOM: 4px; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fd6; PADDING-LEFT: 24px; PADDING-RIGHT: 4px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Arial, Sans-serif; BACKGROUND-POSITION: 4px center; COLOR: #444 !important; VERTICAL-ALIGN: middle; BORDER-TOP: silver 1px solid; CURSOR: default; FONT-WEIGHT: bold; BORDER-RIGHT: gray 1px solid; TEXT-DECORATION: none; PADDING-TOP: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px
+}
+.tpl_button_save {
+	BORDER-BOTTOM: gray 1px solid; BORDER-LEFT: silver 1px solid; PADDING-BOTTOM: 4px; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fd6; PADDING-LEFT: 24px; PADDING-RIGHT: 4px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Arial, Sans-serif; BACKGROUND-POSITION: 4px center; COLOR: #444 !important; VERTICAL-ALIGN: middle; BORDER-TOP: silver 1px solid; CURSOR: default; FONT-WEIGHT: bold; BORDER-RIGHT: gray 1px solid; TEXT-DECORATION: none; PADDING-TOP: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px
+}
+.tpl_button_submit {
+	BORDER-BOTTOM: gray 1px solid; BORDER-LEFT: silver 1px solid; PADDING-BOTTOM: 4px; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fd6; PADDING-LEFT: 24px; PADDING-RIGHT: 4px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Arial, Sans-serif; BACKGROUND-POSITION: 4px center; COLOR: #444 !important; VERTICAL-ALIGN: middle; BORDER-TOP: silver 1px solid; CURSOR: default; FONT-WEIGHT: bold; BORDER-RIGHT: gray 1px solid; TEXT-DECORATION: none; PADDING-TOP: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px
+}
+.tpl_button_delete {
+	BORDER-BOTTOM: gray 1px solid; BORDER-LEFT: silver 1px solid; PADDING-BOTTOM: 4px; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fd6; PADDING-LEFT: 24px; PADDING-RIGHT: 4px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Arial, Sans-serif; BACKGROUND-POSITION: 4px center; COLOR: #444 !important; VERTICAL-ALIGN: middle; BORDER-TOP: silver 1px solid; CURSOR: default; FONT-WEIGHT: bold; BORDER-RIGHT: gray 1px solid; TEXT-DECORATION: none; PADDING-TOP: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px
+}
+.tpl_button_edit {
+	BORDER-BOTTOM: gray 1px solid; BORDER-LEFT: silver 1px solid; PADDING-BOTTOM: 4px; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fd6; PADDING-LEFT: 24px; PADDING-RIGHT: 4px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Arial, Sans-serif; BACKGROUND-POSITION: 4px center; COLOR: #444 !important; VERTICAL-ALIGN: middle; BORDER-TOP: silver 1px solid; CURSOR: default; FONT-WEIGHT: bold; BORDER-RIGHT: gray 1px solid; TEXT-DECORATION: none; PADDING-TOP: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px
+}
+.tpl_button_update {
+	BORDER-BOTTOM: gray 1px solid; BORDER-LEFT: silver 1px solid; PADDING-BOTTOM: 4px; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fd6; PADDING-LEFT: 24px; PADDING-RIGHT: 4px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Arial, Sans-serif; BACKGROUND-POSITION: 4px center; COLOR: #444 !important; VERTICAL-ALIGN: middle; BORDER-TOP: silver 1px solid; CURSOR: default; FONT-WEIGHT: bold; BORDER-RIGHT: gray 1px solid; TEXT-DECORATION: none; PADDING-TOP: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px
+}
+.tpl_button_search {
+	BORDER-BOTTOM: gray 1px solid; BORDER-LEFT: silver 1px solid; PADDING-BOTTOM: 4px; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fd6; PADDING-LEFT: 24px; PADDING-RIGHT: 4px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Arial, Sans-serif; BACKGROUND-POSITION: 4px center; COLOR: #444 !important; VERTICAL-ALIGN: middle; BORDER-TOP: silver 1px solid; CURSOR: default; FONT-WEIGHT: bold; BORDER-RIGHT: gray 1px solid; TEXT-DECORATION: none; PADDING-TOP: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px
+}
+.tpl_button_validate {
+	BORDER-BOTTOM: gray 1px solid; BORDER-LEFT: silver 1px solid; PADDING-BOTTOM: 4px; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fd6; PADDING-LEFT: 24px; PADDING-RIGHT: 4px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Arial, Sans-serif; BACKGROUND-POSITION: 4px center; COLOR: #444 !important; VERTICAL-ALIGN: middle; BORDER-TOP: silver 1px solid; CURSOR: default; FONT-WEIGHT: bold; BORDER-RIGHT: gray 1px solid; TEXT-DECORATION: none; PADDING-TOP: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px
+}
+.tpl_button_user_edit {
+	BORDER-BOTTOM: gray 1px solid; BORDER-LEFT: silver 1px solid; PADDING-BOTTOM: 4px; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fd6; PADDING-LEFT: 24px; PADDING-RIGHT: 4px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Arial, Sans-serif; BACKGROUND-POSITION: 4px center; COLOR: #444 !important; VERTICAL-ALIGN: middle; BORDER-TOP: silver 1px solid; CURSOR: default; FONT-WEIGHT: bold; BORDER-RIGHT: gray 1px solid; TEXT-DECORATION: none; PADDING-TOP: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px
+}
+.tpl_button_user_cancel {
+	BORDER-BOTTOM: gray 1px solid; BORDER-LEFT: silver 1px solid; PADDING-BOTTOM: 4px; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fd6; PADDING-LEFT: 24px; PADDING-RIGHT: 4px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Arial, Sans-serif; BACKGROUND-POSITION: 4px center; COLOR: #444 !important; VERTICAL-ALIGN: middle; BORDER-TOP: silver 1px solid; CURSOR: default; FONT-WEIGHT: bold; BORDER-RIGHT: gray 1px solid; TEXT-DECORATION: none; PADDING-TOP: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px
+}
+.tpl_button_user_delete {
+	BORDER-BOTTOM: gray 1px solid; BORDER-LEFT: silver 1px solid; PADDING-BOTTOM: 4px; TEXT-TRANSFORM: capitalize; BACKGROUND-COLOR: #fd6; PADDING-LEFT: 24px; PADDING-RIGHT: 4px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Arial, Sans-serif; BACKGROUND-POSITION: 4px center; COLOR: #444 !important; VERTICAL-ALIGN: middle; BORDER-TOP: silver 1px solid; CURSOR: default; FONT-WEIGHT: bold; BORDER-RIGHT: gray 1px solid; TEXT-DECORATION: none; PADDING-TOP: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px
+}
+.tpl_button_neutral:hover {
+	BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; COLOR: black !important; BORDER-TOP: black 1px solid; CURSOR: pointer; BORDER-RIGHT: black 1px solid
+}
+.tpl_button_default:hover {
+	BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; COLOR: black !important; BORDER-TOP: black 1px solid; CURSOR: pointer; BORDER-RIGHT: black 1px solid
+}
+.tpl_button_add:hover {
+	BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; COLOR: black !important; BORDER-TOP: black 1px solid; CURSOR: pointer; BORDER-RIGHT: black 1px solid
+}
+.tpl_button_insert:hover {
+	BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; COLOR: black !important; BORDER-TOP: black 1px solid; CURSOR: pointer; BORDER-RIGHT: black 1px solid
+}
+.tpl_button_cancel:hover {
+	BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; COLOR: black !important; BORDER-TOP: black 1px solid; CURSOR: pointer; BORDER-RIGHT: black 1px solid
+}
+.tpl_button_save:hover {
+	BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; COLOR: black !important; BORDER-TOP: black 1px solid; CURSOR: pointer; BORDER-RIGHT: black 1px solid
+}
+.tpl_button_submit:hover {
+	BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; COLOR: black !important; BORDER-TOP: black 1px solid; CURSOR: pointer; BORDER-RIGHT: black 1px solid
+}
+.tpl_button_delete:hover {
+	BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; COLOR: black !important; BORDER-TOP: black 1px solid; CURSOR: pointer; BORDER-RIGHT: black 1px solid
+}
+.tpl_button_edit:hover {
+	BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; COLOR: black !important; BORDER-TOP: black 1px solid; CURSOR: pointer; BORDER-RIGHT: black 1px solid
+}
+.tpl_button_update:hover {
+	BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; COLOR: black !important; BORDER-TOP: black 1px solid; CURSOR: pointer; BORDER-RIGHT: black 1px solid
+}
+.tpl_button_search:hover {
+	BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; COLOR: black !important; BORDER-TOP: black 1px solid; CURSOR: pointer; BORDER-RIGHT: black 1px solid
+}
+.tpl_button_validate:hover {
+	BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; COLOR: black !important; BORDER-TOP: black 1px solid; CURSOR: pointer; BORDER-RIGHT: black 1px solid
+}
+.tpl_button_user_edit:hover {
+	BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; COLOR: black !important; BORDER-TOP: black 1px solid; CURSOR: pointer; BORDER-RIGHT: black 1px solid
+}
+.tpl_button_user_cancel:hover {
+	BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; COLOR: black !important; BORDER-TOP: black 1px solid; CURSOR: pointer; BORDER-RIGHT: black 1px solid
+}
+.tpl_button_user_delete:hover {
+	BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; COLOR: black !important; BORDER-TOP: black 1px solid; CURSOR: pointer; BORDER-RIGHT: black 1px solid
+}
+.tpl_button_neutral {
+	BACKGROUND-IMAGE: none; PADDING-LEFT: 4px !important; BACKGROUND-REPEAT: no-repeat
+}
+.tpl_button_default {
+	BACKGROUND-IMAGE: none; PADDING-LEFT: 4px !important; BACKGROUND-REPEAT: no-repeat
+}
+.tpl_button_add {
+	BACKGROUND-IMAGE: url(/module/image/shadowless/plus-circle.png)
+}
+.tpl_button_insert {
+	BACKGROUND-IMAGE: url(/module/image/shadowless/plus-circle.png)
+}
+.tpl_button_cancel {
+	BACKGROUND-IMAGE: url(/module/image/general/undo_16_8b.png); BACKGROUND-COLOR: #f9b7a3
+}
+.tpl_button_save {
+	BACKGROUND-IMAGE: url(/module/image/general/save_floppy_blue.png)
+}
+.tpl_button_submit {
+	BACKGROUND-IMAGE: url(/module/image/general/save_floppy_blue.png)
+}
+.tpl_button_delete {
+	BACKGROUND-IMAGE: url(/module/image/shadowless/cross-script.png); BACKGROUND-COLOR: #f9b7a3
+}
+.tpl_button_edit {
+	BACKGROUND-IMAGE: url(/module/image/general/sc_dsbeditdoc_blue.gif)
+}
+.tpl_button_update {
+	BACKGROUND-IMAGE: url(/module/image/general/sc_dsbeditdoc_blue.gif)
+}
+.tpl_button_eraser {
+	BACKGROUND-IMAGE: url(/module/image/legacy/b_erase.gif)
+}
+.tpl_button_search {
+	BACKGROUND-IMAGE: url(/module/image/shadowless/magnifier-zoom.png)
+}
+.tpl_button_user_edit {
+	BACKGROUND-IMAGE: url(/module/image/legacy/b_usredit.png)
+}
+.tpl_button_validate {
+	BACKGROUND-IMAGE: url(/module/image/legacy/button_ok.gif)
+}
+.tpl_button_user_cancel {
+	BACKGROUND-IMAGE: url(/module/image/legacy/s_cancel.png)
+}
+.tpl_button_user_delete {
+	BACKGROUND-IMAGE: url(/module/image/legacy/b_usrdrop.png)
+}
+.form {
+	PADDING-BOTTOM: 10px; BORDER-RIGHT-WIDTH: 0px; MARGIN: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #fff; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 10px
+}
+.form TD {
+	BORDER-BOTTOM: #ddd 1px solid; BORDER-LEFT: #ddd 1px solid; PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; COLOR: #000; BORDER-TOP: #ddd 1px solid; BORDER-RIGHT: #ddd 1px solid; PADDING-TOP: 2px
+}
+.form .label {
+	BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #eee; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; BORDER-TOP: #fff 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #fff 1px solid; PADDING-TOP: 1px
+}
+.form CAPTION {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #fff; FONT-SIZE: 11px; FONT-WEIGHT: bold; PADDING-TOP: 10px
+}
+.table {
+	BORDER-BOTTOM: #036 1px solid; BORDER-LEFT: #036 1px solid; BACKGROUND-COLOR: #fff; MARGIN: 0px; BORDER-COLLAPSE: collapse; COLOR: #000; FONT-SIZE: 11px; BORDER-TOP: #036 1px solid; BORDER-RIGHT: #036 1px solid
+}
+.form {
+	BORDER-BOTTOM: #036 1px solid; BORDER-LEFT: #036 1px solid; BACKGROUND-COLOR: #fff; MARGIN: 0px; BORDER-COLLAPSE: collapse; COLOR: #000; FONT-SIZE: 11px; BORDER-TOP: #036 1px solid; BORDER-RIGHT: #036 1px solid
+}
+.table TH {
+	BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #000 1px solid; PADDING-BOTTOM: 2px; TEXT-TRANSFORM: none; BACKGROUND-COLOR: #69c; FONT-VARIANT: small-caps; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; COLOR: #000; FONT-SIZE: 11px; BORDER-TOP: #000 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #000 1px solid; PADDING-TOP: 2px
+}
+.form TH {
+	BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #000 1px solid; PADDING-BOTTOM: 2px; TEXT-TRANSFORM: none; BACKGROUND-COLOR: #69c; FONT-VARIANT: small-caps; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; COLOR: #000; FONT-SIZE: 11px; BORDER-TOP: #000 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #000 1px solid; PADDING-TOP: 2px
+}
+.table TD {
+	BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #000 1px solid; PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; PADDING-TOP: 2px
+}
+.table .label {
+	PADDING-LEFT: 5px; FONT-WEIGHT: bold
+}
+.form .label {
+	PADDING-LEFT: 5px; FONT-WEIGHT: bold
+}
+.table CAPTION {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #fff; FONT-SIZE: 11px; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+.form CAPTION {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #fff; FONT-SIZE: 11px; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+.form A {
+	COLOR: #000
+}
+.table A {
+	COLOR: #000
+}
+.table .altcol {
+	BACKGROUND-COLOR: #ddd
+}
+.favorite {
+	BACKGROUND-IMAGE: url(/module/image/legacy/icon_plus.png)
+}
+TD.none {
+	BORDER-RIGHT-WIDTH: 0px; BACKGROUND-COLOR: #036; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+.news {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 20px; BACKGROUND-COLOR: #036; MARGIN: 2px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; COLOR: #fff; FONT-SIZE: 12px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 20px
+}
+.news .title {
+	TEXT-ALIGN: center; MARGIN: 15px 0px; FONT-SIZE: 18px
+}
+.blink {
+	BACKGROUND: #036
+}
+.need_access {
+	BORDER-BOTTOM: #ff9900 2px solid; BORDER-LEFT: #ff9900 2px solid; WIDTH: 136px !important; BORDER-TOP: #ff9900 2px solid; BORDER-RIGHT: #ff9900 2px solid; _width: 150px
+}
+INPUT.autocompletion {
+	PADDING-LEFT: 18px; WIDTH: 279px; _width: 278px
+}
+INPUT.autocompletion_load {
+	PADDING-LEFT: 18px; WIDTH: 279px; _width: 278px
+}
+.autocompletion {
+	BACKGROUND: url(/module/image/legacy/b_usrlist.png) no-repeat left center
+}
+.autocompletion_load {
+	BACKGROUND: url(/module/image/general/waiting_blue.gif) no-repeat left center
+}
+.autocompletion_doc {
+	BACKGROUND: url(/module/image/legacy/document.png) white no-repeat left center
+}
+.autocompletion INPUT {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 18px; WIDTH: 100%; PADDING-RIGHT: 0px; DISPLAY: block; OVERFLOW: hidden; PADDING-TOP: 0px; _width: 94%
+}
+.msg_to_user {
+	PADDING-BOTTOM: 0.5em; BACKGROUND-COLOR: #ccc; MARGIN: 1em 0px; PADDING-LEFT: 2.2em; PADDING-RIGHT: 0.5em; COLOR: black; FONT-WEIGHT: normal; PADDING-TOP: 0.5em
+}
+.msg_success {
+	BORDER-BOTTOM: green 2px solid; BORDER-LEFT: green 2px solid; BACKGROUND: url(/module/image/legacy/s_okay.png) white no-repeat 0.5em 50%; COLOR: green; BORDER-TOP: green 2px solid; BORDER-RIGHT: green 2px solid
+}
+.msg_error {
+	BORDER-BOTTOM: red 2px solid; BORDER-LEFT: red 2px solid; BACKGROUND: url(/module/image/legacy/s_error.png) white no-repeat 0.5em 50%; COLOR: red; BORDER-TOP: red 2px solid; BORDER-RIGHT: red 2px solid
+}
+.msg_info {
+	BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; PADDING-BOTTOM: 0.5em; MARGIN: 0px 0.3em; PADDING-LEFT: 26px; PADDING-RIGHT: 0.5em; BACKGROUND: url(/module/image/legacy/l_info.gif) #e8e8ff no-repeat 6px center; FONT-SIZE: 0.85em; BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid; PADDING-TOP: 0.5em
+}
+DIV#tpl_scroller_wrapper {
+	POSITION: relative; TEXT-ALIGN: center; HEIGHT: 16px; VISIBILITY: hidden; OVERFLOW: hidden
+}
+DIV#tpl_scroller {
+	POSITION: absolute; WIDTH: 100%; FONT-FAMILY: arial; COLOR: #f90; FONT-SIZE: 12px; TOP: 0px; LEFT: 0px
+}
+DIV#tpl_info_top {
+	POSITION: relative; TEXT-ALIGN: center; HEIGHT: 16px; VISIBILITY: hidden; OVERFLOW: hidden
+}
+.tpl_info_top_list {
+	POSITION: absolute; WIDTH: 100%; FONT-FAMILY: arial; COLOR: #f90; FONT-SIZE: 12px; TOP: 0px; LEFT: 0px
+}
+#tpl_scroller_articles {
+	FILTER: progid:DXImageTransform.Microsoft.gradient(startColorStr='#f0f0f0', EndColorStr='#cccccc'); -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px
+}
+.tpl_scroller_article {
+	
+}
+A.send_mail {
+	PADDING-BOTTOM: 1px; PADDING-LEFT: 20px; PADDING-RIGHT: 0px; BACKGROUND: url(/module/image/legacy/mail_replay.gif) no-repeat; PADDING-TOP: 1px
+}
+.bulle {
+	Z-INDEX: 1; BORDER-BOTTOM: black 1px solid; POSITION: absolute; TEXT-ALIGN: center; BORDER-LEFT: black 1px solid; PADDING-BOTTOM: 2px; BACKGROUND-COLOR: #f4f49c; MARGIN: 2px; PADDING-LEFT: 2px; WIDTH: 35px; PADDING-RIGHT: 2px; DISPLAY: none; FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 8pt; BORDER-TOP: black 1px solid; CURSOR: pointer; BORDER-RIGHT: black 1px solid; PADDING-TOP: 2px
+}
+.bulle2 {
+	Z-INDEX: 1; BORDER-BOTTOM: black 1px solid; POSITION: absolute; TEXT-ALIGN: center; BORDER-LEFT: black 1px solid; PADDING-BOTTOM: 2px; BACKGROUND-COLOR: #f4f49c; MARGIN: 2px; PADDING-LEFT: 2px; WIDTH: 110px; PADDING-RIGHT: 2px; DISPLAY: none; FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 8pt; BORDER-TOP: black 1px solid; CURSOR: pointer; BORDER-RIGHT: black 1px solid; PADDING-TOP: 2px
+}
+#tabsF {
+	BORDER-BOTTOM: #666 0px solid; LINE-HEIGHT: normal; BORDER-RIGHT-WIDTH: 0px; WIDTH: 100%; BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+.tabsF {
+	BORDER-BOTTOM: #666 0px solid; LINE-HEIGHT: normal; BORDER-RIGHT-WIDTH: 0px; WIDTH: 100%; BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+#tabsF UL {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 20px; PADDING-RIGHT: 10px; PADDING-TOP: 0px
+}
+.tabsF UL {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 20px; PADDING-RIGHT: 10px; PADDING-TOP: 0px
+}
+#tabsF LI {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-TOP: 0px
+}
+.tabsF LI {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-TOP: 0px
+}
+#tabsF A {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 4px; PADDING-RIGHT: 0px; BACKGROUND: url(/module/image/skin/blue/tableftF.gif) no-repeat left top; FLOAT: left; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+.tabsF A {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 4px; PADDING-RIGHT: 0px; BACKGROUND: url(/module/image/skin/blue/tableftF.gif) no-repeat left top; FLOAT: left; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+#tabsF A SPAN.menu_tab {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 6px; PADDING-RIGHT: 15px; DISPLAY: block; BACKGROUND: url(/module/image/skin/blue/tabrightF.gif) no-repeat right top; FLOAT: left; COLOR: gray; FONT-WEIGHT: bold; PADDING-TOP: 5px
+}
+.tabsF A SPAN.menu_tab {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 6px; PADDING-RIGHT: 15px; DISPLAY: block; BACKGROUND: url(/module/image/skin/blue/tabrightF.gif) no-repeat right top; FLOAT: left; COLOR: gray; FONT-WEIGHT: bold; PADDING-TOP: 5px
+}
+#tabsF A SPAN.menu_tab {
+	FLOAT: none
+}
+.tabsF A SPAN.menu_tab {
+	FLOAT: none
+}
+#tabsF A:hover {
+	POSITION: relative; BACKGROUND-POSITION: 0% -42px
+}
+.tabsF A:hover {
+	POSITION: relative; BACKGROUND-POSITION: 0% -42px
+}
+#tabsF A:hover SPAN.menu_tab {
+	POSITION: relative; BACKGROUND-POSITION: 100% -42px; COLOR: black
+}
+.tabsF A:hover SPAN.menu_tab {
+	POSITION: relative; BACKGROUND-POSITION: 100% -42px; COLOR: black
+}
+#tabsF .current A {
+	BACKGROUND-POSITION: 0% -42px
+}
+.tabsF .current A {
+	BACKGROUND-POSITION: 0% -42px
+}
+#tabsF .current A SPAN.menu_tab {
+	BACKGROUND-POSITION: 100% -42px; COLOR: black
+}
+.tabsF .current A SPAN.menu_tab {
+	BACKGROUND-POSITION: 100% -42px; COLOR: black
+}
+DIV#version_block {
+	BORDER-BOTTOM: #a9a9a9 2px solid; BORDER-LEFT: #a9a9a9 0px solid; PADDING-BOTTOM: 6px; MARGIN: 0px 0px 0.8em; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; BACKGROUND: #ffffbb; COLOR: black; BORDER-TOP: #a9a9a9 2px solid; BORDER-RIGHT: #a9a9a9 0px solid; PADDING-TOP: 6px
+}
+DIV#version_expand {
+	HEIGHT: 100%; OVERFLOW: auto
+}
+DIV#version_project {
+	WIDTH: 41%; BACKGROUND: url(/module/image/legacy/status_activated.png) #ffffbb no-repeat 12px center; FLOAT: left; FONT-SIZE: 1.2em; FONT-WEIGHT: bold
+}
+DIV#version_remain {
+	TEXT-ALIGN: right; LINE-HEIGHT: 1.5em; FONT-STYLE: italic; WIDTH: 41%; FLOAT: right
+}
+DIV#version_detail {
+	TEXT-ALIGN: center; LINE-HEIGHT: 1.5em; WIDTH: 10%; DISPLAY: block; FLOAT: left; COLOR: blue; TEXT-DECORATION: underline
+}
+DIV#version_project {
+	PADDING-LEFT: 40px
+}
+DIV#version_content {
+	PADDING-LEFT: 40px
+}
+DIV#version_content {
+	DISPLAY: none; PADDING-TOP: 1em
+}
+DIV#version_content A {
+	COLOR: blue; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+DIV#version_content TABLE {
+	COLOR: black
+}
+DIV#version_content TABLE TH {
+	FONT-WEIGHT: bold
+}
+TABLE#version_user {
+	MARGIN: 1em auto auto
+}
+TABLE#version_user TD {
+	TEXT-ALIGN: center; PADDING-LEFT: 1em; PADDING-RIGHT: 1em; FONT-WEIGHT: bold
+}
+A#version_guide {
+	PADDING-BOTTOM: 2px; LINE-HEIGHT: 1.5em; PADDING-LEFT: 20px; PADDING-RIGHT: 0px; BACKGROUND: url(/module/image/legacy/pdf.gif) no-repeat left center; PADDING-TOP: 2px
+}
+A#version_it_project {
+	PADDING-BOTTOM: 2px; LINE-HEIGHT: 1.5em; PADDING-LEFT: 20px; PADDING-RIGHT: 0px; BACKGROUND: url(/module/image/legacy/pdf.gif) no-repeat left center; PADDING-TOP: 2px
+}
+A#version_guide {
+	BACKGROUND-IMAGE: url(/module/image/legacy/pdf.gif)
+}
+A#version_it_project {
+	BACKGROUND: url(/module/image/legacy/b_view.png) no-repeat 2px center
+}
+A.version_button_view {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 20px; PADDING-RIGHT: 0px; BACKGROUND: url(/module/image/legacy/b_view.png) no-repeat 2px center; PADDING-TOP: 2px
+}
+DIV#version_data {
+	MARGIN-BOTTOM: 1em
+}
+A.staff_link {
+	PADDING-LEFT: 18px; WHITE-SPACE: nowrap; BACKGROUND: url(/module/image/legacy/b_usrlist.png) no-repeat left top
+}
+.people {
+	PADDING-LEFT: 18px; WHITE-SPACE: nowrap; BACKGROUND: url(/module/image/legacy/b_usrlist.png) no-repeat left top
+}
+.DatePicker {
+	PADDING-BOTTOM: 2px !important; PADDING-LEFT: 4px !important; PADDING-RIGHT: 2px !important; BACKGROUND: url(/module/image/shadowless/calendar-blue.png) no-repeat right top; PADDING-TOP: 2px !important
+}
+.tpl_box_init_container {
+	BORDER-BOTTOM: silver 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: white; MARGIN-TOP: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; PADDING-TOP: 0px; border-radius: 8px 8px 0 0
+}
+.tpl_box_init_title {
+	PADDING-BOTTOM: 5px; MARGIN: 0px; WIDTH: 100%; BACKGROUND: url(/module/image/skin/blue/top-bottom-80px.png) repeat-x left center; COLOR: darkblue; FONT-SIZE: 12pt; FONT-WEIGHT: bold; PADDING-TOP: 5px; border-radius: 8px 8px 0 0
+}
+.tpl_box_lightgrey {
+	BACKGROUND-COLOR: #f2f6ff
+}
+.tpl_box_white {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; COLOR: black; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+.tpl_box_container_criteria {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 8px; BACKGROUND-COLOR: #e9eeee; MARGIN: 0px; WIDTH: 100%; BORDER-TOP: medium none; FONT-WEIGHT: normal; BORDER-RIGHT: medium none; PADDING-TOP: 10px; -moz-border-bottom-colors: none; -moz-border-image: none; -moz-border-left-colors: none; -moz-border-right-colors: none; -moz-border-top-colors: none
+}
+.tpl_box_container_result {
+	BORDER-BOTTOM: medium none; MIN-WIDTH: 900px; BORDER-LEFT: medium none; PADDING-BOTTOM: 5px; MIN-HEIGHT: 520px; WIDTH: 95%; MARGIN-BOTTOM: 10px; BORDER-TOP: medium none; MARGIN-RIGHT: 5px; BORDER-RIGHT: medium none; PADDING-TOP: 10px
+}
+.tpl_content_list {
+	WIDTH: 100%; FLOAT: left
+}
+.tpl_tab_list_main {
+	BORDER-BOTTOM: #8cacd8 1px solid; BORDER-LEFT: #8cacd8 1px solid; BACKGROUND-COLOR: white; MARGIN: 0px; WIDTH: 100%; BORDER-COLLAPSE: separate !important; BORDER-TOP: #8cacd8 1px solid; BORDER-RIGHT: #8cacd8 1px solid
+}
+.tpl_tab_list_main .tpl_tr_title {
+	BACKGROUND: url(/module/image/skin/blue/top-bottom-80px.png) repeat-x left center; HEIGHT: 2.5em
+}
+.tpl_tab_list_main TR {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.tpl_tab_list_main .corner {
+	BORDER-LEFT: medium none
+}
+.tpl_tab_list_main TH {
+	BORDER-BOTTOM: 1px solid; TEXT-ALIGN: center; BORDER-LEFT: 1px solid; COLOR: gray; BORDER-TOP: medium none; BORDER-RIGHT: medium none; -moz-border-bottom-colors: none; -moz-border-image: none; -moz-border-left-colors: none; -moz-border-right-colors: none; -moz-border-top-colors: none
+}
+.tpl_tab_list_main TD {
+	PADDING-LEFT: 5px
+}
+.tpl_tab_list_main A {
+	COLOR: black
+}
+.tpl_tab_list_main TR.odd TD {
+	BORDER-BOTTOM: #ffffff 1px solid; BACKGROUND: #ffffff 0px 50%; BORDER-TOP: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid
+}
+.tpl_tab_list_main TR.even TD {
+	BORDER-BOTTOM: #e8f0ff 1px solid; BACKGROUND: #edf3fe 0px 50%; BORDER-TOP: #e8f0ff 1px solid; BORDER-RIGHT: #e8f0ff 1px solid
+}
+.tpl_tab_list_main UL.tpl_li_arrow LI {
+	PADDING-BOTTOM: 1px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 20px; PADDING-RIGHT: 0px; BACKGROUND: url(/module/image/general/page_next.png) no-repeat 0px 0px; PADDING-TOP: 1px
+}
+TR.tpl_line_color_0 {
+	BACKGROUND-COLOR: white
+}
+TR.tpl_tr_selected TD {
+	BACKGROUND-COLOR: #d4ddee
+}
+LI.tpl_tr_selected {
+	BACKGROUND-COLOR: #d4ddee
+}
+.tpl_fieldset {
+	PADDING-BOTTOM: 3px; MARGIN: 3px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; BORDER-TOP: #000088 1px solid; PADDING-TOP: 3px
+}
+.tpl_legend {
+	PADDING-BOTTOM: 0px; MARGIN: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; COLOR: #000088; FONT-SIZE: 14px; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+.tpl_search_criteria {
+	BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px; WIDTH: 100%; BORDER-COLLAPSE: separate !important; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+.tpl_search_criteria TR {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.tpl_search_criteria TH {
+	TEXT-ALIGN: right; COLOR: #666
+}
+.tpl_search_criteria TD {
+	PADDING-LEFT: 5px
+}
+.tpl_input_wide {
+	BORDER-BOTTOM: #81a6d0 1px solid; BORDER-LEFT: #81a6d0 1px solid; PADDING-BOTTOM: 2px; BACKGROUND-COLOR: #d5e8eb; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; VERTICAL-ALIGN: middle; BORDER-TOP: #81a6d0 1px solid; BORDER-RIGHT: #81a6d0 1px solid; PADDING-TOP: 2px
+}
+.tpl_input_half_wide {
+	BORDER-BOTTOM: #81a6d0 1px solid; BORDER-LEFT: #81a6d0 1px solid; PADDING-BOTTOM: 2px; BACKGROUND-COLOR: #d5e8eb; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; VERTICAL-ALIGN: middle; BORDER-TOP: #81a6d0 1px solid; BORDER-RIGHT: #81a6d0 1px solid; PADDING-TOP: 2px
+}
+.tpl_input_quarter_wide {
+	BORDER-BOTTOM: #81a6d0 1px solid; BORDER-LEFT: #81a6d0 1px solid; PADDING-BOTTOM: 2px; BACKGROUND-COLOR: #d5e8eb; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; VERTICAL-ALIGN: middle; BORDER-TOP: #81a6d0 1px solid; BORDER-RIGHT: #81a6d0 1px solid; PADDING-TOP: 2px
+}
+.tpl_input_type {
+	BORDER-BOTTOM: #81a6d0 1px solid; BORDER-LEFT: #81a6d0 1px solid; PADDING-BOTTOM: 2px; BACKGROUND-COLOR: #d5e8eb; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; VERTICAL-ALIGN: middle; BORDER-TOP: #81a6d0 1px solid; BORDER-RIGHT: #81a6d0 1px solid; PADDING-TOP: 2px
+}
+.tpl_input_active {
+	BACKGROUND-COLOR: #e6f9fd
+}
+.tpl_input_wide:focus {
+	BACKGROUND-COLOR: #e6f9fd
+}
+.tpl_input_half_wide:focus {
+	BACKGROUND-COLOR: #e6f9fd
+}
+.tpl_input_quarter_wide:focus {
+	BACKGROUND-COLOR: #e6f9fd
+}
+.tpl_input_type:focus {
+	BACKGROUND-COLOR: #e6f9fd
+}
+.tpl_input_wide OPTION {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; PADDING-TOP: 0px
+}
+.tpl_input_half_wide OPTION {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; PADDING-TOP: 0px
+}
+.tpl_input_quarter_wide OPTION {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; PADDING-TOP: 0px
+}
+.tpl_input_type OPTION {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; PADDING-TOP: 0px
+}
+.tpl_input_wide {
+	DISPLAY: block
+}
+.tpl_input_half_wide {
+	DISPLAY: block
+}
+.tpl_input_quarter_wide {
+	DISPLAY: block
+}
+.tpl_input_wide {
+	WIDTH: 98% !important; _width: 96%
+}
+.tpl_input_half_wide {
+	WIDTH: 50% !important
+}
+.tpl_input_quarter_wide {
+	WIDTH: 25% !important
+}
+LABEL.tpl_chained_label {
+	MARGIN: 0px 0.6em 0px 0px; WIDTH: 60px; WHITE-SPACE: nowrap; FLOAT: left
+}
+LABEL.tpl_chained_label INPUT {
+	MARGIN: 0px 0.3em 0px 0px; VERTICAL-ALIGN: top
+}
+.tpl_skin_purple #tabsF A {
+	BACKGROUND-IMAGE: url(/module/image/skin/purple/tableftF.gif)
+}
+.tpl_skin_purple .tabsF A {
+	BACKGROUND-IMAGE: url(/module/image/skin/purple/tableftF.gif)
+}
+.tpl_skin_purple #tabsF A SPAN.menu_tab {
+	BACKGROUND-IMAGE: url(/module/image/skin/purple/tabrightF.gif)
+}
+.tpl_skin_purple .tabsF A SPAN.menu_tab {
+	BACKGROUND-IMAGE: url(/module/image/skin/purple/tabrightF.gif)
+}
+.tpl_skin_purple .tpl_box_init_title {
+	BACKGROUND-IMAGE: url(/module/image/skin/purple/top-bottom-80px.png)
+}
+.tpl_skin_purple .tpl_tab_list_main .tpl_tr_title {
+	BACKGROUND-IMAGE: url(/module/image/skin/purple/top-bottom-80px.png)
+}

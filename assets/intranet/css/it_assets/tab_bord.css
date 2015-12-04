@@ -1,0 +1,28 @@
+#tab_bord
+{
+	margin:10px;
+	border:1px solid black;
+	border-radius:10px 10px 0px 0px;
+	background-color:#2F4B7F;
+}
+
+#tab_bord th
+{	
+	background-color:#2F4B7F;
+	color:white;
+	padding:5px;
+}
+
+#tab_bord td
+{	
+	background-color:#fff;
+	padding:5px;
+}
+
+#tab_bord thead th
+{
+	border:none;
+	color:white;
+	border-radius:10px 10px 0px 0px;
+}
+

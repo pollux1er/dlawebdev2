@@ -1,0 +1,84 @@
+input.action_ 
+{
+	background-color: transparent;
+	color: black;
+	cursor: pointer;
+	padding: 0px;
+	margin: 0px;
+	width: 75px;
+	text-align: right;
+}
+
+.action_  
+{ 
+	line-height: 20px;
+	
+	display: inline-block;
+	height: 20px;
+	border: 0px;
+	padding: 0px 5px 0 18px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #000;
+	width: auto;
+	text-decoration: underline;
+}
+
+.filtre
+{
+	background: url(./assets/images/Loupe.png) no-repeat left center;
+}
+
+.excel
+{
+	background: url(./assets/images/Excel.png) no-repeat left center;
+}
+
+input.excel
+{
+	width:70px;
+}
+
+#div_spl
+{
+	position:absolute;
+	background-color:rgba(255, 255, 255, 0.9);
+	border:2px solid gray;
+	
+}
+
+.l_selected
+{
+	background-color: #3a67ad;
+	color: white;
+}
+
+.l_selected td
+{
+	border-top: 1px solid #8CaCD8 !impotant;
+	border-bottom: 1px solid #8CaCD8 !impotant;
+}
+
+#show_my_req ul li
+{
+	height:25px;
+	list-style: none outside none;
+		list-style-type: none;
+		list-style-image: none;
+		list-style-position: outside;
+	padding-left: 20px;
+	padding-top: 10px;
+	margin-left: 0px !important;
+		margin-left-value: 0px;
+		margin-left-ltr-source: physical;
+		margin-left-rtl-source: physical;
+	cursor: pointer;
+}
+
+#show_my_req ul li:hover
+{
+	text-decoration: none;
+	background: #5C8B5B;
+	color: white !important;	
+	display: block;
+}

@@ -1,0 +1,15 @@
+#top_site {
+	display: none; visibility: hidden;
+}
+#top_menu {
+	display: none; visibility: hidden;
+}
+#MyScroll {
+	display: none; visibility: hidden;
+}
+#left_menu {
+	display: none; visibility: hidden;
+}
+#body {
+	width: 99%;
+}

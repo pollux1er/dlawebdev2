@@ -1,0 +1,46 @@
+
+.sprites_equipment {
+   background: url('/module/image/equipments/sprites-equipments.png') no-repeat top left;
+ }
+
+.sprite-eqp-access_point_16{ background-position: 0 0; width: 16px; height: 16px; } 
+.sprite-eqp-card_16{ background-position: 0 -66px; width: 16px; height: 16px; } 
+.sprite-eqp-chip_16{ background-position: 0 -132px; width: 16px; height: 16px; } 
+.sprite-eqp-cmd_web_ping{ background-position: 0 -198px; width: 16px; height: 16px; } 
+.sprite-eqp-computer_network_16{ background-position: 0 -264px; width: 16px; height: 16px; } 
+.sprite-eqp-connect_to_network{ background-position: 0 -330px; width: 16px; height: 16px; } 
+.sprite-eqp-firewall_16{ background-position: 0 -396px; width: 16px; height: 16px; } 
+.sprite-eqp-hub_16{ background-position: 0 -462px; width: 16px; height: 16px; } 
+.sprite-eqp-interfaces_16{ background-position: 0 -528px; width: 16px; height: 16px; } 
+.sprite-eqp-local_vrf_16{ background-position: 0 -594px; width: 16px; height: 16px; } 
+.sprite-eqp-modem_16{ background-position: 0 -660px; width: 16px; height: 16px; } 
+.sprite-eqp-network_16{ background-position: 0 -726px; width: 16px; height: 16px; } 
+.sprite-eqp-network_element_18{ background-position: 0 -792px; width: 18px; height: 18px; } 
+.sprite-eqp-network_eqp_16{ background-position: 0 -860px; width: 16px; height: 16px; } 
+.sprite-eqp-network_pmp_16{ background-position: 0 -926px; width: 16px; height: 16px; } 
+.sprite-eqp-network_ptp_16{ background-position: 0 -992px; width: 18px; height: 18px; } 
+.sprite-eqp-network_receive_16{ background-position: 0 -1060px; width: 16px; height: 16px; } 
+.sprite-eqp-network_servers_16{ background-position: 0 -1126px; width: 16px; height: 16px; } 
+.sprite-eqp-networkclouds_16{ background-position: 0 -1192px; width: 16px; height: 16px; } 
+.sprite-eqp-networkethernet_16{ background-position: 0 -1258px; width: 16px; height: 16px; } 
+.sprite-eqp-networkfirewall_16{ background-position: 0 -1324px; width: 16px; height: 16px; } 
+.sprite-eqp-networkhub_16{ background-position: 0 -1390px; width: 16px; height: 16px; } 
+.sprite-eqp-os_cisco_16{ background-position: 0 -1456px; width: 16px; height: 16px; } 
+.sprite-eqp-os_hirschmann_16{ background-position: 0 -1522px; width: 16px; height: 16px; } 
+.sprite-eqp-os_juniper_16{ background-position: 0 -1588px; width: 16px; height: 16px; } 
+.sprite-eqp-os_linux_16{ background-position: 0 -1654px; width: 16px; height: 16px; } 
+.sprite-eqp-os_unix_16{ background-position: 0 -1720px; width: 16px; height: 16px; } 
+.sprite-eqp-os_windows_16{ background-position: 0 -1786px; width: 16px; height: 16px; } 
+.sprite-eqp-pabx_16{ background-position: 0 -1852px; width: 16px; height: 16px; } 
+.sprite-eqp-riverbed_16{ background-position: 0 -1918px; width: 16px; height: 16px; } 
+.sprite-eqp-router_16{ background-position: -68px 0; width: 16px; height: 16px; } 
+.sprite-eqp-satellite_16{ background-position: -68px -66px; width: 16px; height: 16px; } 
+.sprite-eqp-server_16{ background-position: -68px -132px; width: 16px; height: 16px; } 
+.sprite-eqp-server_original_16{ background-position: -68px -198px; width: 16px; height: 16px; } 
+.sprite-eqp-server_plat_16{ background-position: -68px -264px; width: 16px; height: 16px; } 
+.sprite-eqp-subnet_16{ background-position: -68px -330px; width: 16px; height: 16px; } 
+.sprite-eqp-switch_16{ background-position: -68px -396px; width: 16px; height: 16px; } 
+.sprite-eqp-terminal_16{ background-position: -68px -462px; width: 16px; height: 16px; } 
+.sprite-eqp-virtual_router_18{ background-position: -68px -528px; width: 18px; height: 18px; } 
+.sprite-eqp-vmware_16{ background-position: -68px -596px; width: 16px; height: 16px; } 
+.sprite-eqp-vpn_18{ background-position: -68px -662px; width: 18px; height: 18px; } 

@@ -1,0 +1,78 @@
+.left_menu {
+	BORDER-BOTTOM: #999 1px solid; BORDER-LEFT: #999 1px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: 18px; MARGIN: 0px 0px 0px 10px; PADDING-LEFT: 0px; WIDTH: 150px; PADDING-RIGHT: 0px; FONT-FAMILY: trebuchet, helvetica, arial, sans-serif; VISIBILITY: visible; COLOR: #fff; FONT-SIZE: 11px; OVERFLOW: visible; BORDER-TOP: #999 1px solid; BORDER-RIGHT: #999 1px solid; PADDING-TOP: 0px
+}
+.deposit {
+	BORDER-BOTTOM: #999 1px solid; BORDER-LEFT: #999 1px solid; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: white; BORDER-TOP: #999 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #999 1px solid; PADDING-TOP: 0px
+}
+.left_menu LI {
+	BORDER-BOTTOM: #999 1px solid; TEXT-ALIGN: left; BORDER-LEFT: #999 1px solid; LIST-STYLE-TYPE: none; MARGIN: -1px; BORDER-TOP: #999 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #999 1px solid; TEXT-DECORATION: none
+}
+.left_menu LI A {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 10px; WIDTH: 140px; PADDING-RIGHT: 0px; DISPLAY: block; CURSOR: pointer; FONT-WEIGHT: bold; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+.left_menu H3 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 10px; WIDTH: 140px; PADDING-RIGHT: 0px; DISPLAY: block; CURSOR: pointer; FONT-WEIGHT: bold; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+.leftmenuspan {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 10px; WIDTH: 140px; PADDING-RIGHT: 0px; DISPLAY: block; CURSOR: pointer; FONT-WEIGHT: bold; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+.leftmenuspan {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+* HTML .left_menu LI A {
+	WIDTH: 150px
+}
+* HTML .left_menu H3 {
+	WIDTH: 150px
+}
+.left_menu LI A:hover {
+	BACKGROUND: #fff; COLOR: #036
+}
+.left_menu .level1 {
+	BACKGROUND: #369
+}
+.left_menu H3 {
+	BACKGROUND: #369
+}
+.left_menu .level2 {
+	BACKGROUND: #69c
+}
+.left_menu .level3 {
+	TEXT-INDENT: 0px; PADDING-LEFT: 20px; WIDTH: 130px; BACKGROUND: #9cf
+}
+* HTML .left_menu .level3 {
+	WIDTH: 150px
+}
+.left_menu H3 {
+	CURSOR: default
+}
+.left_menu LI.level1selected {
+	BACKGROUND: #f50
+}
+.left_menu A.level1selected {
+	BACKGROUND: #f50
+}
+.left_menu LI.level2selected {
+	BACKGROUND: #f50
+}
+.left_menu A.level2selected {
+	BACKGROUND: #f50
+}
+.left_menu LI.level2selected {
+	BACKGROUND: #f90
+}
+.left_menu A.level2selected {
+	BACKGROUND: #f90
+}
+.left_menu LI.level3selected {
+	LIST-STYLE-TYPE: disc; PADDING-LEFT: 15px; WIDTH: 150px; BACKGROUND: #fb0
+}
+.left_menu A.level3selected {
+	LIST-STYLE-TYPE: disc; PADDING-LEFT: 15px; WIDTH: 150px; BACKGROUND: #fb0
+}
+.left_menu A.img_news {
+	BACKGROUND-IMAGE: url(/module/image/legacy/new.gif); BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right center
+}
+.left_menu A.left_news {
+	BACKGROUND-IMAGE: url(/module/image/shadowless/new-text.png); BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 95% 50%
+}

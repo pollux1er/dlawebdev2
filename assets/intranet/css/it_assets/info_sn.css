@@ -1,0 +1,20 @@
+#info_sn
+{
+	display:none;
+	position:absolute;  
+	border-radius:0px 10px 10px 10px; 
+	z-index:1; 
+	padding:10px;
+	-moz-box-shadow: 10px 10px 10px 1px #656565;
+	-webkit-box-shadow: 10px 10px 10px 1px #656565;
+	-o-box-shadow: 10px 10px 10px 1px #656565;
+	box-shadow: 10px 10px 10px 1px #656565;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=10);
+}
+
+#info_sn td
+{
+	padding-top:5px;
+	padding-left:10px; 
+	padding-right:10px;
+}

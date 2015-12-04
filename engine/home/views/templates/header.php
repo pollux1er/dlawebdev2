@@ -5,33 +5,34 @@
 		<base href="<?php echo base_url(); ?>" target="_blank">
 		<meta http-equiv="X-UA-Compatible"  content="IE=9;" />
 		<meta name="GENERATOR" content="MSHTML 9.00.8112.16443" />
-		<link rel="shortcut icon" type="image/ico" href="http://dlawebprd2.cm.perenco.com/assets/intranet/images/perenco1/favicon.ico" />
+		<link rel="shortcut icon" type="image/ico" href="http://localhost/dlawebdev2/assets/intranet/images/perenco1/favicon.ico" />
 	
-		<link rel="stylesheet" type="text/css" media="screen" href="http://dlawebprd2.cm.perenco.com/assets/intranet/css/intranet/alert_late.css" />
-		<link rel="stylesheet" type="text/css" media="screen" href="http://dlawebprd2.cm.perenco.com/assets/intranet/css/it_assets/style (2).css" />
-		<link rel="stylesheet" type="text/css" media="screen" href="http://dlawebprd2.cm.perenco.com/assets/intranet/css/List/top_menu.css" />
-		<link rel="stylesheet" type="text/css" media="screen" href="http://dlawebprd2.cm.perenco.com/assets/intranet/css/List/left_menu.css" />
-		<link rel="stylesheet" type="text/css" media="screen" href="http://dlawebprd2.cm.perenco.com/assets/intranet/css/List/main.css" />
-		<link rel="stylesheet" type="text/css" media="screen" href="http://dlawebprd2.cm.perenco.com/assets/intranet/css/List/datepicker.css" />
-		<link rel="stylesheet" type="text/css" media="screen" href="http://dlawebprd2.cm.perenco.com/assets/intranet/css/Perenco2/generic.css" />
-		<link rel="stylesheet" type="text/css" media="screen" href="http://dlawebprd2.cm.perenco.com/assets/intranet/css/perenco2/print.css" />
-		<link rel="stylesheet" type="text/css" media="screen" href="http://dlawebprd2.cm.perenco.com/assets/intranet/css/List/style.css" />
-		<link rel="stylesheet" type="text/css" media="screen" href="http://dlawebprd2.cm.perenco.com/assets/intranet/css/List/style_002.css" />
-		<link rel="stylesheet" type="text/css" media="screen" href="http://dlawebprd2.cm.perenco.com/assets/intranet/css/it_assets/message.css" />
-		<link rel="stylesheet" type="text/css" media="screen" href="http://dlawebprd2.cm.perenco.com/assets/intranet/css/jquery.datepick.css" />
-		<link rel="stylesheet" type="text/css" href="http://dlawebprd2.cm.perenco.com/assets/intranet/css/perenco_intranet/print.css" media="print">
+		<link rel="stylesheet" type="text/css" media="screen" href="http://localhost/dlawebdev2/assets/intranet/css/intranet/alert_late.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="http://localhost/dlawebdev2/assets/intranet/css/it_assets/style (2).css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="http://localhost/dlawebdev2/assets/intranet/css/List/top_menu.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="http://localhost/dlawebdev2/assets/intranet/css/List/left_menu.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="http://localhost/dlawebdev2/assets/intranet/css/List/main.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="http://localhost/dlawebdev2/assets/intranet/css/List/datepicker.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="http://localhost/dlawebdev2/assets/intranet/css/Perenco2/generic.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="http://localhost/dlawebdev2/assets/intranet/css/perenco2/print.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="http://localhost/dlawebdev2/assets/intranet/css/List/style.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="http://localhost/dlawebdev2/assets/intranet/css/List/style_002.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="http://localhost/dlawebdev2/assets/intranet/css/it_assets/message.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="http://localhost/dlawebdev2/assets/intranet/css/jquery.datepick.css" />
+		<link rel="stylesheet" type="text/css" href="http://localhost/dlawebdev2/assets/intranet/css/perenco_intranet/print.css" media="print">
 		<link type="text/css" rel="stylesheet" href="http://localhost/dlawebdev2/assets/portail/css/lightslider.css" />
+		<link type="text/css" rel="stylesheet" href="http://localhost/dlawebdev2/assets/common/css/menu.css" />
 		
-		<script src="http://dlawebprd2.cm.perenco.com/assets/intranet/javascript/jquery/jquery.js" type="text/javascript"></script>
-		<script src="http://dlawebprd2.cm.perenco.com/assets/intranet/javascript/jquery.form.js" type="text/javascript"></script>
-		<!--<script src="http://dlawebprd2.cm.perenco.com/assets/intranet/javascript/jquery-1.3.2.min.js" type="text/javascript"></script>
+		<script src="http://localhost/dlawebdev2/assets/intranet/javascript/jquery/jquery.js" type="text/javascript"></script>
+		<script src="http://localhost/dlawebdev2/assets/intranet/javascript/jquery.form.js" type="text/javascript"></script>
+		<!--<script src="http://localhost/dlawebdev2/assets/intranet/javascript/jquery-1.3.2.min.js" type="text/javascript"></script>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>-->
 		<script src="http://localhost/dlawebdev2/assets/portail/js/jquery.min.js"></script>
-		<script type="text/javascript" src="http://dlawebprd2.cm.perenco.com/assets/intranet/javascript/xhr_test.js"></script>
-		<script type="text/javascript" src="http://dlawebprd2.cm.perenco.com/assets/intranet/javascript/it_assets/pagination.js"></script>
-		<script type="text/javascript" src="http://dlawebprd2.cm.perenco.com/assets/intranet/javascript/it_assets/cut_space.js"></script>
-		<script type="text/javascript" src="http://dlawebprd2.cm.perenco.com/assets/portail/js/jssor.js"></script>
-		<script type="text/javascript" src="http://dlawebprd2.cm.perenco.com/assets/portail/js/jssor.slider.js"></script>
+		<script type="text/javascript" src="http://localhost/dlawebdev2/assets/intranet/javascript/xhr_test.js"></script>
+		<script type="text/javascript" src="http://localhost/dlawebdev2/assets/intranet/javascript/it_assets/pagination.js"></script>
+		<script type="text/javascript" src="http://localhost/dlawebdev2/assets/intranet/javascript/it_assets/cut_space.js"></script>
+		<script type="text/javascript" src="http://localhost/dlawebdev2/assets/portail/js/jssor.js"></script>
+		<script type="text/javascript" src="http://localhost/dlawebdev2/assets/portail/js/jssor.slider.js"></script>
 		<script type="text/javascript" src="http://localhost/dlawebdev2/assets/portail/js/lightslider.js"></script>
 		<style type="text/css">
 		<!--

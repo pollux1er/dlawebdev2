@@ -1,0 +1,202 @@
+
+.img-link {
+	
+	color:blue;	 
+	font-weight:normal;
+	padding:2px;
+	padding-left:20px; 
+	overflow:hidden; 
+		
+}
+
+.img-icon {
+
+	font-weight:normal;
+	padding:2px;
+	padding-left:20px; 
+	overflow:hidden; 
+}
+
+.img_eqp_type_generic
+{
+	background:url('/module/image/equipments/network_receive_16.png') center left no-repeat; 				
+}
+
+.img_page_link
+{
+	background:url('/module/image/shadowless/shortcut-small.png') center left no-repeat; 				
+}
+
+
+ .img_eqp_type_11 
+				{ 
+					background:url('/module/image/equipments/access_point_16.png') center left no-repeat; 
+				 }
+ .img_eqp_type_15 
+				{ 
+					background:url('/module/image/equipments/tape_16.png') center left no-repeat; 
+				 }
+ .img_eqp_type_16 
+				{ 
+					background:url('/module/image/equipments/webcam_16.png') center left no-repeat; 
+				 }
+ .img_eqp_type_5 
+				{ 
+					background:url('/module/image/equipments/firewall_brick_16.png') center left no-repeat; 
+				 }
+ .img_eqp_type_6 
+				{ 
+					background:url('/module/image/equipments/modem_16.png') center left no-repeat; 
+				 }
+ .img_eqp_type_14 
+				{ 
+					background:url('/module/image/equipments/na_16.png') center left no-repeat; 
+				 }
+ .img_eqp_type_7 
+				{ 
+					background:url('/module/image/equipments/pabx_16.png') center left no-repeat; 
+				 }
+ .img_eqp_type_18 
+				{ 
+					background:url('/module/image/general/gears_double_silver_16.png') center left no-repeat; 
+				 }
+ .img_eqp_type_9 
+				{ 
+					background:url('/module/image/equipments/pmp_16.png') center left no-repeat; 
+				 }
+ .img_eqp_type_13 
+				{ 
+					background:url('/module/image/equipments/printer_16.png') center left no-repeat; 
+				 }
+ .img_eqp_type_10 
+				{ 
+					background:url('/module/image/equipments/ptp_16.png') center left no-repeat; 
+				 }
+ .img_eqp_type_8 
+				{ 
+					background:url('/module/image/equipments/riverbed_16.png') center left no-repeat; 
+				 }
+ .img_eqp_type_2 
+				{ 
+					background:url('/module/image/equipments/router_16.gif') center left no-repeat; 
+				 }
+ .img_eqp_type_17 
+				{ 
+					background:url('/module/image/equipments/cloud_storage_16.png') center left no-repeat; 
+				 }
+ .img_eqp_type_3 
+				{ 
+					background:url('/module/image/equipments/server_16.png') center left no-repeat; 
+				 }
+ .img_eqp_type_1 
+				{ 
+					background:url('/module/image/equipments/switch_16.gif') center left no-repeat; 
+				 }
+ .img_eqp_type_12 
+				{ 
+					background:url('/module/image/equipments/ups_16.png') center left no-repeat; 
+				 }
+ .img_eqp_type_4 
+				{ 
+					background:url('/module/image/equipments/satellite_16.png') center left no-repeat; 
+				 }
+ .img_sub_flag_1 
+				{ 
+					background:url('/module/image/legacy/flags2/ga.png') center left no-repeat !important; 
+				 }
+ .img_sub_flag_2 
+				{ 
+					background:url('/module/image/legacy/flags2/co.png') center left no-repeat !important; 
+				 }
+ .img_sub_flag_3 
+				{ 
+					background:url('/module/image/legacy/flags2/cm.png') center left no-repeat !important; 
+				 }
+ .img_sub_flag_5 
+				{ 
+					background:url('/module/image/legacy/flags2/tr.png') center left no-repeat !important; 
+				 }
+ .img_sub_flag_6 
+				{ 
+					background:url('/module/image/legacy/flags2/ve.png') center left no-repeat !important; 
+				 }
+ .img_sub_flag_7 
+				{ 
+					background:url('/module/image/legacy/flags2/cd.png') center left no-repeat !important; 
+				 }
+ .img_sub_flag_8 
+				{ 
+					background:url('/module/image/legacy/flags2/cg.png') center left no-repeat !important; 
+				 }
+ .img_sub_flag_9 
+				{ 
+					background:url('/module/image/legacy/flags2/gt.png') center left no-repeat !important; 
+				 }
+ .img_sub_flag_10 
+				{ 
+					background:url('/module/image/legacy/flags2/ec.png') center left no-repeat !important; 
+				 }
+ .img_sub_flag_11 
+				{ 
+					background:url('/module/image/legacy/flags2/perenco.png') center left no-repeat !important; 
+				 }
+ .img_sub_flag_12 
+				{ 
+					background:url('/module/image/legacy/flags2/perenco.png') center left no-repeat !important; 
+				 }
+ .img_sub_flag_17 
+				{ 
+					background:url('/module/image/legacy/flags2/tn.png') center left no-repeat !important; 
+				 }
+ .img_sub_flag_18 
+				{ 
+					background:url('/module/image/legacy/flags2/gb.png') center left no-repeat !important; 
+				 }
+ .img_sub_flag_21 
+				{ 
+					background:url('/module/image/legacy/flags2/eg.png') center left no-repeat !important; 
+				 }
+ .img_sub_flag_24 
+				{ 
+					background:url('/module/image/legacy/flags2/iq.png') center left no-repeat !important; 
+				 }
+ .img_sub_flag_25 
+				{ 
+					background:url('/module/image/legacy/flags2/pe.png') center left no-repeat !important; 
+				 }
+ .img_sub_flag_26 
+				{ 
+					background:url('/module/image/legacy/flags2/br.png') center left no-repeat !important; 
+				 }
+ .img_sub_flag_27 
+				{ 
+					background:url('/module/image/legacy/flags2/bz.png') center left no-repeat !important; 
+				 }
+ .img_sub_flag_28 
+				{ 
+					background:url('/module/image/legacy/flags2/au.png') center left no-repeat !important; 
+				 }
+ .img_sub_flag_30 
+				{ 
+					background:url('/module/image/legacy/flags2/sg.png') center left no-repeat !important; 
+				 }
+ .img_sub_flag_31 
+				{ 
+					background:url('/module/image/legacy/radio_antenna.png') center left no-repeat !important; 
+				 }
+ .img_sub_flag_32 
+				{ 
+					background:url('/module/image/legacy/radio_antenna.png') center left no-repeat !important; 
+				 }
+ .img_sub_flag_33 
+				{ 
+					background:url('/module/image/legacy/parabole_16.png') center left no-repeat !important; 
+				 }
+ .img_sub_flag_36 
+				{ 
+					background:url('/module/image/legacy/radio_antenna.png') center left no-repeat !important; 
+				 }
+ .img_sub_flag_37 
+				{ 
+					background:url('/module/image/legacy/flags2/vn.png') center left no-repeat !important; 
+				 }

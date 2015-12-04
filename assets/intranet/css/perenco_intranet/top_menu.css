@@ -1,0 +1,30 @@
+#top_menu {
+	Z-INDEX: 1; POSITION: absolute; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 70%; PADDING-RIGHT: 0px; PADDING-TOP: 0px; TOP: 54px; LEFT: 160px
+}
+#top_menu .project_list {
+	Z-INDEX: 1; POSITION: absolute; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 105px; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 0px
+}
+#top_menu UL {
+	BORDER-BOTTOM: #999 1px solid; BORDER-LEFT: #999 1px solid; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: none; BORDER-TOP: #999 1px solid; BORDER-RIGHT: #999 1px solid; PADDING-TOP: 0px
+}
+#top_menu .department_name {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; TEXT-TRANSFORM: uppercase; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; WHITE-SPACE: nowrap; BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: left; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; CURSOR: pointer; PADDING-TOP: 0px
+}
+#top_menu #department_project_list {
+	CLEAR: both
+}
+#top_menu LI {
+	BORDER-BOTTOM: #999 1px solid; BORDER-LEFT: #999 1px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: 14px; LIST-STYLE-TYPE: none; MARGIN: -1px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: #369; HEIGHT: 16px; FONT-SIZE: 11px; BORDER-TOP: #999 1px solid; BORDER-RIGHT: #999 1px solid; PADDING-TOP: 0px
+}
+#top_menu LI A {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #369; TEXT-INDENT: 0px; MARGIN: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 0px; DISPLAY: block; WHITE-SPACE: nowrap; HEIGHT: 16px; COLOR: #fff; VERTICAL-ALIGN: middle; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+#top_menu .department_name A {
+	BORDER-BOTTOM-STYLE: none; TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 10px; TEXT-TRANSFORM: uppercase; TEXT-INDENT: 10px; MARGIN: -1px 0px 0px; BORDER-LEFT-STYLE: none; PADDING-LEFT: 0px; PADDING-RIGHT: 40px; DISPLAY: inline-block; BORDER-TOP-STYLE: none; FLOAT: left; HEIGHT: 15px; COLOR: #fff; BORDER-RIGHT-STYLE: none; FONT-WEIGHT: bold; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+#top_menu LI A:hover {
+	BACKGROUND: #fff; COLOR: #000; TEXT-DECORATION: none
+}
+#top_menu .department_name A:hover {
+	COLOR: #fff; TEXT-DECORATION: none
+}

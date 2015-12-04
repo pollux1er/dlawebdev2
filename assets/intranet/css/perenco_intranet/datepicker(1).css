@@ -1,0 +1,51 @@
+INPUT.DatePicker {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 4px; WIDTH: 80px; PADDING-RIGHT: 2px; BACKGROUND: url(/module/image/shadowless/calendar-blue.png) #fff no-repeat right top; FONT-SIZE: 11px; CURSOR: pointer; PADDING-TOP: 2px
+}
+INPUT.DatePicker:focus {
+	BACKGROUND: url(/module/image/shadowless/calendar-blue.png) #fffce9 no-repeat right top
+}
+.dp_container {
+	Z-INDEX: 500; POSITION: relative; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.dp_cal {
+	BORDER-BOTTOM: #0070bf 1px solid; POSITION: absolute; BORDER-LEFT: #0070bf 1px solid; BACKGROUND-COLOR: #fff; MARGIN: 0px 0px 3px; WIDTH: 177px; BORDER-TOP: #0070bf 1px solid; BORDER-RIGHT: #0070bf 1px solid; TOP: 24px; LEFT: 0px
+}
+.dp_cal TABLE {
+	BORDER-SPACING: 0; WIDTH: 100%; BORDER-COLLAPSE: collapse
+}
+.dp_cal SELECT {
+	MARGIN: 2px 3px; FONT-SIZE: 11px
+}
+.dp_cal SELECT OPTION {
+	PADDING-BOTTOM: 1px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; PADDING-TOP: 1px
+}
+.dp_cal TH {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 2px; PADDING-LEFT: 0px; WIDTH: 14.28%; PADDING-RIGHT: 0px; FONT-SIZE: 11px; PADDING-TOP: 2px
+}
+.dp_cal TD {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 2px; PADDING-LEFT: 0px; WIDTH: 14.28%; PADDING-RIGHT: 0px; FONT-SIZE: 11px; PADDING-TOP: 2px
+}
+.dp_cal TH {
+	BORDER-BOTTOM: #aad4f2 1px solid; BORDER-LEFT: #aad4f2 0px solid; BACKGROUND: #daf2e6; COLOR: #797774; BORDER-TOP: #aad4f2 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #aad4f2 0px solid
+}
+.dp_cal TD {
+	CURSOR: pointer
+}
+.dp_cal THEAD TH {
+	BACKGROUND: url(/module/image/legacy/bg_table_th.png)
+}
+.dp_cal TD.dp_roll {
+	BACKGROUND: #fff6bf
+}
+.dp_hide {
+	VISIBILITY: hidden
+}
+.dp_empty {
+	BACKGROUND: #eee
+}
+.dp_today {
+	BACKGROUND: #ccc
+}
+.dp_selected {
+	BACKGROUND: #f90; COLOR: #fff
+}

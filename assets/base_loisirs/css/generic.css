@@ -464,9 +464,10 @@ form#tpl_form_login .tpl_button_insert {
 	height: 17px;    
 	text-align: right;
 }
-.link_top_menu_IT {
-	background: url("../../../assets/base_loisirs/images/parabole_16_gray.png") no-repeat 4px 2px transparent;
-    width: 15px;
+.link_top_menu_ITA {
+	background: url("../../../assets/base_loisirs/images/pc_gray.png") no-repeat 4px 2px transparent;
+    width: 58px;
+	background-size : 18px 18px;
 }
 .link_top_menu_Reports {
 	background: url("../../../assets/base_loisirs/images/gtk_edit_gray.png") no-repeat 5px 2px transparent;
@@ -480,7 +481,10 @@ form#tpl_form_login .tpl_button_insert {
 	background: url("../../../assets/base_loisirs/images/utilities_gray.png") no-repeat 6px 2px transparent;
 	width: 46px;
 }
-
+.link_top_menu_QSHE {
+	background: url("../../../assets/base_loisirs/images/support_gray.png") no-repeat 6px 2px transparent;
+    width: 35px;
+}
 .link_top_menu_HR {
 	background: url("../../../assets/base_loisirs/images/b_usrlist_gray.png") no-repeat scroll 7px 2px transparent;
     width: 22px;
@@ -498,8 +502,20 @@ form#tpl_form_login .tpl_button_insert {
     width: 78px;
 	background-size : 16px 16px;
 }
-.link_top_menu_IT:hover {
-	background: url("../../../assets/base_loisirs/images/parabole_16.png") no-repeat 4px 2px transparent;	
+.link_top_menu_PA {
+    background: transparent url("../../../../assets/parc_auto/images/gray_car.png") no-repeat scroll 7px 2px / 20px 20px;
+    width: 68px;
+	background-size : 16px 16px;
+}
+.link_top_menu_PA:hover {
+    background: transparent url("../../../../assets/parc_auto/images/color_car.png") no-repeat scroll 7px 2px / 20px 20px;
+    width: 68px;
+	background-size : 16px 16px;
+}
+.link_top_menu_ITA:hover {
+	background: url("../../../assets/base_loisirs/images/pc.png") no-repeat 4px 2px transparent;
+    width: 58px;
+	background-size : 18px 18px;
 }
 .link_top_menu_Reports:hover {
 	background: url("../../../assets/base_loisirs/images/gtk_edit.png") no-repeat 5px 2px transparent;	

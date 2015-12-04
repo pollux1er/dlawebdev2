@@ -1,0 +1,364 @@
+input{text-transform: none; }
+	.box_init_container01 {
+		padding:0;
+		width:100%;
+		margin-top:0;
+		/*border-top: 1px solid silver;/* 2px solid  #a5eefd; */
+		border-bottom: 1px solid silver;    /* 2px solid #a5eefd; */
+		background-color:white;
+		/*border:1px solid #8cacd8;*/
+		-moz-border-radius: 8px 8px 8px 8px;
+		border-radius: 8px 8px 8px 8px;
+		
+		
+	}
+	
+	.box_init_title01	{
+		
+		font-size:12pt;
+
+		/*background-color:#dcdcee;*/
+		/*background: url('/module/image/legacy/top-bottom-violet.gif') repeat-x top left;*/
+		/*background: url('/module/image/general/top-bottom-grey.gif') repeat-x top left;*/
+		background: url('/module/image/general/top-bottom.gif') repeat-x top left;
+		margin:0;
+		
+		
+		
+		color:darkblue;
+		
+		/*border-top: 1px solid black; /* 2px solid #000; */
+		/*border-bottom: 1px solid black; /* 2px solid black; */	
+	}
+
+	.box_lightgrey01
+	{	
+		background-color:#F2F6FF;
+	}
+	
+	.box_white01
+	{
+		padding:5px;
+	
+		font-weight:bold;
+		color:black;
+		text-align:left;
+		margin:0;
+		
+	}	
+	
+	.page_butt 
+	{
+		background-color:#fd6;
+		border:1px solid silver;
+		border-bottom:1px solid gray;
+		border-right:1px solid gray;
+		font-family:Arial, Sans-serif;
+		text-transform:capitalize;	
+		text-decoration: none;
+		font-weight: bold;
+		color: #444 !important;
+		-webkit-border-radius: 4px; 
+		-moz-border-radius: 4px; 
+		border-radius: 4px;
+		
+		background-repeat:no-repeat;
+		background-position:4px center;
+		padding: 4px 4px 0px 4px;
+		vertical-align:middle;
+		cursor: pointer;
+	}
+	
+	.page_butt_1 
+	{
+		border: 3px solid silver;
+		
+	}
+	
+	.tab_entity input
+	{
+		cursor: text;
+	}
+	.tab_entity
+	{
+		text-align:left;
+		font-size:8pt;
+		font-weight:bold;
+		/*width:110px;*/
+	}
+
+	.label{
+		text-align:left;
+		font-size:8pt;
+		font-weight:bold;
+		/*width:110px;*/
+	
+	}
+	.tab_manip_ext
+	{
+		border-left: 6px solid;
+		border-right: 6px solid;
+		border-color:#003366;
+		/*-moz-border-radius: 6px 6px 6px 6px;
+		border-radius: 6px 6px 6px 6px;*/
+	}
+	
+	.message
+	{
+		background-color:#ffffff;
+		border: 1px solid silver;
+		font-weight:bold;
+		font-size:12px;
+		padding:10px;
+		-moz-border-radius: 6px 6px 6px 6px;
+		border-radius: 6px 6px 6px 6px;
+	}
+	
+	.plus
+	{
+		background-color:#E9EEEE;
+		border-top: 2px solid silver;
+		border-style: dotted none none;
+		padding:10px;
+	}
+	
+	.tab_head
+	{
+		-moz-border-radius: 6px 6px 0px 0px;
+		border-radius: 6px 6px 0px 0px;
+	}
+	
+	.tab_entet_rech_head
+	{
+		-moz-border-radius: 6px 0px 0px 0px;
+		border-radius: 6px 0px 0px 0px;
+	}
+	
+	.tab_foot
+	{
+		-moz-border-radius: 0px 0px 6px 6px;
+		border-radius: 0px 0px 6px 6px;
+	}
+	
+	.tab_entet_rech_foot
+	{
+		-moz-border-radius: 0px 0px 6px 6px;
+		border-radius: 0px 0px 6px 6px;
+	}
+	
+	.tab_manip_ext th
+	{
+		height:25px;
+		text-align:left;
+		/*padding-right:5px;*/
+		width:250px;
+		background-color: 	#003366;
+		/*border-color:;*/
+		/*border:none; */
+		color:#ffffff;
+		font-size:12px;
+		border: 1px solid #003366;
+	}
+		
+	.tab_manip
+	{
+		border: 4px solid;
+		border-color:#003366;
+		/*-moz-border-radius: 6px 6px 6px 6px;
+		border-radius: 6px 6px 6px 6px;*/
+	}
+	
+	.tab_info_result
+	{
+		border: 2px ;
+		border-color: none;
+		/*-moz-border-radius: 6px 6px 6px 6px;
+		border-radius: 6px 6px 6px 6px;*/
+	}
+	
+	.tab_info_result th
+	{
+		-moz-border-radius: 0px 6px 0px 0px;
+		border-radius: 0px 6px 0px 0px;
+		height:25px;
+		text-align:left;
+		/*padding-right:5px;*/
+		width:250px;
+		background-color: 	#003366;
+		color:#ffffff;
+		font-size:10pt;
+		border-top: 6px solid #003366;
+	}
+	
+	.tab_label
+	{
+		text-align:right;
+		padding:5px;
+		width:35%;
+		font-size:10pt;
+		/*font-weight:bold;*/
+		background-color:#d2d7db;
+		border: 0px;
+	}
+	
+	.tab_td_info
+	{
+		text-align:left;
+		padding-left:5%;
+		padding:5px;
+		font-size:10pt;
+		font-weight:normal;
+		border-width: 1px 1px 1px 1px;
+		border-style: dotted;
+		border-color: silver;
+	}
+	
+	
+	
+	.tab_manip td
+	{
+		text-align:center;
+		font-size:10pt;
+		font-weight:normal;
+		background-color:#d2d7db;
+		border: 1px solid silver;
+		width:250px;
+	}
+	
+
+	.tab_manip tr:hover td
+	{
+		background-color:#547887;
+		color:#f4f6f7;
+		cursor: pointer;
+	}
+	
+	
+	
+	.form_box
+	{
+		background-color:#E9EEEE;
+		border: 2px solid silver;
+	
+		margin-left:10px;
+		margin-right:10px;
+		
+		
+		-moz-border-radius: 6px 6px 6px 6px;
+		border-radius: 6px 6px 6px 6px;
+		font-weight:normal;
+	}	
+	.button
+	{
+		padding:3px 3px 0px 3px;
+		font-size:12px; 
+		font-weight:bold;
+		border: 2px solid silver;
+		background-color:#dee0e2;
+		-moz-border-radius: 3px 3px 3px 3px;
+		border-radius: 3px 3px 3px 3px;
+	}
+	
+	.tab_butt
+	{	
+		padding-right:5px;
+		padding-left:5px;
+		font-size:12px; 
+		font-weight:bold;
+		border: 2px solid silver;
+		background-color:#dee0e2;
+		-moz-border-radius: 3px 3px 3px 3px;
+		border-radius: 3px 3px 3px 3px;
+	}
+	
+/*****************************************/	
+/*******partie reserv�e au calendrier*******/
+/*****************************************/	
+
+.ds_box {
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	position: absolute;
+	z-index: 32767;
+	-moz-border-radius: 6px 6px 6px 6px;
+	border-radius: 6px 6px 6px 6px;
+}
+
+.ds_tbl {
+	border: 2px solid #81a6d0;
+	-moz-border-radius: 6px 6px 6px 6px;
+	border-radius: 6px 6px 6px 6px;
+	background-color: #FFF;
+}
+
+.ds_head {
+	background-color: #003366;
+	color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.ds_subhead {
+	background-color: #CCC;
+	color: #000;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 32px;
+}
+
+.ds_cell {
+	background-color: #bac1ff;
+	color: #000;
+	font-size: 13px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.ds_cell tr:hover td
+{
+	background-color: #F3F3F3;
+} /* This hover code won't work for IE */
+
+/* over with the clock*/
+
+	.status
+	{
+		color: black; /*gray; /* darkgrey; */
+		font-style:italic;	
+	}
+
+	.tab_result1
+	{
+		float:center;
+		width:98%;
+		min-height:350px;
+		margin-top:28px;
+		overflow:auto;
+	}
+	
+	.tab_result2
+	{
+		float:left;
+		width:60%;
+		min-height:350px;
+		margin-top:28px;
+		margin-left:10px;
+		overflow:auto;
+	}
+	
+	.right_div_result
+	{
+		float:right;
+		width:38%;
+		min-height:350px;
+		margin-top:42px;
+		margin-right:10px
+	}
+	

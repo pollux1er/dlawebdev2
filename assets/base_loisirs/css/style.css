@@ -2643,14 +2643,6 @@ a.button_download, a.button_download:hover {
 	border-left: 1px solid #8cacd8;
 	border-bottom: 1px solid #8cacd8;
 }
-.tab_op_list_main2 th {
-	color: black;
-	text-align: left;
-	padding-left: 4px;
-	border: none;
-	border-left: 1px solid #8cacd8;
-	border-bottom: 1px solid #8cacd8;
-}
 
 .tab_op_list_main .corner {
 	border-left: none !important;

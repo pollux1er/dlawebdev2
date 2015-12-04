@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr"><head>
+	<title>Perenco Intranet</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	
+	<link rel="shortcut icon" type="image/ico" href="http://intranet.perenco.net/favicon.ico">
+		<link href="Perenco%20Intranet_fichiers/jquery-ui-1.css" rel="stylesheet" type="text/css">
+		<link href="Perenco%20Intranet_fichiers/left_menu.css" rel="stylesheet" type="text/css">
+		<link href="Perenco%20Intranet_fichiers/top_menu.css" rel="stylesheet" type="text/css">
+		<link href="Perenco%20Intranet_fichiers/main.css" rel="stylesheet" type="text/css">
+		<link href="Perenco%20Intranet_fichiers/datepicker.css" rel="stylesheet" type="text/css">
+		<link href="Perenco%20Intranet_fichiers/generic.css" rel="stylesheet" type="text/css">
+		<link href="Perenco%20Intranet_fichiers/print.css" rel="stylesheet" type="text/css" media="print">
+		<!--[if IE 6]>
+	
+	<style type="text/css">	
+		#top_menu .department_name { margin-top:1px; } 
+		#left_menu {width: 13% !important;}
+		#body_content { width: 75% !important; } 
+		#menu-container-home { position: absolute; top:68px; z-index:1000; zoom: 1; }		
+		#drop_down_menu_home li { padding: 4px 10px; }
+		#drop_down_menu_home li.sfhover ul { left: 0px; top:22px; padding: 0; margin: 0; z-index:1000; zoom: 1; background-color: white; }
+		#devCornerBlock { position: relative; width: auto; }
+	</style>
+	<script type="text/javascript">
+		sfHover = function() {
+			var sfEls = document.getElementById("drop_down_menu_home").getElementsByTagName("LI");
+			for (var i=0; i<sfEls.length; i++) {
+				sfEls[i].onmouseover=function() {
+					this.className+=" sfhover";
+				}
+				sfEls[i].onmouseout=function() {
+					this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+				}
+			}
+		}
+		if (window.attachEvent) window.attachEvent("onload", sfHover);
+	</script>
+	
+	<![endif]-->
+	<!--[if IE 8]>
+	
+	<style type="text/css">	
+		#body_content { width: 82% !important; } 
+	</style>
+	
+	<![endif]-->
+			<script type="text/javascript" src="Perenco%20Intranet_fichiers/jquery-1.js"></script>
+			<script type="text/javascript" src="Perenco%20Intranet_fichiers/jquery-ui-1.js"></script>
+			<script type="text/javascript" src="Perenco%20Intranet_fichiers/compatibility-jquery-mootools.js"></script>
+			<script type="text/javascript" src="Perenco%20Intranet_fichiers/top_menu.js"></script></head><body><iframe id="menu_iframe" style="position: absolute; width: 0; height: 0; margin: 0; padding: 0;" frameborder="0" scrolling="no"></iframe>
+			<script type="text/javascript" src="Perenco%20Intranet_fichiers/ts_picker.js"></script>
+			<script type="text/javascript" src="Perenco%20Intranet_fichiers/overlib.js"></script>
+			<script type="text/javascript" src="Perenco%20Intranet_fichiers/mootools-1.js"></script>
+			<script type="text/javascript" src="Perenco%20Intranet_fichiers/mootools-more-1.js"></script>
+			<script type="text/javascript" src="Perenco%20Intranet_fichiers/common.js"></script>
+			<script type="text/javascript" src="Perenco%20Intranet_fichiers/datepicker.js"></script>
+			<script type="text/javascript" src="Perenco%20Intranet_fichiers/user.js"></script>
+			<script type="text/javascript" src="Perenco%20Intranet_fichiers/tpl_scrolling_v3.js"></script>
+	
+
+	<div id="tpl_wrapper_page">
+				
+		<div id="tpl_header">
+			<div>
+				<a id="tpl_title" href="http://intranet.perenco.net/index.php"></a>
+			</div>
+		</div> <!-- end #tpl_header -->
+		
+		<div id="tpl_main_body">
+					<div style="margin-left:0px;" id="tpl_wrapper_body">
+				<div id="tpl_inner_body">
+					<div id="left_menu">
+						<div id="contacts_menu" class="left_menus_contact">
+							<ul id="contacts_menu_content">
+																	
+									
+																<li class="need_access">
+									<a title="" href="http://intranet.perenco.net/infos.php"><strong>Need an access?</strong></a>
+								</li>
+							</ul>
+						</div>
+						<div class="cleardiv">&nbsp;</div>
+						
+													<div class="left_menus">
+								<h2>Corporate</h2>								<ul>
+																																											<li>
+										<a href="http://www.perenco.com/" target="_blank" class="level2"><span>Perenco website</span>
+																				</a>
+									</li>
+																									</ul>
+							</div>
+							<div class="cleardiv">&nbsp;</div>
+													<div class="left_menus">
+								<h2>Subsidiary</h2>								<ul>
+																																											<li>
+										<a href="http://dlaoldintranet.cm.perenco.com/" target="_blank" class="level2"><span>Douala old Intranet</span>
+																				</a>
+									</li>
+																									</ul>
+							</div>
+							<div class="cleardiv">&nbsp;</div>
+												
+												
+											</div>					
+					<div id="body_content">
+						<div id="tpl_info_top">
+								
+						</div>
+						
+																			<script type="text/javascript">
+
+function validate () {
+  
+  if ($('login') && $('login').value == "") {
+    
+    alert ('Please enter your login');
+    return false;
+
+  }
+
+  if ($('password') && $('password').value == "") {
+
+    alert ('Please enter your password');
+    return false;
+
+  }
+
+  return true;
+
+}
+
+</script>
+
+
+
+
+<div id="connection" align="center">
+	<h2>Welcome to the Perenco Intranet</h2>
+	
+	<div id="connection_form_content">	
+		<form action="/login.php" method="post" name="login_frm" id="login_frm" onsubmit="return validate();">
+			<input value="" name="redir" id="redir" type="hidden">			
+			
+							<div id="error">Access denied</div>
+						
+			<p style="clear:both;">
+				<label for="login">Login</label>
+				<input name="login" size="15" maxlength="50" id="login" class="tpl_input_type" type="text">
+			</p>			
+			<p style="clear:both;">
+				<label for="password">Password</label>
+				<input name="password" size="15" maxlength="50" id="password" class="tpl_input_type" type="password">
+			</p>
+			<p>
+				<input name="Submit" value="Log In" class="tpl_button_validate" type="submit">
+			</p>
+			<p>
+				<a id="forgot_password" href="javascript:openPopup('/password.php',%20'ForgotPassword',%20'activity=no,scrollbars=yes,width=400,%20height=200,%20top=100,%20left=100,%20resizable=yes');">Can't access your account?</a>
+			</p>
+			<p id="contact" align="center">
+				If you are a new user or you have queries, please <a href="javascript:openPopup('/contact.php',%20'ContactUs',%20'activity=no,scrollbars=yes,width=450,%20height=400,%20top=100,%20left=100,%20resizable=yes');">contact us</a>
+			</p>
+			<div style="clear:both">&nbsp;</div>
+		</form>		
+	</div>
+</div>
+
+																							</div>
+				</div> <!-- end #tpl_inner_body -->
+				
+			</div> <!-- end #tpl_wrapper_body -->			
+			<div style="clear: both">&nbsp;</div>
+			
+		</div> <!-- end #tpl_main_body -->
+		
+	</div> <!-- end #tpl_wrapper_page -->
+	<div style="clear: both">&nbsp;</div>	
+
+</body></html>

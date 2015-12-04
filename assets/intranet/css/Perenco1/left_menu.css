@@ -1,0 +1,78 @@
+.left_menu {
+	margin: 0px 0px 0px 10px; padding: 0px; border: 1px solid rgb(153, 153, 153); width: 150px; color: rgb(255, 255, 255); line-height: 18px; overflow: visible; font-family: trebuchet, helvetica, arial, sans-serif; font-size: 11px; visibility: visible;
+}
+.deposit {
+	margin: 0px; padding: 0px; border: 1px solid rgb(153, 153, 153); color: white; font-weight: bold;
+}
+.left_menu li {
+	margin: -1px; border: 1px solid rgb(153, 153, 153); text-align: left; font-weight: bold; text-decoration: none; list-style-type: none;
+}
+.left_menu li a {
+	margin: 0px; padding: 0px 0px 0px 10px; width: 140px; font-weight: bold; text-decoration: none; display: block; cursor: pointer;
+}
+.left_menu h3 {
+	margin: 0px; padding: 0px 0px 0px 10px; width: 140px; font-weight: bold; text-decoration: none; display: block; cursor: pointer;
+}
+.leftmenuspan {
+	margin: 0px; padding: 0px 0px 0px 10px; width: 140px; font-weight: bold; text-decoration: none; display: block; cursor: pointer;
+}
+.leftmenuspan {
+	padding: 0px;
+}
+* html .left_menu li a {
+	width: 150px;
+}
+* html .left_menu h3 {
+	width: 150px;
+}
+.left_menu li a:hover {
+	background: rgb(255, 255, 255); color: rgb(0, 51, 102);
+}
+.left_menu .level1 {
+	background: rgb(51, 102, 153);
+}
+.left_menu h3 {
+	background: rgb(51, 102, 153);
+}
+.left_menu .level2 {
+	background: rgb(102, 153, 204);
+}
+.left_menu .level3 {
+	background: rgb(153, 204, 255); width: 130px; text-indent: 0px; padding-left: 20px;
+}
+* html .left_menu .level3 {
+	width: 150px;
+}
+.left_menu h3 {
+	cursor: default;
+}
+.left_menu li.level1selected {
+	background: rgb(255, 85, 0);
+}
+.left_menu a.level1selected {
+	background: rgb(255, 85, 0);
+}
+.left_menu li.level2selected {
+	background: rgb(255, 85, 0);
+}
+.left_menu a.level2selected {
+	background: rgb(255, 85, 0);
+}
+.left_menu li.level2selected {
+	background: rgb(255, 153, 0);
+}
+.left_menu a.level2selected {
+	background: rgb(255, 153, 0);
+}
+.left_menu li.level3selected {
+	background: rgb(255, 187, 0); width: 150px; padding-left: 15px; list-style-type: disc;
+}
+.left_menu a.level3selected {
+	background: rgb(255, 187, 0); width: 150px; padding-left: 15px; list-style-type: disc;
+}
+.left_menu a.img_news {
+	background-position: right; background-image: url("/module/image/legacy/new.gif"); background-repeat: no-repeat;
+}
+.left_menu a.left_news {
+	background-position: 95% 50%; background-image: url("/module/image/shadowless/new-text.png"); background-repeat: no-repeat;
+}

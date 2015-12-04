@@ -1,0 +1,188 @@
+#zapette {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+  }
+  #zap_prec_next { margin: 20px 0 10px; }
+  #zap_prec { margin-right: 150px; }
+  #zap_pages {
+    font-weight: bold;
+    width: 50px;
+    margin-right: 150px;
+  }
+  #zap_title {
+    font-size: 16px;
+    margin: 15px 0 10px;
+  }
+  #zap_img{
+    overflow:auto;
+    width: 100%;
+  }
+  
+  #zap_description {
+    width:580px;
+    margin:auto;
+    
+    text-align:left;
+  }
+  
+  #zap_description, #zap_description p, #zap_description font {
+  	font-size:13px;
+  	line-height:1.4;
+  }
+  
+  #search_archive {
+    width:150px;
+    _width:148px;
+    text-align:center;    
+    color:#fff;
+    font-size:12px;    
+    height:300px;
+    
+    background-color:white;
+    border-top:1px solid #0070BF;
+   
+  }
+
+   #calendar {
+   	 height:130px;
+   	
+   }
+  
+  .title_calendar{
+  	background-color : #336699;
+  	text-align: center;
+ 	border-bottom:1px solid black;
+ 	color: white;
+ 	padding:5px;
+ 	
+  }
+  
+  .title_calendar span{
+  	font-size:15px;
+  	font-weight:bold;
+  }
+  
+  .ss_title_calendar{  	
+  	text-align: left; 	
+ 	color: black;
+ 	padding:5px;
+ 	height:10px;
+  }
+  
+  .ss_title_calendar fieldset{
+  	border-top: 1px solid black;
+	padding-left:10px
+  	
+  }
+  .ss_title_calendar legend{
+  	padding:2px
+  	
+  }
+  
+  .dp_clicable {
+  	background:#6699CC none repeat scroll 0%;
+ 	color:#FFFFFF;  
+  }
+
+  
+  .dp_today_search  {
+  	border:2px solid #CC6666;  
+  }
+  
+  .dp_roll_search{
+  	background:#003366 none repeat scroll 0%;  	
+  }
+  
+
+
+
+
+
+
+.dp_calendar {
+	background-color:#FFFFFF;
+	border-top:1px solid #0070BF;
+	border-bottom:1px solid #0070BF;
+	left:0pt;
+	margin:0px 0px 3px;
+	position:absolute;
+	top:24px;
+	width:150px;
+}
+
+.dp_calendar table {
+	border-collapse:collapse;
+	border-spacing:0pt;
+	width:148px;
+}
+
+.dp_calendar select {
+	font-size:11px;
+	
+}
+
+.dp_calendar select option {
+	padding:1px 3px;
+}
+
+.dp_calendar th, .dp_calendar td {
+	font-size:10px;
+	padding:1px 0pt;
+	text-align:center;
+	width:12%;
+	
+}
+
+.dp_calendar th {
+	background:#DAF2E6 none repeat scroll 0%;
+	border-color:#AAD4F2;
+	border-style:solid;
+	border-width:1px 0pt;
+	color:#797774;
+	font-weight:bold;
+}
+
+.dp_calendar td{
+	cursor: pointer;
+}
+
+
+.dp_calendar thead th {
+	background:transparent url(/module/image/legacy/bg_table_th.png) repeat scroll 0% 50%;
+}
+
+
+
+
+.button_insert_home, .button_insert_home:hover {
+	background-color:#FFCC00;
+	background-image:url(/module/image/legacy/fleche-noire-droite.gif);
+	padding:0px 5px 0px 19px;
+	width:110px;	
+	background-position:left center;
+	background-repeat:no-repeat;
+	border-color: #FFFFFF rgb(0, 0, 0) rgb(0, 0, 0) rgb(255, 255, 255);
+	border-style:solid;
+	border-width:1px;
+	height:20px;
+	text-transform:capitalize;
+	color:black;
+	cursor: pointer;
+	font-weight:bold;
+}
+
+div.custom_tip
+{
+	border: 1px solid black;
+	color: black;
+	background-color: #ffa;
+	padding: .3em .5em .3em .5em;
+}
+
+  
+
+  
+  
+  

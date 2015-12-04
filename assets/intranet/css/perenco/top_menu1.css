@@ -1,0 +1,106 @@
+/* Menu des d�partements */
+#top_menu {
+	position: absolute;
+	top: 54px;
+	left: 160px;
+	z-index: 1;
+	width: 70%;
+	margin: 0;
+	padding: 0;
+}
+#top_menu .project_list {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 120px;
+	z-index:1;
+}
+#top_menu ul {
+
+	display: none;
+	margin: 0;
+	padding: 0;
+	border: 1px solid #999;
+}
+#top_menu .department_name {
+	float: left;
+	/*width: 80px;*/
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	padding: 0;
+	text-transform: uppercase;
+	white-space:nowrap;
+}
+
+#top_menu #department_project_list
+{
+	clear: both;
+}
+#top_menu li {
+
+	background: #369;
+	font-size: 11px;
+	line-height: 14px;
+	height: 16px;
+	margin: -1px;
+	padding: 0px;
+	border: 1px solid #999;
+	list-style-type:none;
+
+
+}
+#top_menu li a {
+
+	background-color: #369;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	height: 16px;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 0px;
+	
+	margin: 0px;
+	padding: 0px 0px 0px 5px;
+	
+	white-space:nowrap;
+
+}
+
+#top_menu .department_name a {
+
+	float: left;
+	color: #fff;
+	text-decoration: none;
+	border: none;
+	height: 15px;
+	text-align: left;
+	text-indent: 10px;
+	line-height: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 0px;
+	/*margin-top:-1px;
+	margin-left: -5px;*/
+	margin: -1px 0 0 0;
+	padding: 0 40px 0 0;
+	display:inline-block;
+}
+
+
+#top_menu li a:hover {
+	background: #fff;
+	color: #000;
+	text-decoration: none;
+	
+}
+#top_menu .department_name a:hover {
+	color: #fff;
+	text-decoration: none;
+	/*border: 1px solid #999;
+	padding: 2px;*/
+}

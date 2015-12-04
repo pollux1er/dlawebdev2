@@ -1,0 +1,30 @@
+#top_menu {
+	margin: 0px; padding: 0px; left: 160px; top: 54px; width: 70%; position: absolute; z-index: 1;
+}
+#top_menu .project_list {
+	margin: 0px; padding: 0px; width: 105px; float: left; position: absolute; z-index: 1;
+}
+#top_menu ul {
+	margin: 0px; padding: 0px; border: 1px solid rgb(153, 153, 153); display: none;
+}
+#top_menu .department_name {
+	margin: 0px; padding: 0px; border: 0px currentColor; text-transform: uppercase; float: left; white-space: nowrap; cursor: pointer;
+}
+#top_menu #department_project_list {
+	clear: both;
+}
+#top_menu li {
+	background: rgb(51, 102, 153); margin: -1px; padding: 0px; border: 1px solid rgb(153, 153, 153); height: 16px; line-height: 14px; font-size: 11px; list-style-type: none;
+}
+#top_menu li a {
+	margin: 0px; padding: 0px 0px 0px 5px; height: 16px; text-align: left; color: rgb(255, 255, 255); text-indent: 0px; text-decoration: none; vertical-align: middle; display: block; white-space: nowrap; background-color: rgb(51, 102, 153);
+}
+#top_menu .department_name a {
+	margin: -1px 0px 0px; padding: 0px 40px 0px 0px; border: currentColor; height: 15px; text-align: left; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 10px; text-indent: 10px; font-weight: bold; text-decoration: none; float: left; display: inline-block;
+}
+#top_menu li a:hover {
+	background: rgb(255, 255, 255); color: rgb(0, 0, 0); text-decoration: none;
+}
+#top_menu .department_name a:hover {
+	color: rgb(255, 255, 255); text-decoration: none;
+}

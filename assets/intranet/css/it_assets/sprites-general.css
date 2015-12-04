@@ -1,0 +1,609 @@
+
+.sprites_general
+{
+	background: url('/module/image/general/sprites-general.png') no-repeat top left;
+}
+
+.sprite-add{ background-position: 0 0; width: 16px; height: 16px; } 
+.sprite-arrow_undo{ background-position: 0 -66px; width: 16px; height: 16px; } 
+.sprite-article_draft{ background-position: 0 -132px; width: 16px; height: 16px; } 
+.sprite-background_light{ background-position: 0 -198px; width: 16px; height: 16px; } 
+.sprite-bar_input_bg{ background-position: 0 -264px; width: 135px; height: 16px; } 
+.sprite-blackback{ background-position: 0 -330px; width: 16px; height: 16px; } 
+.sprite-book_edit_16{ background-position: 0 -396px; width: 16px; height: 16px; } 
+.sprite-btn_add{ background-position: 0 -462px; width: 16px; height: 16px; } 
+.sprite-chain_16{ background-position: 0 -528px; width: 16px; height: 16px; } 
+.sprite-chain_light_16{ background-position: 0 -594px; width: 16px; height: 16px; } 
+.sprite-circle_blue{ background-position: 0 -660px; width: 16px; height: 16px; } 
+.sprite-circle_green{ background-position: 0 -726px; width: 16px; height: 16px; } 
+.sprite-circle_grey{ background-position: 0 -792px; width: 16px; height: 16px; } 
+.sprite-circle_orange{ background-position: 0 -858px; width: 16px; height: 16px; } 
+.sprite-circle_red{ background-position: 0 -924px; width: 16px; height: 16px; } 
+.sprite-clock_history{ background-position: 0 -990px; width: 16px; height: 16px; } 
+.sprite-close_16{ background-position: 0 -1056px; width: 15px; height: 15px; } 
+.sprite-close_blue_16{ background-position: 0 -1121px; width: 15px; height: 15px; } 
+.sprite-copy_16{ background-position: 0 -1186px; width: 16px; height: 16px; } 
+.sprite-dashed_16{ background-position: 0 -1252px; width: 16px; height: 16px; } 
+.sprite-delete_card{ background-position: 0 -1318px; width: 32px; height: 32px; } 
+.sprite-dialog_warning_16{ background-position: 0 -1400px; width: 16px; height: 16px; } 
+.sprite-earth{ background-position: 0 -1466px; width: 16px; height: 16px; } 
+.sprite-etoile{ background-position: 0 -1532px; width: 13px; height: 13px; } 
+.sprite-exit{ background-position: 0 -1595px; width: 16px; height: 16px; } 
+.sprite-eye_exclamation_16{ background-position: 0 -1661px; width: 16px; height: 16px; } 
+.sprite-favorites_16{ background-position: 0 -1727px; width: 16px; height: 16px; } 
+.sprite-file_edit_16{ background-position: 0 -1793px; width: 16px; height: 16px; } 
+.sprite-folder_add_16{ background-position: 0 -1859px; width: 16px; height: 16px; } 
+.sprite-folder_add_32{ background-position: 0 -1925px; width: 32px; height: 32px; } 
+.sprite-folder_status_draft{ background-position: -185px 0; width: 16px; height: 16px; } 
+.sprite-folder_status_draft{ background-position: -185px -66px; width: 16px; height: 16px; } 
+.sprite-ftp_folder_24{ background-position: -185px -132px; width: 24px; height: 24px; } 
+.sprite-ftp_folder_48{ background-position: -185px -206px; width: 48px; height: 48px; } 
+.sprite-go_fullscreen{ background-position: -185px -304px; width: 16px; height: 16px; } 
+.sprite-grid{ background-position: -185px -370px; width: 16px; height: 16px; } 
+.sprite-grid_blue{ background-position: -185px -436px; width: 16px; height: 16px; } 
+.sprite-group_key{ background-position: -185px -502px; width: 32px; height: 32px; } 
+.sprite-gtk_edit{ background-position: -185px -584px; width: 16px; height: 16px; } 
+.sprite-header-background3{ background-position: -185px -650px; width: 20px; height: 90px; } 
+.sprite-icon-grid{ background-position: -185px -790px; width: 16px; height: 16px; } 
+.sprite-info_16{ background-position: -185px -856px; width: 16px; height: 16px; } 
+.sprite-interdit_16{ background-position: -185px -922px; width: 16px; height: 16px; } 
+.sprite-leave_fullscreen{ background-position: -185px -988px; width: 16px; height: 16px; } 
+.sprite-lego_ajout{ background-position: -185px -1054px; width: 16px; height: 16px; } 
+.sprite-list_edit_16{ background-position: -185px -1120px; width: 16px; height: 16px; } 
+.sprite-locked{ background-position: -185px -1186px; width: 16px; height: 16px; } 
+.sprite-maximize_16{ background-position: -185px -1252px; width: 18px; height: 18px; } 
+.sprite-minimize_16{ background-position: -185px -1320px; width: 18px; height: 18px; } 
+.sprite-move-no{ background-position: -185px -1388px; width: 16px; height: 16px; } 
+.sprite-nosave{ background-position: -185px -1454px; width: 16px; height: 16px; } 
+.sprite-note_edit_16{ background-position: -185px -1520px; width: 16px; height: 16px; } 
+.sprite-notepad_edit_16{ background-position: -185px -1586px; width: 16px; height: 16px; } 
+.sprite-page_blue_edit_16{ background-position: -185px -1652px; width: 16px; height: 16px; } 
+.sprite-page_edit_blue{ background-position: -185px -1718px; width: 16px; height: 16px; } 
+.sprite-page_param_16{ background-position: -185px -1784px; width: 16px; height: 16px; } 
+.sprite-page_white_edit_16{ background-position: -185px -1850px; width: 16px; height: 16px; } 
+.sprite-plugin{ background-position: -185px -1916px; width: 16px; height: 16px; } 
+.sprite-popup_16{ background-position: -370px 0; width: 16px; height: 16px; } 
+.sprite-preference_16{ background-position: -370px -66px; width: 16px; height: 16px; } 
+.sprite-save_floppy{ background-position: -370px -132px; width: 16px; height: 16px; } 
+.sprite-save_floppy_blue{ background-position: -370px -198px; width: 16px; height: 16px; } 
+.sprite-save_floppy_blue_accept{ background-position: -370px -264px; width: 16px; height: 16px; } 
+.sprite-save_floppy_blue_error{ background-position: -370px -330px; width: 16px; height: 16px; } 
+.sprite-save_floppy_blue_not{ background-position: -370px -396px; width: 16px; height: 16px; } 
+.sprite-sc_dsbeditdoc_blue{ background-position: -370px -462px; width: 16px; height: 16px; } 
+.sprite-server_key{ background-position: -370px -528px; width: 32px; height: 32px; } 
+.sprite-show_popup{ background-position: -370px -610px; width: 16px; height: 16px; } 
+.sprite-status_green{ background-position: -370px -676px; width: 16px; height: 16px; } 
+.sprite-status_grey{ background-position: -370px -742px; width: 16px; height: 16px; } 
+.sprite-status_orange{ background-position: -370px -808px; width: 16px; height: 16px; } 
+.sprite-status_red{ background-position: -370px -874px; width: 16px; height: 16px; } 
+.sprite-status_square_green{ background-position: -370px -940px; width: 16px; height: 16px; } 
+.sprite-status_square_grey{ background-position: -370px -1006px; width: 16px; height: 16px; } 
+.sprite-sync_16{ background-position: -370px -1072px; width: 16px; height: 16px; } 
+.sprite-tab_e{ background-position: -370px -1138px; width: 2px; height: 40px; } 
+.sprite-table_16{ background-position: -370px -1228px; width: 16px; height: 16px; } 
+.sprite-thumbnail_shadow{ background-position: -370px -1294px; width: 71px; height: 55px; } 
+.sprite-top-bottom-violet{ background-position: -370px -1399px; width: 4px; height: 38px; } 
+.sprite-top-bottom{ background-position: -370px -1487px; width: 4px; height: 38px; } 
+.sprite-undo_16{ background-position: -370px -1575px; width: 16px; height: 16px; } 
+.sprite-user_no_photo{ background-position: -370px -1641px; width: 35px; height: 48px; } 
+.sprite-usr_wait{ background-position: -370px -1739px; width: 16px; height: 16px; } 
+.sprite-vcard_16{ background-position: -370px -1805px; width: 16px; height: 16px; } 
+.sprite-viewmag{ background-position: -370px -1871px; width: 16px; height: 16px; } 
+ 
+ /*
+ .sprites {
+	background-image     : url('/module/image/general/sprites-general.png');
+	background-color     : transparent;
+	background-repeat    : no-repeat;
+ }
+
+ .add_gif {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -0px -0px;
+ }
+
+ .arrow_undo_png {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -16px -0px;
+ }
+
+ .article_draft_gif {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -32px -0px;
+ }
+
+ .background_light_gif {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -48px -0px;
+ }
+
+ .bar_input_bg_gif {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -64px -0px;
+ }
+
+ .blackback_png {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -80px -0px;
+ }
+
+ .book_edit_16_png {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -96px -0px;
+ }
+
+ .btn_add_gif {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -112px -0px;
+ }
+
+ .chain_16_png {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -128px -0px;
+ }
+
+ .chain_light_16_gif {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -144px -0px;
+ }
+
+ .circle_blue_png {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -160px -0px;
+ }
+
+ .circle_green_png {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -176px -0px;
+ }
+
+ .circle_grey_png {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -192px -0px;
+ }
+
+ .circle_orange_png {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -208px -0px;
+ }
+
+ .circle_red_png {
+	height               : 15px;
+	width                : 15px;
+	background-position  : -224px -0px;
+ }
+
+ .clock_history_png {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -239px -0px;
+ }
+
+ .close_16_gif {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -255px -0px;
+ }
+
+ .close_blue_16_gif {
+	height               : 15px;
+	width                : 15px;
+	background-position  : -271px -0px;
+ }
+
+ .copy_16_png {
+	height               : 16px;
+	width                : 135px;
+	background-position  : -286px -0px;
+ }
+
+ .dashed_16_png {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -421px -0px;
+ }
+
+ .delete_card_png {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -437px -0px;
+ }
+
+ .dialog_warning_16_png {
+	height               : 32px;
+	width                : 32px;
+	background-position  : -453px -0px;
+ }
+
+ .earth_gif {
+	height               : 13px;
+	width                : 13px;
+	background-position  : -485px -0px;
+ }
+
+ .etoile_gif {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -498px -0px;
+ }
+
+ .exit_png {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -514px -0px;
+ }
+
+ .eye_exclamation_16_png {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -530px -0px;
+ }
+
+ .favorites_16_png {
+	height               : 32px;
+	width                : 32px;
+	background-position  : -546px -0px;
+ }
+
+ .file_edit_16_gif {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -578px -0px;
+ }
+
+ .folder_add_16_png {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -594px -0px;
+ }
+
+ .folder_add_32_png {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -610px -0px;
+ }
+
+ .folder_status_draft_gif {
+	height               : 24px;
+	width                : 24px;
+	background-position  : -626px -0px;
+ }
+
+ .folder_status_draft_png {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -650px -0px;
+ }
+
+ .ftp_folder_24_png {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -666px -0px;
+ }
+
+ .ftp_folder_48_png {
+	height               : 48px;
+	width                : 48px;
+	background-position  : -682px -0px;
+ }
+
+ .go_fullscreen_png {
+	height               : 32px;
+	width                : 32px;
+	background-position  : -730px -0px;
+ }
+
+ .grid_png {
+	height               : 90px;
+	width                : 20px;
+	background-position  : -762px -0px;
+ }
+
+ .grid_blue_gif {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -782px -0px;
+ }
+
+ .group_key_png {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -798px -0px;
+ }
+
+ .gtk_edit_png {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -814px -0px;
+ }
+
+ .header-background3_png {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -830px -0px;
+ }
+
+ .icon-grid_gif {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -846px -0px;
+ }
+
+ .info_16_png {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -862px -0px;
+ }
+
+ .interdit_16_png {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -878px -0px;
+ }
+
+ .leave_fullscreen_png {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -894px -0px;
+ }
+
+ .lego_ajout_gif {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -910px -0px;
+ }
+
+ .list_edit_16_png {
+	height               : 18px;
+	width                : 18px;
+	background-position  : -926px -0px;
+ }
+
+ .locked_gif {
+	height               : 18px;
+	width                : 18px;
+	background-position  : -944px -0px;
+ }
+
+ .maximize_16_gif {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -962px -0px;
+ }
+
+ .minimize_16_gif {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -978px -0px;
+ }
+
+ .move-no_gif {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -994px -0px;
+ }
+
+ .nosave_gif {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -1010px -0px;
+ }
+
+ .note_edit_16_png {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -1026px -0px;
+ }
+
+ .notepad_edit_16_gif {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -1042px -0px;
+ }
+
+ .page_blue_edit_16_png {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -1058px -0px;
+ }
+
+ .page_edit_blue_png {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -1074px -0px;
+ }
+
+ .page_param_16_gif {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -1090px -0px;
+ }
+
+ .page_white_edit_16_png {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -1106px -0px;
+ }
+
+ .plugin_gif {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -1122px -0px;
+ }
+
+ .popup_16_gif {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -1138px -0px;
+ }
+
+ .preference_16_png {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -1154px -0px;
+ }
+
+ .save_floppy_png {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -1170px -0px;
+ }
+
+ .save_floppy_blue_png {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -1186px -0px;
+ }
+
+ .save_floppy_blue_accept_png {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -1202px -0px;
+ }
+
+ .save_floppy_blue_error_png {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -1218px -0px;
+ }
+
+ .save_floppy_blue_not_png {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -1234px -0px;
+ }
+
+ .sc_dsbeditdoc_blue_gif {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -1250px -0px;
+ }
+
+ .server_key_gif {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -1266px -0px;
+ }
+
+ .show_popup_png {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -1282px -0px;
+ }
+
+ .status_green_gif {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -1298px -0px;
+ }
+
+ .status_grey_gif {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -1314px -0px;
+ }
+
+ .status_orange_gif {
+	height               : 40px;
+	width                : 2px;
+	background-position  : -1330px -0px;
+ }
+
+ .status_red_gif {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -1332px -0px;
+ }
+
+ .status_square_green_gif {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -1348px -0px;
+ }
+
+ .status_square_grey_gif {
+	height               : 32px;
+	width                : 32px;
+	background-position  : -1364px -0px;
+ }
+
+ .sync_16_png {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -1396px -0px;
+ }
+
+ .tab_e_gif {
+	height               : 38px;
+	width                : 4px;
+	background-position  : -1412px -0px;
+ }
+
+ .table_16_png {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -1416px -0px;
+ }
+
+ .thumbnail_shadow_png {
+	height               : 38px;
+	width                : 4px;
+	background-position  : -1432px -0px;
+ }
+
+ .top-bottom_gif {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -1436px -0px;
+ }
+
+ .top-bottom-violet_gif {
+	height               : 48px;
+	width                : 35px;
+	background-position  : -1452px -0px;
+ }
+
+ .undo_16_png {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -1487px -0px;
+ }
+
+ .user_no_photo_png {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -1503px -0px;
+ }
+
+ .usr_wait_gif {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -1519px -0px;
+ }
+
+ .vcard_16_png {
+	height               : 55px;
+	width                : 71px;
+	background-position  : -1535px -0px;
+ }
+
+ .viewmag_png {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -1606px -0px;
+ }
+ */

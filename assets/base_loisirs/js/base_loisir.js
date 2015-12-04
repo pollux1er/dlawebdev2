@@ -78,6 +78,7 @@ window.addEvent( 'domready', function()
 		var url_case_libre = 'base_loisirs.php/ajax/check_case_libre/';
 		var url_get_id_resa = 'base_loisirs.php/ajax/url_get_id_resa/';
 		var url = '';
+		alert("En attente : "+frmCriteria.attente.value);
 		if(frmCriteria.attente.value == "non")
 			url = url_book;
 		else

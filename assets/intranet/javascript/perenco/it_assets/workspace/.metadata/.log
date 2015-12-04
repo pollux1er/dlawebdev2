@@ -1,0 +1,88 @@
+!SESSION 2012-08-10 14:11:41.755 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.4.2_09
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  C:\Program Files (x86)\Aptana\aptana.exe #VM Runtime Configuration File C:\xampp\htdocs\perencostage\assets\javascript\perenco\it_assets\formulaire.js
+Command-line arguments:  -os win32 -ws win32 -arch x86 C:\Program Files (x86)\Aptana\aptana.exe #VM Runtime Configuration File C:\xampp\htdocs\perencostage\assets\javascript\perenco\it_assets\formulaire.js
+
+!ENTRY com.aptana.ide.rcp.main 1 0 2012-08-10 14:11:44.126
+!MESSAGE (Build 0.2.0.10299) dotAptanaFile 'c:\program files (x86)\aptana\.aptana'
+
+!ENTRY org.eclipse.ui.intro 4 0 2012-08-10 14:12:09.103
+!MESSAGE http://www.xamlon.com/rsst2.aspx?category=Check%20This%20Out&feed=http://www.aptana.com/blog/?feed=rss2
+!STACK 0
+java.io.FileNotFoundException: http://www.xamlon.com/rsst2.aspx?category=Check%20This%20Out&feed=http://www.aptana.com/blog/?feed=rss2
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.URL.openStream(Unknown Source)
+	at org.apache.crimson.parser.InputEntity.init(Unknown Source)
+	at org.apache.crimson.parser.Parser2.parseInternal(Unknown Source)
+	at org.apache.crimson.parser.Parser2.parse(Unknown Source)
+	at org.apache.crimson.parser.XMLReaderImpl.parse(Unknown Source)
+	at org.apache.crimson.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at org.eclipse.ui.internal.intro.impl.model.loader.IntroContentParser.parse(IntroContentParser.java:145)
+	at org.eclipse.ui.internal.intro.impl.model.loader.IntroContentParser.<init>(IntroContentParser.java:89)
+	at org.eclipse.ui.internal.intro.impl.model.AbstractIntroPage.loadChildren(AbstractIntroPage.java:429)
+	at org.eclipse.ui.internal.intro.impl.model.AbstractIntroPage.findDomChild(AbstractIntroPage.java:582)
+	at org.eclipse.ui.internal.intro.impl.model.AbstractIntroPage.findDomChild(AbstractIntroPage.java:595)
+	at org.eclipse.ui.internal.intro.impl.model.AbstractIntroPage.findDOMTarget(AbstractIntroPage.java:730)
+	at org.eclipse.ui.internal.intro.impl.model.AbstractIntroPage.findDOMIncludeTarget(AbstractIntroPage.java:695)
+	at org.eclipse.ui.internal.intro.impl.model.AbstractIntroPage.resolveIncludes(AbstractIntroPage.java:650)
+	at org.eclipse.ui.internal.intro.impl.model.AbstractIntroPage.resolvePage(AbstractIntroPage.java:627)
+	at org.eclipse.ui.internal.intro.impl.model.AbstractIntroPage.resolveChildren(AbstractIntroPage.java:367)
+	at org.eclipse.ui.internal.intro.impl.model.AbstractIntroContainer.getChildren(AbstractIntroContainer.java:80)
+	at org.eclipse.ui.internal.intro.impl.model.AbstractIntroPage.getResolvedDocument(AbstractIntroPage.java:532)
+	at org.eclipse.ui.internal.intro.impl.presentations.BrowserIntroPartImplementation.generateXHTMLPage(BrowserIntroPartImplementation.java:253)
+	at org.eclipse.ui.internal.intro.impl.presentations.BrowserIntroPartImplementation.generateDynamicContentForPage(BrowserIntroPartImplementation.java:194)
+	at org.eclipse.ui.internal.intro.impl.presentations.BrowserIntroPartImplementation.dynamicStandbyStateChanged(BrowserIntroPartImplementation.java:395)
+	at org.eclipse.ui.internal.intro.impl.presentations.BrowserIntroPartImplementation.doStandbyStateChanged(BrowserIntroPartImplementation.java:602)
+	at org.eclipse.ui.internal.intro.impl.model.AbstractIntroPartImplementation.standbyStateChanged(AbstractIntroPartImplementation.java:249)
+	at org.eclipse.ui.internal.intro.impl.model.IntroPartPresentation.standbyStateChanged(IntroPartPresentation.java:433)
+	at org.eclipse.ui.intro.config.CustomizableIntroPart.standbyStateChanged(CustomizableIntroPart.java:263)
+	at org.eclipse.ui.internal.ViewIntroAdapterPart$2.run(ViewIntroAdapterPart.java:74)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:69)
+	at org.eclipse.ui.internal.ViewIntroAdapterPart.setStandby(ViewIntroAdapterPart.java:70)
+	at org.eclipse.ui.internal.ViewIntroAdapterPart$1.propertyChanged(ViewIntroAdapterPart.java:55)
+	at org.eclipse.ui.internal.WorkbenchPartReference.fireInternalPropertyChange(WorkbenchPartReference.java:336)
+	at org.eclipse.ui.internal.WorkbenchPartReference.fireZoomChange(WorkbenchPartReference.java:497)
+	at org.eclipse.ui.internal.PartPane.setZoomed(PartPane.java:325)
+	at org.eclipse.ui.internal.PartStack.setZoomed(PartStack.java:1191)
+	at org.eclipse.ui.internal.PartSashContainer.zoomIn(PartSashContainer.java:827)
+	at org.eclipse.ui.internal.PartSashContainer.childRequestZoomIn(PartSashContainer.java:848)
+	at org.eclipse.ui.internal.LayoutPart.requestZoomIn(LayoutPart.java:356)
+	at org.eclipse.ui.internal.PartStack.childRequestZoomIn(PartStack.java:1141)
+	at org.eclipse.ui.internal.LayoutPart.requestZoomIn(LayoutPart.java:356)
+	at org.eclipse.ui.internal.PerspectiveHelper.zoomIn(PerspectiveHelper.java:1289)
+	at org.eclipse.ui.internal.WorkbenchPage.setState(WorkbenchPage.java:3299)
+	at org.eclipse.ui.internal.WorkbenchPage.toggleZoom(WorkbenchPage.java:3345)
+	at org.eclipse.ui.internal.WorkbenchIntroManager.setIntroStandby(WorkbenchIntroManager.java:193)
+	at org.eclipse.ui.internal.WorkbenchIntroManager.showIntro(WorkbenchIntroManager.java:132)
+	at org.eclipse.ui.application.WorkbenchWindowAdvisor.openIntro(WorkbenchWindowAdvisor.java:169)
+	at com.aptana.ide.rcp.AbstractIDEWorkbenchWindowAdvisor.openIntro(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchWindow.open(WorkbenchWindow.java:699)
+	at org.eclipse.ui.internal.Workbench.busyOpenWorkbenchWindow(Workbench.java:677)
+	at org.eclipse.ui.internal.Workbench.doOpenFirstTimeWindow(Workbench.java:1282)
+	at org.eclipse.ui.internal.Workbench.openFirstTimeWindow(Workbench.java:1223)
+	at org.eclipse.ui.internal.WorkbenchConfigurer.openFirstTimeWindow(WorkbenchConfigurer.java:190)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:706)
+	at org.eclipse.ui.internal.Workbench.init(Workbench.java:1034)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:1636)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:367)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:143)
+	at com.aptana.ide.rcp.AbstractIDEApplication.run(Unknown Source)
+	at com.aptana.ide.rcp.Application.run(Unknown Source)
+	at org.eclipse.core.internal.runtime.PlatformActivator$1.run(PlatformActivator.java:226)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:376)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:163)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.core.launcher.Main.invokeFramework(Main.java:334)
+	at org.eclipse.core.launcher.Main.basicRun(Main.java:278)
+	at org.eclipse.core.launcher.Main.run(Main.java:973)
+	at org.eclipse.core.launcher.Main.main(Main.java:948)
+
+!ENTRY com.aptana.ide.core.ui 1 0 2012-08-10 14:12:12.777
+!MESSAGE (Build 0.2.0.10299) current Aptana build number

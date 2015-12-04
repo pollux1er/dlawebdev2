@@ -1,0 +1,100 @@
+	#div_alert 
+	{
+		position: absolute;
+		left: 0;
+		padding: 0;
+		margin-top: 70px;
+	}
+
+	#div_alert .alert 
+	{
+		overflow: hidden;
+	}
+
+	#div_alert .alert a 
+	{
+		display: inline-block;
+		position: relative;
+		z-index: 5;
+		background: silver;
+		width: 187px;
+		height: 64px;
+		margin-bottom: 5px;
+		text-indent: -9999px;
+	}
+
+	#div_alert #alert a {
+		background: url('Alert_lien.png') no-repeat;
+	}
+
+	#div_alert #retard a {
+		background: url('Alarm_clock2_lien.png') no-repeat;
+	}
+
+	.num
+	{
+		position: relative;
+		left: -140px;
+		top:40px;
+		z-index: 6;
+		display: inline-block;
+		border : 1px solid lightgray;
+		border-radius: 20px;
+		padding: 5px;
+		background-color: red;
+		font-weight:bold;
+		color:white;
+		width:10px;
+	}
+	
+	#show_al
+	{
+		position: absolute;
+		z-index:10;
+		width:400px;
+	}
+
+	#show_al div
+	{
+		border: 1px solid gray;
+	}
+
+	#title_al
+	{
+		text-align: center;	
+		border-radius: 0px 10px 0px 0px;
+		font-weight:bold;	
+		padding:10px;					
+	}
+
+	.suit1 #title_al
+	{
+		background-color: #f4b444;
+		color:black;
+	}
+
+	.suit2 #title_al
+	{
+		background-color: black;
+		color:white;
+	}
+
+	#body_al
+	{
+		min-height:75px;
+		max-height:150px;
+		overflow-x: hidden;
+		overflow-y: scroll;
+	}
+
+	.suit1 #body_al, .suit2 #body_al
+	{
+		background-color: lightgray;
+		border-radius: 0px 0px 0px 0px;
+	}
+	
+	#corn_img
+	{
+		position: absolute;
+		z-index:10000;
+	}

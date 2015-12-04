@@ -1,0 +1,19 @@
+<?php //foreach ($records as $record){ ?>
+										
+										<?php// if ($record['labelnom'] == "Code") { ?>
+											<!--<th style="display:none;"><?php //echo $record['labelnom']; ?></th>
+										<?php //} else { ?>
+											<th><?php //echo $record['labelnom']; ?></th>-->
+										<?php //} ?>
+									
+									<?php// } ?>
+									
+									<?php foreach($fields as $field_name => $field_display): ?>
+										<th  <?php if ($sort_by == $field_name) echo "class=\"sort_$sort_order\"" ?>>
+											<?php echo anchor("it_assets/commande_dis/$field_name/" .
+												(($sort_order == 'asc' && $sort_by == $field_name) ? 'desc' : 'asc') ,
+												$field_display); ?>
+										</th>
+									<?php endforeach; ?>
+									
+									
