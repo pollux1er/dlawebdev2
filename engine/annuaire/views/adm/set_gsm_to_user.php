@@ -47,6 +47,13 @@
 									</select>
 								</td>
 							</tr>
+							<tr>
+								<th class="cell_title">Motif d'attibution</th>
+								<td colspan="3">
+									<label class="radio-inline"><input type="radio" name="motif">Utilisation</label>
+									<label class="radio-inline"><input type="radio" name="motif">Pret</label>
+								</td>
+							</tr>
 							<tr class="form-group">
 								<th class="cell_title"><label for="usr">Ticket ID</label></th>
 								<td colspan="3"><input type="text" name='ticket' class="form-control text_ input_wide" id="ticket"></td>
