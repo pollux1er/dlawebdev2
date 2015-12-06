@@ -71,7 +71,7 @@ $this->load->model('annuaire_model', 'annuaire');
 				<?php } else { ?>
 				<li><a href="annuaire.php/annuaire/admin_cout_pabx" class="level2" target="_self"><span class=""> Taxation</span></a></li>
 				<?php } ?>
-				<?php if($this->uri->uri_string() == 'annuaire/admin_cout_gsm') { ?>
+				<?php if($this->uri->uri_string() == 'annuaire/admin_cout_gsm' || $this->uri->uri_string() == 'annuaire/load_csv_gsm' || $this->uri->uri_string() == 'annuaire/set_gsm_to_user') { ?>
 				<li><a href="annuaire.php/annuaire/admin_cout_gsm" class="level2selected" target="_self"><span class="">&raquo; GSM</span></a></li>
 				<?php } else { ?>
 				<li><a href="annuaire.php/annuaire/admin_cout_gsm" class="level2" target="_self"><span class=""> GSM</span></a></li>
