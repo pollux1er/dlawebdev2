@@ -159,30 +159,21 @@ class Annuaire extends CI_Controller {
 			$config['upload_path'] = './uploads/';
 			$config['allowed_types'] = 'csv';
 			$config['max_size']	= '100';
-			$config['max_width'] = '1024';
-			$config['max_height'] = '768';
 
 			$this->load->library('upload', $config);
 
 			// Alternately you can set preferences by calling the initialize function. Useful if you auto-load the class:
 			$this->upload->initialize($config);
-
-
-			$data['title'] = 'Annuaire Perenco Cameroun - Importer les PABX';
-			$data['nom'] = $this->user->get_nom();
 			
-			//$data['annuaire'] = $this->annuaire->get_pabx_directory_alldata($this->input->get('departement'));
-			//$data['departements'] = $this->annuaire->get_department_directory();
-			$data['error'] = '';    //initialize image upload error array to empty
- 
-	       	if (!$this->upload->do_upload('filename'))
+			$data['nom'] = $this->user->get_nom();
+			$data['title'] = 'Annuaire Perenco Cameroun - Importer les consomations GSM';
+			
+			if (!$this->upload->do_upload('filename'))
 			{	
 
 				$data = array('error' => $this->upload->display_errors());
-				$data['title'] = 'Annuaire Perenco Cameroun - Importer les consomations GSM';
-				$data['nom'] = $this->user->get_nom();
+				//var_dump($this->upload->data()); die;
 				//var_dump($data); die('erreur upload');
-            	$this->load->view('adm/admin_load_csv_gsm', $data);
 			}
 			else
 			{
@@ -190,11 +181,10 @@ class Annuaire extends CI_Controller {
 				//var_dump($data); die;
 				$data['upload_data'] = $upload_data;
 	            $data['success_msg'] = '<div class="alert alert-success text-center">Le fichier <strong>' . $upload_data['file_name'] . '</strong> a été téléchargé avec succès!</div>';
-            	$data['csv'] = array_map('str_getcsv', file($upload_data['full_path']));
-				$data['title'] = 'Annuaire Perenco Cameroun - Importer les consomations GSM';
-	            $this->load->view('adm/admin_load_csv_gsm', $data);
+            	$data['csv'] = array_map('str_getcsv', file($upload_data['full_path']));	           
 			}
-		 		
+			
+		 	$this->load->view('adm/admin_load_csv_gsm', $data);
 		}
 		else { 
 			redirect(base_url("accueil.php/login/enter"));			
